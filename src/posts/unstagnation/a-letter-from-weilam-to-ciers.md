@@ -1,7 +1,9 @@
 ---
 title: A Letter from Weilam to Ciers
 date: 2020-08-20
-tags: unstagnation
+tags:
+- unstagnation
+- literature
 ---
 Saiyu Sphere\
 1 Indigo Boulevard\
