@@ -7,9 +7,9 @@ module.exports = {
         DEFAULT: {
           css: {
             color: "black",
-          },
-          p: {
-            color: "black",
+            p: {
+              color: "black",
+            },
           },
         },
         dark: {
@@ -55,7 +55,7 @@ module.exports = {
               color: theme("colors.gray.500"),
             },
             "::selection": {
-              backgroundColor: "white",
+              background-color: "white",
             },
           },
         }

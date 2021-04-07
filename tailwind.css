@@ -2,9 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-.paginator-text {
+/*.paginator-text {
   @apply text-gray-600 font-bold py-2 px-4;
-}
+}*/
 
 .post-tag {
   @apply inline-block text-xs rounded-full py-1 px-2 mt-1 mr-1 bg-gray-300 dark:bg-gray-500;
