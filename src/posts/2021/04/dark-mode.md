@@ -2,6 +2,7 @@
 title: "On the Topic of Dark Mode"
 date: "2021-04-07"
 tags:
+- blog
 - misc
 ---
 On the desktop, dark mode is an abomination that should be eradicated from applications.
