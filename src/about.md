@@ -1,6 +1,5 @@
 ---
 layout: default
-title: This is me.
+title: About
 ---
 
-She/her. A software person. Singapore.
