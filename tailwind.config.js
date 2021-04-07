@@ -55,7 +55,7 @@ module.exports = {
               color: theme("colors.gray.500"),
             },
             "::selection": {
-              background-color: "white",
+              backgroundColor: "white",
             },
           },
         }
