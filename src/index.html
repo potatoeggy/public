@@ -10,10 +10,10 @@ pagination:
 
 {% for post in pagination.items %}
 {% if post.data.published %}
-<div class="py-4">
+<div class="py-0">
   <p>
-    <span class="text-2xl sm:text-4xl font-bold hover:text-blue-700 leading-tight"><a href="{{ post.url }}">{{ post.data.title }}</a></span>
-    <span class="text-base sm:text-2xl font-normal"> &middot; {{ post.templateContent | readTime }} min read</span>
+    <span class="text-2xl sm:text-2xl font-bold hover:text-blue-700 leading-tight"><a href="{{ post.url }}">{{ post.data.title }}</a></span>
+    <span class="text-base sm:text-2xs font-normal"> &middot; {{ post.templateContent | readTime }} min read</span>
   </p>
   <em>{{ post.date | date: "%Y-%m-%d" }}</em>
   <p class="mt-4">{{ post.data.post_excerpt }}...</p>
