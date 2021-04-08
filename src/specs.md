@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: typical
 title: Specifications
 ---
 ## Server: Dell Optiplex 780
