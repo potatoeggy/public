@@ -48,6 +48,9 @@ module.exports = {
             "blockquote p": {
               color: "white",
             },
+            p: {
+              color: "white",
+            },
             code: {
               color: "white",
             },
@@ -55,7 +58,7 @@ module.exports = {
               color: theme("colors.gray.500"),
             },
             "::selection": {
-              backgroundColor: "white",
+              color: "white",
             },
           },
         }
