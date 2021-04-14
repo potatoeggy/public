@@ -23,8 +23,8 @@ module.exports = function(eleventyConfig) {
   // To create a filter to determine duration of post
   eleventyConfig.addFilter('readTime', (value) => {
     const content = value
-    const textOnly = content.replace(/(<([^>]+)>)/gi, '')
-    const readingSpeedPerMin = 450
+    const textOnly = content.split(" ")//content.replace(/(<([^>]+)>)/gi, '')
+    const readingSpeedPerMin = 300
     return Math.max(1, Math.floor(textOnly.length / readingSpeedPerMin))
   })
 
