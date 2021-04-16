@@ -1,5 +1,5 @@
 ---
-title: "Introducing the Objective-Subjective Scoring System"
+title: "An Introduction to the Objective-Subjective Scoring System"
 date: "2021-04-14"
 tags:
 - blog
