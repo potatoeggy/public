@@ -30,8 +30,8 @@ module.exports = function(eleventyConfig) {
 
   // get proper date in utc
   eleventyConfig.addFilter('realDate', (value) => {
-    const actualDate = value;
-    actualDate.setDate(value.getDate() + 1);
+    const actualDate = new Date(value);
+    actualDate.setDate(actualDate.getDate() + 1);
     return actualDate;
   })
 
