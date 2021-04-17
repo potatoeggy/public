@@ -28,6 +28,13 @@ module.exports = function(eleventyConfig) {
     return Math.max(1, Math.floor(textOnly.length / readingSpeedPerMin))
   })
 
+  // get proper date in utc
+  eleventyConfig.addFilter('realDate', (value) => {
+    const actualDate = value;
+    actualDate.setDate(value.getDate() + 1);
+    return actualDate;
+  })
+
   // Enable us to iterate over all the tags, excluding posts and all
   eleventyConfig.addCollection('tagList', collection => {
     const tagsSet = new Set()

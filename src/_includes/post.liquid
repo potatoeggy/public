@@ -9,7 +9,7 @@ layout: main
 </p>
 
 <div>
-    <em>{{ date | date: "%Y-%m-%d" }}</em> &middot; 
+    <em>{{ date | realDate | date: "%Y-%m-%d" }}</em> &middot; 
     <span>{{ content | readTime }} min read</span>
 </div>
 
