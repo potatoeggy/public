@@ -25,3 +25,7 @@ As an avid reader of…"user-generated content", I store a database of stories h
 ## Minecraft
 
 The domain constantly changes and the server is whitelisted, so don't bother looking.
+
+## Contact
+
+ - eggyrules at gmail.com
