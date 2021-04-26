@@ -4,6 +4,7 @@ date: 2020-06-22
 tags:
 - unstagnation
 - literature
+- barin
 ---
 
 Imperial Palace\

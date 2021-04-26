@@ -4,6 +4,7 @@ date: 2020-08-20
 tags:
 - unstagnation
 - literature
+- barin
 ---
 Saiyu Sphere\
 1 Indigo Boulevard\

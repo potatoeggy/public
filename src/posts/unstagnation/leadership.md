@@ -4,6 +4,7 @@ date: 2020-07-22
 tags:
 - unstagnation
 - literature
+- barin
 ---
 
 "…preserve, protect, and defend the Constitution of Weilam."

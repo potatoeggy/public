@@ -4,6 +4,7 @@ date: 2020-07-01
 tags:
 - unstagnation
 - literature
+- barin
 ---
 
 A huge uproar erupts from the crowds of Saiyu as the results of the 2020 Weilamese election are revealed to the world.

@@ -4,6 +4,7 @@ date: 2020-06-23
 tags:
 - unstagnation
 - literature
+- barin
 ---
 
 "Good morning, citizens of Ptuyo!"

@@ -4,6 +4,7 @@ date: 2020-06-30
 tags:
 - unstagnation
 - literature
+- barin
 ---
 Welcome to Herdit's Social Education Course! As the successful completion of this course is compulsory for acquiring citizenship in Herdit, we hope you learn from your experience in this program.
 <!-- excerpt -->
