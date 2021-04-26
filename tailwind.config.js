@@ -1,6 +1,6 @@
 module.exports = {
   darkMode: 'class',
-  purge: ['./src/**/*.md', './_includes/**/*.liquid'],
+  purge: ['./src/**/*.html', './src/**/*.md', './_includes/**/*.liquid'],
   theme: {
     extend: {
       typography: (theme) => ({
