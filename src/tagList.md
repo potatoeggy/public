@@ -9,7 +9,7 @@ eleventyComputed:
   title: "{{ tag }}"
 ---  
 
-{% for post in collections[tag] %}
+{% for post in collections[tag] reversed %}
 <div class="py-4 sm:py-4">
   <p>
     <span class="text-2xl sm:text-2xl font-bold hover:underline"><a href="{{ post.url }}">{{ post.data.title }}</a></span>
