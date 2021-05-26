@@ -8,7 +8,7 @@ tags:
 ---
 Renge Academy\
 No address\
-Biyori, Asvyn\
+Biyori, Asvyn
 
 <!-- excerpt -->
 
