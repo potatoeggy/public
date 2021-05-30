@@ -90,7 +90,7 @@ Output:
 
 ## 2. Nicer iteration with zip() and enumerate()
 
-Python's for loop is commonly known in other programming languages as a for-each loop. This is great if you just want each item in an iterable, but sometimes you want the index too! Instead of having to resort to `range(len(array))`, instead you can use `enumerate()` and tuple expansionto easily get both the index of the element and the element itself:
+Python's for loop is commonly known in other programming languages as a for-each loop. This is great if you just want each item in an iterable, but sometimes you want the index too! Instead of having to resort to `range(len(array))`, instead you can use `enumerate()` and tuple expansion to easily get both the index of the element and the element itself:
 
 ```python
 array = ["a", "b", "c", "d", "e"]
@@ -220,6 +220,12 @@ Output:
 
 ```
 [1, 2, 3, 4, 5]
+```
+
+It's most useful in assigning variables easily when you know the format the input will be in.
+
+```python
+a, b = (map(int, input().split()))
 ```
 
 ## 5. List generators
