@@ -1,5 +1,5 @@
 ---
-title: "Call to Arms"
+title: "Divine Assistance"
 date: 2021-05-28
 tags:
  - unstagnation
