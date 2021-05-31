@@ -10,6 +10,8 @@ tags:
 
 What was this human thinking, pushing her around to "hurry"? She was one of the seven goddesses of the world! Even if she couldn't smite him on the spot, there were at least five ways she could think of off the top of her head to torture him until he begged her for mercy.
 
+<!-- excerpt -->
+
 "Was it Kemia? Histia? Tell me exactly what my sister said," she demanded as she followed the running Samuel through the snowy forest.
 
 "*Huff*…it was Mafia. She said that…*puff*…she was bored and was going to kill us all," Samuel wheezed.
