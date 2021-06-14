@@ -8,6 +8,8 @@ tags:
 
 "You have failed our people for the last time, Rooster." Yammy's declaration was intensified by the kneeling man with his hands tied before him. Briefly, a hole parted in the grey cloud cover, allowing a single sunbeam to illuminate Yammy's face as he looked out at the crowd assembled in front of him. "Out with the old and in with the new, as they say," he chuckled.
 
+<!-- excerpt -->
+
 "Just you wait," spat Rooster, an angry and determined expression on his face disregarding the foot pressing the side of his head into the wooden stage. "You'll run down the village just like every other leader before you. Mark my words, you'll be overthrown one day — and that is when I shall return from my exile and restore balance."
 
 Yammy twisted his foot harder into Rooster's head, but threw his own back and laughed. "Exile? You think you'll be going into exile? Oh, no, my old master, don't you remember what you taught me? 'The best way to deal with your opponents is to not have any opponents at all,' you said. That's what this," he said, flicking a hoop made of rope suspended in the air by a wooden beam, "is for. You will not live long enough to see my permanent rule." Yammy brought his foot off of Rooster's head and tapped it twice against the ground. "Bring forth the steps!"
