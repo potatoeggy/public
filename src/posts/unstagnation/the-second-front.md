@@ -7,15 +7,15 @@ tags:
  - barin
 ---
 
-Maquiate Todofuken Administration Centre
-1 Todofuken Road
+Maquiate Todofuken Administration Centre\
+1 Todofuken Road\
 Maquiate, Asvyn
 
 <!-- excerpt -->
 
-Hina Asvyn
-Empress
-1 Kansei Road
+Hina Asvyn\
+Empress\
+1 Kansei Road\
 Emina, Asvyn
 
 Empress,
@@ -30,7 +30,7 @@ The Imperial Proclamation with reference to the Enigma withdrawal has resulted i
 
 It is therefore my recommendation that efforts be focused on strengthening the Interior before managing External affairs.
 
-Yours,
-Kuvira Smith
-Principal of the Interio
+Yours,\
+Kuvira Smith\
+Principal of the Interior\
 14 June 2021
