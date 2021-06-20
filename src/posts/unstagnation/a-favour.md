@@ -10,6 +10,8 @@ tags:
 
 Hello?
 
+<!-- excerpt -->
+
 Oh, Blue! I almost didn't recognise your voice; it's been forever since we chatted! How've you been doing?
 
 Yeah, I know you have work and all, but…it's been, what, a year since we last played League together and it'd be great to get together again — remember that time when you were killed by a minion at bottom —
