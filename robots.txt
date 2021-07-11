@@ -1,4 +1,4 @@
-Sitemap: https://rongying.co/sitemap.xml
+Sitemap: https://eggworld.tk/sitemap.xml
 
 User-agent: *
 Disallow:
