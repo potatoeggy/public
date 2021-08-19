@@ -10,6 +10,8 @@ tags:
 
 You fall to the ground with an *oof!* as the bartender tosses you out of the tavern. Scowling, you yell behind his retreating back, "You're wrong! All of the goddess cities are wrong! The only way for people like us to prosper is to take control of our own lives!"
 
+<!-- excerpt -->
+
 It's been only a few hours since you entered the goddess city of Baccalor, but since then you've been forcibly removed from nearly every business you've gone into. How incredibly rude — but to be expected of a goddess city, filled with entitled, lazy sheep who refuse to look ahead past the blindfold in front of their faces.
 
 The symbol of the goddess cities on the tavern sign, a heptagon inscribed in another heptagon, cowers before your knowledge.
