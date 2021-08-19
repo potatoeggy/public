@@ -18,5 +18,3 @@ I've dabbled extensively and non-extensively in a variety of topics to play with
  - Discord bots
 
 …and other things that I'm forgetting right now.
-
-If you'd like to say hi, feel free to send me a message at eggyrules at gmail.com.
