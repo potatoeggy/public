@@ -2,7 +2,7 @@
 title: java.lang.NullPointerException
 date: 2020-06-19
 tags:
-= barin
+- barin
 - unstagnation
 - literature
 ---
