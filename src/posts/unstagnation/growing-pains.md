@@ -2,9 +2,9 @@
 title: Growing Pains
 date: 2021-05-25
 tags:
+ - barin
  - unstagnation
  - literature
- - barin
 ---
 Renge Academy\
 No address\

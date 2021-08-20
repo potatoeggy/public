@@ -1,6 +1,6 @@
 ---
-title: "On the Topic of Dark Mode"
-date: "2021-04-07"
+title: On the Topic of Dark Mode
+date: 2021-04-07
 tags:
 - blog
 - misc

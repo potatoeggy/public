@@ -1,10 +1,10 @@
 ---
-title: "Divine Assistance"
+title: Divine Assistance
 date: 2021-05-28
 tags:
+ - ibia
  - unstagnation
  - literature
- - ibia
 ---
 He took a deep breath.
 

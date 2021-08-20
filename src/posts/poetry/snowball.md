@@ -2,8 +2,8 @@
 title: A Snowball Grows
 date: 2021-01-29
 tags: 
-- literature
 - poetry
+- literature
 ---
 
 White falls from the sky \

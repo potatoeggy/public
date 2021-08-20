@@ -2,9 +2,9 @@
 title: The Second Front
 date: 2021-06-16
 tags:
+ - barin
  - unstagnation
  - literature
- - barin
 ---
 
 Maquiate Todofuken Administration Centre\

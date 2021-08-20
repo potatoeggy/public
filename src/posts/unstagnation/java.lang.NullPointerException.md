@@ -2,9 +2,9 @@
 title: java.lang.NullPointerException
 date: 2020-06-19
 tags:
+= barin
 - unstagnation
 - literature
-- barin
 ---
 
 *Test 19/20 failed: Memory access violation.*

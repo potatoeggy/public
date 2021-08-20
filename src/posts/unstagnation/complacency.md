@@ -2,6 +2,7 @@
 title: Complacency
 date: 2021-05-21
 tags:
+ - barin
  - unstagnation
  - literature
 ---

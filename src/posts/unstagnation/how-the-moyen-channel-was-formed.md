@@ -2,9 +2,9 @@
 title: How the Moyen Channel was Formed
 date: 2020-06-23
 tags:
+- barin
 - unstagnation
 - literature
-- barin
 ---
 
 "Good morning, citizens of Ptuyo!"

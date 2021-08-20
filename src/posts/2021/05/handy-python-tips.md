@@ -1,5 +1,5 @@
 ---
-title: "Handy Python Tips"
+title: Handy Python Tips
 date: 2021-05-29
 tags:
 - blog

@@ -1,6 +1,6 @@
 ---
-title: "An Introduction to the Objective-Subjective Scoring System"
-date: "2021-04-14"
+title: An Introduction to the Objective-Subjective Scoring System
+date: 2021-04-14
 tags:
 - blog
 - misc

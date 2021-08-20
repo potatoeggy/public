@@ -2,9 +2,9 @@
 title: Axit
 date: 2020-06-22
 tags:
+- barin
 - unstagnation
 - literature
-- barin
 ---
 
 Imperial Palace\

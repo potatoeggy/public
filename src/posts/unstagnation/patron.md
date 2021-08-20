@@ -1,10 +1,10 @@
 ---
-title: "Patron"
+title: Patron
 date: 2021-05-30
 tags:
+ - ibia
  - unstagnation
  - literature
- - ibia
 ---
 "Please hurry, goddess."
 

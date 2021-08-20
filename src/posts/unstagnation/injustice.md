@@ -2,9 +2,9 @@
 title: Injustice
 date: 2020-06-25
 tags:
+- barin
 - unstagnation
 - literature
-- barin
 ---
 
 It is — unethical and *deeply* immoral to block our people from knowledge. Is Leeco not a free tribe? Do we not accept those in pursuit of information? We cannot block our citizens from learning more about the universe to further the human race. Our tribe was founded on the principle of helping each other learn and grow by education. We cannot learn if we never challenge our beliefs, no matter how deep their roots lie — you might remember how ingrained racism was in Leeco so many decades back — and we cannot grow as a society if we resist change! If we do not rapidly adapt to the world, the world will rapidly adapt around us. And that is unacceptable.

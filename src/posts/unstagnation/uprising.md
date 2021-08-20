@@ -2,9 +2,9 @@
 title: Uprising
 date: 2021-05-24
 tags:
+ - barin
  - unstagnation
  - literature
- - barin
 ---
 The Sinamaria Rose\
 12 Dedication Road\

@@ -2,9 +2,9 @@
 title: A Letter from Weilam to Ciers
 date: 2020-08-20
 tags:
+- barin
 - unstagnation
 - literature
-- barin
 ---
 Saiyu Sphere\
 1 Indigo Boulevard\

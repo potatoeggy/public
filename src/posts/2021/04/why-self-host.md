@@ -1,6 +1,6 @@
 ---
-title: "Why Self-Host?"
-date: "2021-04-16"
+title: Why Self-Host?
+date: 2021-04-16
 tags:
 - blog
 - tech

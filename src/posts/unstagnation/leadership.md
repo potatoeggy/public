@@ -2,9 +2,9 @@
 title: Leadership
 date: 2020-07-22
 tags:
+- barin
 - unstagnation
 - literature
-- barin
 ---
 
 "…preserve, protect, and defend the Constitution of Weilam."

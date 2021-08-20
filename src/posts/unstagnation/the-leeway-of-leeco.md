@@ -2,9 +2,9 @@
 title: The Leeway of Leeco
 date: 2020-06-14
 tags:
+- barin
 - unstagnation
 - literature
-- barin
 ---
 
 I confidently strode up to my teacher, a fistful of papers in my left hand. Mrs. Lowshi smiled as I approached. “Good morning, Bobby. Are you here to hand in yesterday’s homework?”

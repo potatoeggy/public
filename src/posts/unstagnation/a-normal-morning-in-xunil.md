@@ -2,9 +2,9 @@
 title: A Normal Morning in Xunil
 date: 2020-06-20
 tags:
+- barin
 - unstagnation
 - literature
-- barin
 ---
 
 Light from the morning sun gently shone across my face as my curtains automatically opened to the start of the day. A steady beeping infiltrated my ears, rousing me from my sleep.

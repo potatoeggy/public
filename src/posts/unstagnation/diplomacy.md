@@ -2,9 +2,9 @@
 title: Diplomacy
 date: 2020-06-29
 tags:
+- barin
 - unstagnation
 - literature
-- barin
 ---
 
 Laveli Guild Headquarters\
