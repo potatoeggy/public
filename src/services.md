@@ -33,6 +33,10 @@ The following services are publicly running on the more powerful secondary serve
 
 This was beyond stupid and took far too much time to get working behind nginx. I'm currently working to replace it with Jellyfin as it becomes more mature.
 
+## [Jellyfin](https://jellyfin.eggworld.tk)
+
+Jellyfin has improved significantly in the past two years since I last looked at it. There are only a couple of roadblocks before full adoption and replacing Plex.
+
 ## Minecraft
 
 The domain constantly changes and the server is whitelisted, so don't bother looking.
