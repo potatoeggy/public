@@ -7,7 +7,7 @@ tags:
 - blog
 ---
 
-Welcome to the very first [Primoprod](primoprod.eggworld.tk) progress report! In a similar vein to quite a few open source emulation projects (such as those I follow myself using [emufeed](https://github.com/potatoeggy/emufeed/blob/master/sources.py)), I'll be releasing these tidbits in lieu of daily Unstagnation shorts sometimes.
+Welcome to the very first [Primoprod](https://primoprod.eggworld.tk) progress report! In a similar vein to quite a few open source emulation projects (such as those I follow myself using [emufeed](https://github.com/potatoeggy/emufeed/blob/master/sources.py)), I'll be releasing these tidbits in lieu of daily Unstagnation shorts sometimes.
 
 In this hopefully small series of development notes, I'll be laying out my experiences learning web development as an absolute amateur.
 
@@ -73,7 +73,7 @@ Pretty good, right? Now, the design still isn't adaptive enough *since things ge
 
 {% asset_img "primoprod-wishbanners-scaled.png" %}
 
-With some help taken by examining the assets of https://genshin.thekima.com and https://gi=wish-simulator.uzairashraf.dev, I grabbed a static background image as well as the videos!
+With some help taken by examining the assets of https://genshin.thekima.com and https://gi-wish-simulator.uzairashraf.dev, I grabbed a static background image as well as the videos!
 
 For now, every time you pressed the wish button, you got a five-star animation.
 
