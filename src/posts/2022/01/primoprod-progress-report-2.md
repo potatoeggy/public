@@ -136,7 +136,7 @@ ItemRevealScreen? What's that? Now [WishBanners](https://github.com/potatoeggy/p
 
 At last, though, we have a [proper mobile UI](https://github.com/potatoeggy/primoprod/pull/33).
 
-{% asset_img "mobile-primoprod.png" "transform: rotate(-90deg)" %}
+{% asset_img "mobile-primoprod.png" %}
 
 Still some niggles to work out, but it looks "good enough"! With the completion of proper mobile orientation came the merging of the [Android branch](https://github.com/potatoeggy/primoprod/pull/32) made with [Capacitor.js](https://capacitorjs.com/), basically the mobile equivalent of Electron. It has even more niggles than the web version does.
 
