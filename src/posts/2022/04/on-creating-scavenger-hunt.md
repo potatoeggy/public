@@ -7,7 +7,7 @@ tags:
 - bsscc
 ---
 
-
+SPOILERS if you haven't completed it.
 
 <!-- excerpt -->
 
