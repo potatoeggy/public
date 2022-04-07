@@ -258,7 +258,7 @@ There is one secret solution implied in the instructions:
 
 > If you are so inclined, you may find that the base case is not the base it appears to be, and that there might be something deeper...
 
-A "base case" is a term for when revursion ends and things start returning up the stack. The hint here implies that the base64 command you're given is *not* the end, and perhaps you can run it a few more times to get a different result.
+A "base case" is a term for when recursion ends and things start returning up the stack. The hint here implies that the base64 command you're given is *not* the end, and perhaps you can run it a few more times to get a different result.
 
 To be precise, running the command five times on each code you get will give you:
 
