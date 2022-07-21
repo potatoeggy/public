@@ -1,4 +1,0 @@
-Sitemap: https://eggworld.tk/sitemap.xml
-
-User-agent: *
-Disallow:
