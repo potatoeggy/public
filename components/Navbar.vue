@@ -9,7 +9,10 @@ import ColourPicker from "./ColourPicker.vue";
       <li><a href="/blog">Blog</a></li>
       <li><a href="/stories">Stories</a></li>
     </ul>
-    <ColourPicker />
+    <div class="flex items-center">
+      <ColourPicker />
+      <div class="hamburger">HAMBURGER</div>
+    </div>
   </nav>
 </template>
 
@@ -22,7 +25,6 @@ nav {
 }
 
 ul {
-  width: 100%;
   display: flex;
   align-items: center;
   gap: 3rem;
@@ -34,5 +36,38 @@ li {
 li.home-text {
   font-size: x-large;
   font-weight: bold;
+}
+
+.hamburger {
+  height: 1px;
+  width: 1px;
+  opacity: 0;
+}
+
+* {
+  transition: all 0.2s ease;
+}
+
+@media screen and (max-width: 510px) {
+  .hamburger {
+    display: flex;
+    padding-left: 1rem;
+    height: unset;
+    width: unset;
+    opacity: 1;
+  }
+
+  li:not(.home-text) {
+    height: 1px;
+    width: 1px;
+    opacity: 0;
+    /* accessibility? screw accessibility
+     * i want my pretty animations
+     */
+  }
+
+  ul {
+    gap: 0rem;
+  }
 }
 </style>

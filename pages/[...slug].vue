@@ -11,9 +11,8 @@
 </template>
 
 <style>
-article,
-main {
-  width: 90%;
+article {
+  width: 80%;
   height: 100%;
   padding-top: 2rem;
 }

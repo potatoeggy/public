@@ -36,8 +36,10 @@ html.dark::before {
   transform: translateX(0);
 }
 
-.dark-mode body {
-  background-color: #091a28;
-  color: #ebf4f1;
+main {
+  width: 80%;
+  max-width: 60rem;
+  height: 100%;
+  padding-top: 2rem;
 }
 </style>
