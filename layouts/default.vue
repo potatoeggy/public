@@ -1,14 +1,11 @@
 <script setup lang="ts">
-import Base from "./base.vue";
 import Navbar from "../components/Navbar.vue";
 </script>
 
 <template>
   <div class="flex flex-col items-center w-full h-full">
     <Navbar />
-    <Base>
-      <slot />
-    </Base>
+    <slot />
   </div>
 </template>
 
@@ -37,5 +34,10 @@ html::before {
 
 html.dark::before {
   transform: translateX(0);
+}
+
+.dark-mode body {
+  background-color: #091a28;
+  color: #ebf4f1;
 }
 </style>
