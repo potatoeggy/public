@@ -6,7 +6,9 @@ import Navbar from "../components/Navbar.vue";
   <div class="flex flex-col items-center w-full h-full">
     <Navbar />
     <slot />
-    <footer class="flex flex-col items-center p-3 bg-gray-100 w-full text-sm">
+    <footer
+      class="flex flex-col items-center p-3 bg-gray-100 w-full text-sm dark:bg-gray-800"
+    >
       <p>Ⓒ 2022 Daniel Chen</p>
       <p>
         Available under the AGPL-3.0 on
@@ -57,5 +59,9 @@ main {
   height: 100%;
   margin: auto;
   padding-top: 2rem;
+}
+
+footer {
+  transition: background 0.2s ease;
 }
 </style>
