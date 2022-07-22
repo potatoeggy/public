@@ -1,14 +1,14 @@
 <script setup lang="ts">
-import Default from "./base.vue";
+import Base from "./base.vue";
 import Navbar from "../components/Navbar.vue";
 </script>
 
 <template>
-  <div>
+  <div class="flex flex-col items-center w-full h-full">
     <Navbar />
-    <Default>
+    <Base>
       <slot />
-    </Default>
+    </Base>
   </div>
 </template>
 
