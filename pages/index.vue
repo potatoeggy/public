@@ -1,14 +1,18 @@
 <script setup lang="ts"></script>
 
 <template>
-  <main>
-    <h1>Hello!</h1>
-    <HomeStatBox> Box 1 </HomeStatBox>
+  <main class="flex flex-col items-center justify-evenly">
+    <h1>Welcome!</h1>
+    <div class="flex justify-around items-center w-full flex-wrap gap-y-10">
+      <HomeStatBox> Latest blog post </HomeStatBox>
+      <HomeStatBox>Latest story</HomeStatBox>
+      <HomeStatBox>Latest commit w/details</HomeStatBox>
+    </div>
   </main>
 </template>
 
 <style scoped>
-main {
-  display: flex;
+h1 {
+  font-size: 3rem;
 }
 </style>

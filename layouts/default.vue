@@ -14,6 +14,7 @@ html {
   background: white;
   color: black;
   transition: color 0.2s ease, background 0.2s ease;
+  overflow: scroll;
 }
 
 html.dark {
@@ -40,6 +41,7 @@ main {
   width: 80%;
   max-width: 60rem;
   height: 100%;
+  margin: auto;
   padding-top: 2rem;
 }
 </style>
