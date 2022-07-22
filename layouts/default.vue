@@ -6,6 +6,19 @@ import Navbar from "../components/Navbar.vue";
   <div class="flex flex-col items-center w-full h-full">
     <Navbar />
     <slot />
+    <footer class="flex flex-col items-center p-3 bg-gray-100 w-full">
+      <p>Ⓒ 2022 Daniel Chen</p>
+      <p>
+        Available under the AGPL-3.0 on
+        <a class="underline" href="https://github.com/potatoeggy/public">
+          GitHub</a
+        >
+        and
+        <a class="underline" href="https://git.eggworld.tk/eggy/public">
+          Gitea
+        </a>
+      </p>
+    </footer>
   </div>
 </template>
 
