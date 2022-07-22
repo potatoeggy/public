@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import ColourPicker from "./ColourPicker.vue";
+import IconHamburger from "@/assets/images/hamburger.svg?component";
 </script>
 <template>
   <nav class="flex items-center justify-between">
@@ -11,7 +12,9 @@ import ColourPicker from "./ColourPicker.vue";
     </ul>
     <div class="flex items-center">
       <ColourPicker />
-      <div class="hamburger">HAMBURGER</div>
+      <div class="hamburger">
+        <IconHamburger />
+      </div>
     </div>
   </nav>
 </template>
