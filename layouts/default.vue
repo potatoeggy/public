@@ -14,7 +14,8 @@ html {
   background: white;
   color: black;
   transition: color 0.2s ease, background 0.2s ease;
-  overflow: scroll;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 html.dark {
