@@ -1,4 +1,6 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+useHead({ title: "Home | Eggworld" });
+</script>
 
 <template>
   <main class="flex flex-col items-center justify-evenly">

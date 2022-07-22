@@ -1,9 +1,11 @@
 <script setup lang="ts">
 import Navbar from "../components/Navbar.vue";
+
+useHead({ title: "Eggworld" });
 </script>
 
 <template>
-  <div class="flex flex-col items-center w-full h-full">
+  <div class="flex flex-col items-center w-full h-full justify-between">
     <Navbar />
     <slot />
     <footer

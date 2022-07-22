@@ -21,7 +21,7 @@ import IconHamburger from "@/assets/images/hamburger.svg?component";
 
 <style scoped>
 nav {
-  height: 5rem;
+  height: 4rem;
   width: 100%;
   border: 1px solid red;
   padding: 1rem;
