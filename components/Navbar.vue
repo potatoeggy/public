@@ -48,7 +48,9 @@ li.home-text {
 }
 
 * {
-  transition: all 0.2s ease;
+  --trans: 0.2s ease;
+  transition: opacity var(--trans), height var(--trans), width var(--trans),
+    padding-left var(--trans);
 }
 
 @media screen and (max-width: 510px) {
@@ -72,5 +74,9 @@ li.home-text {
   ul {
     gap: 0rem;
   }
+}
+
+html.dark svg {
+  fill: white;
 }
 </style>
