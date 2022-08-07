@@ -58,7 +58,7 @@ html.dark::before {
 main {
   width: 80%;
   max-width: 60rem;
-  height: 100%;
+  min-height: 100%;
   margin: auto;
   padding-top: 2rem;
 }

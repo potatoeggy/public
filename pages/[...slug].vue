@@ -1,3 +1,5 @@
+<script setup lang="ts"></script>
+
 <template>
   <ContentDoc tag="article" class="prose dark:prose-invert">
     <template #not-found>

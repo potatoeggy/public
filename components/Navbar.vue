@@ -1,19 +1,20 @@
 <script setup lang="ts">
 import ColourPicker from "./ColourPicker.vue";
-import IconHamburger from "@/assets/images/hamburger.svg?component";
+import { navItems } from "@/data/navItems";
 </script>
+
 <template>
   <nav class="flex items-center justify-between">
     <ul>
       <li class="home-text"><a href="/">Eggworld</a></li>
-      <li><a href="/about">About</a></li>
-      <li><a href="/blog">Blog</a></li>
-      <li><a href="/stories">Stories</a></li>
+      <li v-for="(item, index) in navItems" :key="index">
+        <a :href="item.href">{{ item.title }}</a>
+      </li>
     </ul>
     <div class="flex items-center">
       <ColourPicker />
       <div class="hamburger">
-        <IconHamburger />
+        <Hamburger />
       </div>
     </div>
   </nav>
@@ -42,29 +43,24 @@ li.home-text {
 }
 
 .hamburger {
-  height: 1px;
-  width: 1px;
+  transform: scale(0);
   opacity: 0;
 }
 
 * {
   --trans: 0.2s ease;
-  transition: opacity var(--trans), height var(--trans), width var(--trans),
-    padding-left var(--trans);
+  transition: opacity var(--trans), transform var(--trans);
 }
 
 @media screen and (max-width: 510px) {
   .hamburger {
     display: flex;
-    padding-left: 1rem;
-    height: unset;
-    width: unset;
+    transform: none;
     opacity: 1;
   }
 
   li:not(.home-text) {
-    height: 1px;
-    width: 1px;
+    transform: scale(0);
     opacity: 0;
     /* accessibility? screw accessibility
      * i want my pretty animations

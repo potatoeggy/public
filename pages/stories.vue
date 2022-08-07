@@ -1,5 +1,5 @@
 <script setup lang="ts">
-useHead({ title: "Stories | Eggworld" });
+useTitle("Stories");
 </script>
 
 <template></template>

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-useHead({ title: "Home | Eggworld" });
+useTitle("Home");
 </script>
 
 <template>
@@ -11,6 +11,8 @@ useHead({ title: "Home | Eggworld" });
       <HomeStatBox>Latest story</HomeStatBox>
       <HomeStatBox>Latest commit w/details</HomeStatBox>
     </div>
+    <p>SERVICES</p>
+    <p>ABOUT</p>
   </main>
 </template>
 
