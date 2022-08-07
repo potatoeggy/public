@@ -14,7 +14,7 @@ import { navItems } from "@/data/navItems";
     <div class="flex items-center">
       <ColourPicker />
       <div class="hamburger">
-        <Hamburger />
+        <HamburgerMenu />
       </div>
     </div>
   </nav>
@@ -49,7 +49,7 @@ li.home-text {
 
 * {
   --trans: 0.2s ease;
-  transition: opacity var(--trans), transform var(--trans);
+  transition: opacity var(--trans), transform var(--trans), gap var(--trans);
 }
 
 @media screen and (max-width: 510px) {
