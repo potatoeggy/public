@@ -18,4 +18,8 @@ article {
   height: 100%;
   padding-top: 2rem;
 }
+
+* {
+  transition: color 0.2s ease;
+}
 </style>

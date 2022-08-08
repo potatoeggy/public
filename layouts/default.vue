@@ -73,4 +73,10 @@ footer {
 html.dark footer {
   --footer-drop-color: black;
 }
+
+@media screen and (max-width: 600px) {
+  main {
+    width: 90%;
+  }
+}
 </style>

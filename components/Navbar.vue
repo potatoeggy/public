@@ -106,6 +106,11 @@ li.home-text {
   ul {
     gap: 0rem;
   }
+
+  nav {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 
 html.dark svg {
