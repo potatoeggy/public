@@ -82,7 +82,7 @@ li.home-text {
   --box-trans-time: 0.4s;
   transition: opacity var(--trans), transform var(--trans), gap var(--trans),
     width var(--trans), box-shadow var(--box-trans-time) ease,
-    filter var(--trans);
+    filter var(--trans), padding-left var(--trans), padding-right var(--trans);
 }
 
 @media screen and (max-width: 600px) {
