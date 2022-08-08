@@ -8,7 +8,10 @@ import { navItems } from "@/data/navItems";
     <ul>
       <li class="home-text"><a href="/">Eggworld</a></li>
       <li v-for="(item, index) in navItems" :key="index">
-        <a :href="item.href">{{ item.title }}</a>
+        <a :href="item.href" class="flex gap-2">
+          <img :src="`/nav/${item.title.toLowerCase()}.svg`" />
+          {{ item.title }}</a
+        >
       </li>
     </ul>
     <div class="flex items-center">
@@ -61,7 +64,7 @@ li.home-text {
     width var(--trans), box-shadow var(--box-trans-time) ease;
 }
 
-@media screen and (max-width: 510px) {
+@media screen and (max-width: 600px) {
   .hamburger {
     display: flex;
     width: 3rem;
