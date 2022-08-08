@@ -1,9 +1,12 @@
 <script setup lang="ts">
+import Services from "@/components/index/services.vue";
+import About from "@/components/index/about.vue";
+
 useTitle("Home");
 </script>
 
 <template>
-  <main class="flex flex-col items-center justify-evenly">
+  <main class="flex flex-col items-center justify-around gap-8">
     <h1>Welcome!</h1>
     <p>What are you here to see?</p>
     <div class="flex justify-around items-center w-full flex-wrap gap-y-10">
@@ -11,8 +14,11 @@ useTitle("Home");
       <HomeStatBox>Latest story</HomeStatBox>
       <HomeStatBox>Latest commit w/details</HomeStatBox>
     </div>
-    <p>SERVICES</p>
-    <p>ABOUT</p>
+    <Services />
+    <br />
+    <br />
+    <br />
+    <About />
   </main>
 </template>
 

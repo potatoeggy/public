@@ -58,7 +58,6 @@ html.dark::before {
 main {
   width: 80%;
   max-width: 60rem;
-  min-height: 100%;
   margin: auto;
   padding-top: 2rem;
 }
@@ -67,6 +66,7 @@ footer {
   --footer-drop-color: lightgray;
   transition: background 0.2s ease;
   box-shadow: 0 -0.05rem 0.75rem 0 var(--footer-drop-color);
+  margin-top: 2rem;
 }
 
 html.dark footer {
