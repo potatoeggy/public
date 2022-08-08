@@ -24,7 +24,7 @@ import { navItems } from "@/data/navItems";
 nav {
   height: 4rem;
   width: 100%;
-  box-shadow: 0 0.25rem 0.5rem 0px lightgray;
+  box-shadow: 0 0.25rem 0.5rem 0 lightgray;
   background: white;
   padding: 1rem;
   /* main stuff is z-index 1 and the hamburger must be above everything else */

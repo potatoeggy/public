@@ -65,5 +65,6 @@ main {
 
 footer {
   transition: background 0.2s ease;
+  box-shadow: 0 -0.05rem 0.75rem 0 lightgray;
 }
 </style>
