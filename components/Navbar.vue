@@ -26,6 +26,8 @@ nav {
   width: 100%;
   border: 1px solid red;
   padding: 1rem;
+  /* main stuff is z-index 1 and the hamburger must be above everything else */
+  z-index: 2;
 }
 
 ul {
@@ -43,24 +45,25 @@ li.home-text {
 }
 
 .hamburger {
-  transform: scale(0);
+  width: 0rem;
   opacity: 0;
 }
 
 * {
   --trans: 0.2s ease;
-  transition: opacity var(--trans), transform var(--trans), gap var(--trans);
+  transition: opacity var(--trans), transform var(--trans), gap var(--trans),
+    width var(--trans);
 }
 
 @media screen and (max-width: 510px) {
   .hamburger {
     display: flex;
-    transform: none;
+    width: 3rem;
     opacity: 1;
   }
 
   li:not(.home-text) {
-    transform: scale(0);
+    width: 0;
     opacity: 0;
     /* accessibility? screw accessibility
      * i want my pretty animations

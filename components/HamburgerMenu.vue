@@ -19,9 +19,10 @@ import { navItems } from "@/data/navItems";
         />
       </svg>
     </label>
-    <div class="drawer">
-      <li v-for="(item, index) in navItems" :key="index">
-        <a :href="item.href">{{ item.title }}</a>
+    <div class="drawer prose dark:prose-invert">
+      <li v-for="(item, index) in navItems" :key="index" class="m-0">
+        <a :href="item.href" class="p-2">{{ item.title }}</a>
+        <hr class="m-0 m-2" v-if="index !== navItems.length - 1" />
       </li>
     </div>
   </div>
@@ -36,6 +37,8 @@ input.checkbox {
 
 input.checkbox ~ .drawer {
   opacity: 0;
+  right: 0;
+  top: 0;
   position: absolute;
   transform: scale(0);
 }
@@ -52,15 +55,59 @@ input.checkbox:checked ~ .drawer,
     * surprisingly annoying
     */
   opacity: 1;
-  transform: scale(1) translateY(3rem);
+  transform: scale(1) translate(0.5rem, 3.25rem);
 }
 
 .drawer {
   transition: transform var(--trans), opacity var(--trans);
   padding: 1rem;
-  margin-right: 1rem;
+  right: 0;
   background: white;
   border: 1px solid gray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 0.5rem;
+  width: 12rem;
+}
+
+.drawer::before {
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+
+  --tri-size: 0.6rem;
+  border-left: var(--tri-size) solid transparent;
+  border-right: var(--tri-size) solid transparent;
+  border-bottom: var(--tri-size) solid black;
+  right: 0.75rem;
+  top: calc(-1 * var(--tri-size));
+}
+
+.drawer::after {
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+
+  --tri-size: 0.57rem;
+  border-left: var(--tri-size) solid transparent;
+  border-right: var(--tri-size) solid transparent;
+  border-bottom: var(--tri-size) solid white;
+  right: 0.75rem;
+  top: calc(-1 * var(--tri-size));
+}
+
+.drawer li {
+  list-style: none;
+  width: 100%;
+}
+
+.drawer li > a {
+  /* overwrite tailwind */
+  text-decoration: none;
+  width: 100%;
 }
 
 /* hamburger animation */
@@ -78,6 +125,10 @@ input.checkbox:checked ~ .drawer,
   stroke: #000;
   stroke-width: 5.5;
   stroke-linecap: round;
+}
+
+html.dark .line {
+  stroke: #fff;
 }
 .ham .top {
   stroke-dasharray: 40 139;
