@@ -1,6 +1,12 @@
 <script setup lang="ts">
-import IconHamburger from "@/assets/images/hamburger.svg?component";
 import { navItems } from "@/data/navItems";
+
+const getSvgIcon = async (name: string) => {
+  const module = await import(
+    `../assets/images/nav/${name.toLowerCase()}.svg?raw`
+  );
+  return module.default;
+};
 </script>
 
 <template>
@@ -20,8 +26,17 @@ import { navItems } from "@/data/navItems";
       </svg>
     </label>
     <div class="drawer prose dark:prose-invert">
-      <li v-for="(item, index) in navItems" :key="index" class="m-0">
-        <a :href="item.href" class="p-2">{{ item.title }}</a>
+      <li class="m-0" v-for="(item, index) in navItems" :key="index">
+        <!-- stupid vite doesn't let require work
+          i should have just hardcoded the navbar items -->
+        <a :href="item.href" class="p-2 flex gap-2">
+          <img
+            :src="`/nav/${item.title.toLowerCase()}.svg`"
+            class="m-0"
+            preload="auto"
+          />
+          {{ item.title }}
+        </a>
         <hr class="m-0 m-2" v-if="index !== navItems.length - 1" />
       </li>
     </div>
@@ -118,7 +133,7 @@ html.dark .drawer {
   width: 100%;
 }
 
-.drawer li > a {
+.drawer li a {
   /* overwrite tailwind */
   text-decoration: none;
   width: 100%;
