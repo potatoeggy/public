@@ -108,7 +108,7 @@ html.dark .drawer {
   border-left: var(--tri-size) solid transparent;
   border-right: var(--tri-size) solid transparent;
   border-bottom: var(--tri-size) solid var(--drawer-border-bg);
-  right: 0.75rem;
+  right: 1.75rem;
   top: calc(-1 * var(--tri-size));
   transition: border var(--trans);
 }
@@ -123,7 +123,7 @@ html.dark .drawer {
   border-left: var(--tri-size) solid transparent;
   border-right: var(--tri-size) solid transparent;
   border-bottom: var(--tri-size) solid var(--drawer-bg);
-  right: 0.8rem;
+  right: 1.8rem;
   top: -0.53rem; /*calc(-1 * var(--tri-size));*/
   transition: border var(--trans);
 }
