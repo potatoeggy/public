@@ -12,8 +12,9 @@ useHead({ title: "Eggworld" });
       class="flex flex-col items-center p-3 bg-gray-100 w-full text-sm dark:bg-gray-800"
     >
       <p>Ⓒ 2022 Daniel Chen</p>
+      <p>Proudly accessible without JavaScript</p>
       <p>
-        Available under the AGPL-3.0 on
+        Licensed under the AGPL-3.0 on
         <a class="underline" href="https://github.com/potatoeggy/public">
           GitHub</a
         >
