@@ -30,7 +30,13 @@ const prettyDate = latestDate.format("DD MMM YYYY");
         {{ prettyDate }} · {{ latest.readingTime.text }}
       </p>
       <div class="tag-list mt-1">
-        <Tag v-for="(tag, index) in latest.tags" :key="index">{{ tag }}</Tag>
+        <Tag
+          v-for="(tag, index) in latest.tags"
+          :key="index"
+          :dest="`/blog/tags/${tag}`"
+        >
+          {{ tag }}
+        </Tag>
       </div>
       <!--
       <ContentRenderer

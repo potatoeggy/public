@@ -12,7 +12,9 @@ const { href, color = "pink" } = defineProps<{
   <a class="no-underline" :href="href">
     <div class="container box">
       <p class="m-0 w-full title">{{ title }}</p>
-      <div class="main-content"><slot /></div>
+      <div class="main-content">
+        <slot />
+      </div>
     </div>
   </a>
 </template>
