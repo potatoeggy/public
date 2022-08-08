@@ -72,11 +72,15 @@ input.checkbox:checked ~ .drawer,
   align-items: center;
   border-radius: 0.5rem;
   width: 12rem;
+
+  --drawer-drop-color: gray;
+  box-shadow: 0 0.25rem 0.5rem 0 var(--drawer-drop-color);
 }
 
 html.dark .drawer {
   --drawer-bg: #222;
   --drawer-border-bg: darkslategray;
+  --drawer-drop-color: black;
 }
 
 .drawer::before {
