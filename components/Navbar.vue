@@ -38,6 +38,10 @@ html.dark nav {
   --nav-drop-color: black;
 }
 
+html.dark nav img {
+  filter: invert(1);
+}
+
 ul {
   display: flex;
   align-items: center;
@@ -61,7 +65,8 @@ li.home-text {
   --trans: 0.2s ease;
   --box-trans-time: 0.4s;
   transition: opacity var(--trans), transform var(--trans), gap var(--trans),
-    width var(--trans), box-shadow var(--box-trans-time) ease;
+    width var(--trans), box-shadow var(--box-trans-time) ease,
+    filter var(--trans);
 }
 
 @media screen and (max-width: 600px) {

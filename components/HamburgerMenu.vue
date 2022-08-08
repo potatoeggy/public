@@ -136,7 +136,22 @@ html.dark .drawer {
 .drawer li a {
   /* overwrite tailwind */
   text-decoration: none;
+  border-radius: 0.5rem;
   width: 100%;
+}
+
+.drawer li a:hover,
+.drawer li a:active {
+  --drawer-active-color: lightgray;
+  background: var(--drawer-active-color);
+}
+
+html.dark .drawer li a {
+  --drawer-active-color: darkslategray;
+}
+
+html.dark .drawer img {
+  filter: invert(1); /* brightness didn't work */
 }
 
 /* hamburger animation */
