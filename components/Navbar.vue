@@ -56,12 +56,14 @@ li {
   padding-right: 1rem;
 }
 
-li:hover:not(.home-text) {
+li:hover:not(.home-text),
+li:active:not(.home-text) {
   --nav-active-color: lightgray;
   background: var(--nav-active-color);
 }
 
-html.dark li:hover {
+html.dark li:hover,
+html.dark li:active {
   --nav-active-color: darkslategray;
 }
 
@@ -86,13 +88,16 @@ li.home-text {
 @media screen and (max-width: 600px) {
   .hamburger {
     display: flex;
-    width: 3rem;
+    width: 4rem;
     opacity: 1;
   }
 
   li:not(.home-text) {
     width: 0;
     opacity: 0;
+    padding: 0;
+    padding-left: 0;
+    padding-right: 0;
     /* accessibility? screw accessibility
      * i want my pretty animations
      */
