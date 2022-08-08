@@ -4,7 +4,7 @@
   <ContentDoc tag="article" class="prose dark:prose-invert">
     <template #not-found>
       <!-- 404 -->
-      <main class="prose dark:prose-invert">
+      <main class="prose dark:prose-invert h-full">
         <h1>404 - Not Found</h1>
         <p>Maybe you can find somewhere else?</p>
       </main>
