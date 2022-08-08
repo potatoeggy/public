@@ -64,7 +64,12 @@ main {
 }
 
 footer {
+  --footer-drop-color: lightgray;
   transition: background 0.2s ease;
-  box-shadow: 0 -0.05rem 0.75rem 0 lightgray;
+  box-shadow: 0 -0.05rem 0.75rem 0 var(--footer-drop-color);
+}
+
+html.dark footer {
+  --footer-drop-color: black;
 }
 </style>

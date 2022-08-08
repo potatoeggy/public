@@ -22,13 +22,17 @@ import { navItems } from "@/data/navItems";
 
 <style scoped>
 nav {
+  --nav-drop-color: lightgray;
   height: 4rem;
   width: 100%;
-  box-shadow: 0 0.25rem 0.5rem 0 lightgray;
-  background: white;
+  box-shadow: 0 0.25rem 0.5rem 0 var(--nav-drop-color);
   padding: 1rem;
   /* main stuff is z-index 1 and the hamburger must be above everything else */
   z-index: 2;
+}
+
+html.dark nav {
+  --nav-drop-color: black;
 }
 
 ul {
@@ -52,8 +56,9 @@ li.home-text {
 
 * {
   --trans: 0.2s ease;
+  --box-trans-time: 0.4s;
   transition: opacity var(--trans), transform var(--trans), gap var(--trans),
-    width var(--trans);
+    width var(--trans), box-shadow var(--box-trans-time) ease;
 }
 
 @media screen and (max-width: 510px) {
