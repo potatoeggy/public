@@ -45,12 +45,26 @@ html.dark nav img {
 ul {
   display: flex;
   align-items: center;
-  gap: 3rem;
+  gap: 1rem;
 }
 
 li {
   font-size: large;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
+
+li:hover:not(.home-text) {
+  --nav-active-color: lightgray;
+  background: var(--nav-active-color);
+}
+
+html.dark li:hover {
+  --nav-active-color: darkslategray;
+}
+
 li.home-text {
   font-size: x-large;
   font-weight: bold;
