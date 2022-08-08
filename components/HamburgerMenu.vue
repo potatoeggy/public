@@ -59,16 +59,24 @@ input.checkbox:checked ~ .drawer,
 }
 
 .drawer {
-  transition: transform var(--trans), opacity var(--trans);
+  --drawer-bg: white;
+  --drawer-border-bg: gray;
+  transition: transform var(--trans), opacity var(--trans), border var(--trans),
+    background var(--trans);
   padding: 1rem;
   right: 0;
-  background: white;
-  border: 1px solid gray;
+  background: var(--drawer-bg);
+  border: 1px solid var(--drawer-border-bg);
   display: flex;
   flex-direction: column;
   align-items: center;
   border-radius: 0.5rem;
   width: 12rem;
+}
+
+html.dark .drawer {
+  --drawer-bg: #222;
+  --drawer-border-bg: darkslategray;
 }
 
 .drawer::before {
@@ -80,9 +88,10 @@ input.checkbox:checked ~ .drawer,
   --tri-size: 0.6rem;
   border-left: var(--tri-size) solid transparent;
   border-right: var(--tri-size) solid transparent;
-  border-bottom: var(--tri-size) solid black;
+  border-bottom: var(--tri-size) solid var(--drawer-border-bg);
   right: 0.75rem;
   top: calc(-1 * var(--tri-size));
+  transition: border var(--trans);
 }
 
 .drawer::after {
@@ -91,12 +100,13 @@ input.checkbox:checked ~ .drawer,
   height: 0;
   position: absolute;
 
-  --tri-size: 0.57rem;
+  --tri-size: 0.56rem;
   border-left: var(--tri-size) solid transparent;
   border-right: var(--tri-size) solid transparent;
-  border-bottom: var(--tri-size) solid white;
-  right: 0.75rem;
-  top: calc(-1 * var(--tri-size));
+  border-bottom: var(--tri-size) solid var(--drawer-bg);
+  right: 0.8rem;
+  top: -0.53rem; /*calc(-1 * var(--tri-size));*/
+  transition: border var(--trans);
 }
 
 .drawer li {
