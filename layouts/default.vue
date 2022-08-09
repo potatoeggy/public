@@ -25,6 +25,7 @@ useHead({ title: "Eggworld" });
       </p>
     </footer>
   </div>
+  <ButtonToTop />
 </template>
 
 <style>
@@ -34,6 +35,7 @@ html {
   transition: color 0.2s ease, background 0.2s ease;
   overflow-x: hidden;
   overflow-y: scroll;
+  scroll-behavior: smooth;
 }
 
 html.dark {
@@ -72,6 +74,12 @@ footer {
 
 html.dark footer {
   --footer-drop-color: black;
+}
+
+div#__nuxt {
+  /* we need an element with only one child */
+  display: grid;
+  grid-template-columns: auto 0px;
 }
 
 @media screen and (max-width: 600px) {
