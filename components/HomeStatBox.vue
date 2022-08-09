@@ -1,11 +1,19 @@
 <script setup lang="ts">
 import type { Color } from "csstype";
 
-const { href, color = "pink" } = defineProps<{
+const {
+  href,
+  color = "pink",
+  title,
+  clearstyles = false,
+} = defineProps<{
   href?: string;
   color?: Color;
   title?: string;
+  clearstyles?: boolean;
 }>();
+
+const padding = clearstyles ? "0" : "1rem";
 </script>
 
 <template>
@@ -26,12 +34,13 @@ const { href, color = "pink" } = defineProps<{
    * mobile
    */
   width: 28rem;
+  height: 16.25rem;
   border: 0.5rem solid v-bind(color);
   border-radius: 0.5rem;
 }
 
 .main-content {
-  padding: 1rem;
+  padding: v-bind(padding);
   padding-top: 0;
 }
 
