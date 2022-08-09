@@ -58,4 +58,8 @@ const prettyDate = latestDate.format("DD MMM YYYY");
 article p {
   color: gray;
 }
+
+h2 {
+  word-break: break-all;
+}
 </style>

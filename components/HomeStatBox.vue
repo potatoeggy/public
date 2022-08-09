@@ -49,6 +49,7 @@ const height = forceheight ?? "auto";
 .main-content {
   padding: v-bind(padding);
   padding-top: 0;
+  overflow-wrap: break-word;
 }
 
 .title {
