@@ -24,7 +24,6 @@ const prettyDate = latestDate.format("DD MMM YYYY");
       :href="latest._path"
       color="lightblue"
       title="Latest blog post"
-      :clearstyles="false"
     >
       <h2 class="m-0 mt-4 mb-1">{{ latest.title }}</h2>
       <p class="text-sm text-gray-500 m-0">

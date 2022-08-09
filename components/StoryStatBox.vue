@@ -23,7 +23,7 @@ const prettyDate = latestDate.format("DD MMM YYYY");
     <HomeStatBox :href="latest._path" color="lightgreen" title="Latest story">
       <h2 class="m-0 mt-4 mb-1">{{ latest.title }}</h2>
       <p class="text-sm text-gray-500 m-0">
-        {{ prettyDate }} · {{ latest.readingTime.text }}
+        {{ prettyDate }} · {{ latest.readingTime.words }} words
       </p>
       <div class="tag-list mt-1">
         <Tag

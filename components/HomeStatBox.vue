@@ -58,7 +58,7 @@ const height = forceheight ?? "auto";
 
 @media screen and (max-width: 600px) {
   .container {
-    width: 100%;
+    width: 90vw;
   }
 }
 </style>

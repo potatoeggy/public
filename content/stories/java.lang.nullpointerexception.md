@@ -10,8 +10,6 @@ tags:
 
 I let out a loud exhale as my fingers twitched in front of the keyboard. Someone else walked by.
 
-<!-- more -->
-
 “Um, Siava, are you all right?”
 
 I fought to keep my hands under control as they strained for something, anything to latch onto and ruin. *Bad hands. Do not strangle her. She is your friend. Friends are good. Friends are helpful. Friends are calming.*
