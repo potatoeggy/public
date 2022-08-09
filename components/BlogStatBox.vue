@@ -23,10 +23,11 @@ const prettyDate = latestDate.format("DD MMM YYYY");
     <HomeStatBox
       :href="latest._path"
       color="lightblue"
+      darkcolor="#497482"
       title="Latest blog post"
     >
       <h2 class="m-0 mt-4 mb-1">{{ latest.title }}</h2>
-      <p class="text-sm text-gray-500 m-0">
+      <p class="text-sm text-gray-500 dark:text-gray-400 m-0">
         {{ prettyDate }} · {{ latest.readingTime.text }}
       </p>
       <div class="tag-list mt-1">
@@ -51,15 +52,9 @@ const prettyDate = latestDate.format("DD MMM YYYY");
         </template>
       </ContentRenderer>
       -->
-      <p class="excerpt text-gray-600 text-base m-0 mt-5">
+      <p class="excerpt text-gray-600 dark:text-gray-300 text-base m-0 mt-5">
         {{ latest.description }} …
       </p>
     </HomeStatBox>
   </div>
 </template>
-
-<style scoped>
-article p {
-  color: gray;
-}
-</style>

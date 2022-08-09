@@ -20,9 +20,14 @@ const prettyDate = latestDate.format("DD MMM YYYY");
 
 <template>
   <div class="prose dark:prose-invert flex">
-    <HomeStatBox :href="latest._path" color="lightgreen" title="Latest story">
+    <HomeStatBox
+      :href="latest._path"
+      color="lightgreen"
+      darkcolor="#2c8a2c"
+      title="Latest story"
+    >
       <h2 class="m-0 mt-4 mb-1">{{ latest.title }}</h2>
-      <p class="text-sm text-gray-500 m-0">
+      <p class="text-sm text-gray-500 dark:text-gray-400 m-0">
         {{ prettyDate }} · {{ latest.readingTime.words }} words
       </p>
       <div class="tag-list mt-1">
@@ -47,7 +52,7 @@ const prettyDate = latestDate.format("DD MMM YYYY");
         </template>
       </ContentRenderer>
       -->
-      <p class="excerpt text-gray-600 text-base m-0 mt-5">
+      <p class="excerpt text-gray-600 dark:text-gray-300 text-base m-0 mt-5">
         {{ latest.description }} …
       </p>
     </HomeStatBox>
@@ -55,10 +60,6 @@ const prettyDate = latestDate.format("DD MMM YYYY");
 </template>
 
 <style scoped>
-article p {
-  color: gray;
-}
-
 h2 {
   word-break: break-all;
 }

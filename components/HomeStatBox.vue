@@ -8,12 +8,14 @@ import { unref as _unref } from "vue";
 const {
   href,
   color = "pink",
+  darkcolor = "#c88994",
   title,
   clearstyles = false,
   forceheight,
 } = defineProps<{
   href?: string;
   color?: Color;
+  darkcolor?: Color;
   title?: string;
   clearstyles?: boolean;
   forceheight?: ViewportLength<"rem">;
@@ -46,6 +48,10 @@ const height = forceheight ?? "auto";
   border-radius: 0.5rem;
 }
 
+html.dark .container {
+  border: 0.5rem solid v-bind(darkcolor);
+}
+
 .main-content {
   padding: v-bind(padding);
   padding-top: 0;
@@ -54,6 +60,10 @@ const height = forceheight ?? "auto";
 
 .title {
   background: v-bind(color);
+}
+
+html.dark .title {
+  background: v-bind(darkcolor);
 }
 
 @media screen and (max-width: 600px) {

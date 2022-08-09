@@ -24,6 +24,7 @@ const [title, description] = latestCommit.message.split("\n\n");
     <HomeStatBox
       :href="href"
       color="lightgray"
+      darkcolor="slategray"
       title="Latest commit"
       :clearstyles="true"
     >
