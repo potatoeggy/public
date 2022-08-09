@@ -1,23 +1,30 @@
 <script setup lang="ts">
-import type { Color } from "csstype";
+import type { Color, ViewportLength } from "csstype";
+
+// fix ReferenceError: _unref is not defined
+// https://github.com/nuxt/framework/issues/5546
+import { unref as _unref } from "vue";
 
 const {
   href,
   color = "pink",
   title,
   clearstyles = false,
+  forceheight,
 } = defineProps<{
   href?: string;
   color?: Color;
   title?: string;
   clearstyles?: boolean;
+  forceheight?: ViewportLength<"rem">;
 }>();
 
 const padding = clearstyles ? "0" : "1rem";
+const height = forceheight ?? "auto";
 </script>
 
 <template>
-  <a class="no-underline" :href="href">
+  <a class="no-underline inline-block flex" :href="href">
     <div class="container box">
       <p class="m-0 w-full title">{{ title }}</p>
       <div class="main-content">
@@ -34,7 +41,7 @@ const padding = clearstyles ? "0" : "1rem";
    * mobile
    */
   width: 28rem;
-  height: 16.25rem;
+  height: v-bind(height);
   border: 0.5rem solid v-bind(color);
   border-radius: 0.5rem;
 }

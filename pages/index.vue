@@ -9,7 +9,7 @@ useTitle("Home");
   <main class="flex flex-col items-center justify-around gap-8">
     <h1>Welcome!</h1>
     <p>What are you here to see?</p>
-    <div class="flex justify-around items-center w-full flex-wrap gap-y-10">
+    <div class="flex justify-around items-stretch w-full flex-wrap gap-y-10">
       <BlogStatBox />
       <StoryStatBox />
       <CommitStatBox />

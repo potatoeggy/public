@@ -12,18 +12,19 @@ const docs = await queryContent<BlogParsedContent>("/blog")
   .where({ _draft: false })
   .find();
 
-const latest = docs.at(-1);
+const latest = docs.at(-1) as BlogParsedContent;
 
 const latestDate = dayjs(latest.date).utc();
 const prettyDate = latestDate.format("DD MMM YYYY");
 </script>
 
 <template>
-  <div class="prose dark:prose-invert">
+  <div class="prose dark:prose-invert flex">
     <HomeStatBox
       :href="latest._path"
       color="lightblue"
       title="Latest blog post"
+      :clearstyles="false"
     >
       <h2 class="m-0 mt-4 mb-1">{{ latest.title }}</h2>
       <p class="text-sm text-gray-500 m-0">

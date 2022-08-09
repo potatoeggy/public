@@ -2,24 +2,24 @@
 import dayjs from "dayjs";
 import utc from "dayjs/plugin/utc.js";
 import tz from "dayjs/plugin/timezone.js";
-import type { BlogParsedContent } from "@/shared/types";
+import type { BlogParsedContent, StoryParsedContent } from "@/shared/types";
 
 dayjs.extend(utc);
 dayjs.extend(tz);
 
-const docs = await queryContent<BlogParsedContent>("/stories")
+const docs = await queryContent<StoryParsedContent>("/stories")
   .sort({ date: 1 })
   .where({ _draft: false })
   .find();
 
-const latest = docs.at(-1);
+const latest = docs.at(-1) as StoryParsedContent;
 
 const latestDate = dayjs(latest.date).utc();
 const prettyDate = latestDate.format("DD MMM YYYY");
 </script>
 
 <template>
-  <div class="prose dark:prose-invert">
+  <div class="prose dark:prose-invert flex">
     <HomeStatBox :href="latest._path" color="lightgreen" title="Latest story">
       <h2 class="m-0 mt-4 mb-1">{{ latest.title }}</h2>
       <p class="text-sm text-gray-500 m-0">
