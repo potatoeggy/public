@@ -46,10 +46,18 @@ const height = forceheight ?? "auto";
   height: v-bind(height);
   border: 0.5rem solid v-bind(color);
   border-radius: 0.5rem;
+  transition: transform 0.2s ease;
+  box-shadow: 0 0.1rem 0.5rem 0 gray;
+}
+
+.container:hover,
+.container:active {
+  transform: scale(1.05);
 }
 
 html.dark .container {
   border: 0.5rem solid v-bind(darkcolor);
+  box-shadow: 0 0.1rem 0.5rem 0 black;
 }
 
 .main-content {

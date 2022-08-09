@@ -31,11 +31,13 @@ img {
   height: 12rem;
   line-height: 1.25;
   transition: all 0.2s ease;
+  box-shadow: 0 0.1rem 0.5rem 0 gray;
 }
 
 html.dark .card {
   border: 0.2rem solid rgb(126, 93, 98);
   background: rgb(110, 90, 92);
+  box-shadow: 0 0.1rem 0.5rem 0 black;
 }
 
 .card:hover,
@@ -51,5 +53,9 @@ html.dark .card {
 
 a.unclickable {
   pointer-events: none;
+}
+
+a.unclickable .card {
+  box-shadow: none;
 }
 </style>
