@@ -49,6 +49,10 @@ const captionText =
       </template>
       <template #not-found>
         <h1>404 - Not Found</h1>
+        <p>
+          Thanks for dropping by! But the page you're looking for can't be
+          found.
+        </p>
       </template>
     </ContentRenderer>
   </div>

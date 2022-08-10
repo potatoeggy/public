@@ -19,6 +19,9 @@ export default defineNuxtConfig({
   sitemap: {
     hostname: process.env.BASE_URL || "https://eggworld.tk",
   },
+  generate: {
+    fallback: "404.html",
+  },
   tailwindcss: {},
   colorMode: {
     classSuffix: "",
