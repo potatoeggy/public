@@ -29,13 +29,14 @@ const getPrettyDate = (story: StoryParsedContent) => {
       v-for="(story, index) in docs"
       :key="index"
     >
-      <a :href="story._path" class="no-underline">
-        <h3
-          class="text-left text-2xl sm:text-2xl font-bold hover:text-blue-700 dark:hover:text-blue-400 leading-tight m-0 transition"
+      <h3 class="m-0">
+        <a
+          :href="story._path"
+          class="no-underline text-left text-2xl sm:text-2xl font-bold hover:text-blue-700 dark:hover:text-blue-400 leading-tight transition"
         >
-          {{ story.title }}
-        </h3>
-      </a>
+          {{ story.title }}</a
+        >
+      </h3>
       <p class="my-1 text-sm">
         {{ getPrettyDate(story) }} · {{ story.readingTime.text }}
       </p>
