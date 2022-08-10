@@ -1,5 +1,7 @@
 # Nuxt 3 Minimal Starter
 
+**WARN: Volar 0.40.0 breaks everything and I don't know why — stick with Volar 0.39.5.**
+
 Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
 
 ## Setup
