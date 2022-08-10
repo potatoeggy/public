@@ -1,11 +1,11 @@
 <template>
-  <Teleport to="body"> <a href="#" class="go-top"></a></Teleport>
+  <Teleport to="body"> <a href="#" class="go-top" /></Teleport>
 </template>
 
 <style>
 body {
   display: grid;
-  grid-template-columns: auto 0;
+  grid-template-columns: 0 auto;
 }
 </style>
 
@@ -14,7 +14,7 @@ body {
   --offset: 20rem;
   position: sticky;
   bottom: 1rem;
-  margin-right: 1rem;
+  left: 1rem;
   place-self: end;
   margin-top: calc(100vh + var(--offset));
 
