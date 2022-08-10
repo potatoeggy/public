@@ -2,7 +2,7 @@
 import dayjs from "dayjs";
 import utc from "dayjs/plugin/utc.js";
 import tz from "dayjs/plugin/timezone.js";
-import type { BlogParsedContent, StoryParsedContent } from "@/shared/types";
+import type { StoryParsedContent } from "@/shared/types";
 
 dayjs.extend(utc);
 dayjs.extend(tz);

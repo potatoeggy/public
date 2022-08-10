@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import { type Ref, ref } from "vue";
+import { ref } from "vue";
 import IconSun from "@/assets/images/sun.svg?component";
-import IconMoon from "../assets/images/moon.svg?component";
+import IconMoon from "@/assets/images/moon.svg?component";
 
 const colorMode = useColorMode();
 
