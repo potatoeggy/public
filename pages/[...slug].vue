@@ -13,6 +13,7 @@ const route = useRoute();
 
 // we're not using ContentDoc because i need control
 const doc = await queryContent<GeneralParsedContent>(route.path).findOne();
+useTitle(doc.title);
 </script>
 
 <template>
