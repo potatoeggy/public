@@ -1,6 +1,13 @@
 <template>
-  <a href="#" class="go-top"></a>
+  <Teleport to="body"> <a href="#" class="go-top"></a></Teleport>
 </template>
+
+<style>
+body {
+  display: grid;
+  grid-template-columns: auto 0;
+}
+</style>
 
 <style scoped>
 .go-top {

@@ -2,4 +2,6 @@
 useTitle("Stories");
 </script>
 
-<template></template>
+<template>
+  <main class="flex grow">hello</main>
+</template>

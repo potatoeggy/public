@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import ColourPicker from "./ColourPicker.vue";
 import { navItems } from "@/data/navItems";
+
+const props = defineProps<{ activeItem?: string }>();
 </script>
 
 <template>

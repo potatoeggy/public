@@ -6,6 +6,7 @@ useTitle("Home");
 </script>
 
 <template>
+  <ButtonToTop />
   <main class="flex flex-col items-center justify-around gap-8">
     <h1>Welcome!</h1>
     <p>What are you here to see?</p>
