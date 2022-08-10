@@ -45,7 +45,7 @@
       <ServiceCard
         name="Jellyfin"
         href="https://jellyfin.eggworld.tk"
-        img="/assets/images/services/jellyfin.png"
+        img="jellyfin.png"
       >
         FOSS media server
       </ServiceCard>
