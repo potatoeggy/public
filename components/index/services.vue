@@ -1,5 +1,3 @@
-<script setup lang="ts"></script>
-
 <template>
   <div
     class="container prose dark:prose-invert w-full flex flex-col items-center mt-9"

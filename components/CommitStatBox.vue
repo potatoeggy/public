@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { GithubCommit, GithubPushEvent } from "@/shared/github";
+import type { GithubPushEvent } from "@/shared/github";
 import type { Ref } from "vue";
 
 const FEED_URL = "https://api.github.com/users/potatoeggy/events";

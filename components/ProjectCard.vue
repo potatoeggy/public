@@ -4,15 +4,6 @@ const { project, reverse = false } = defineProps<{
   project: Project;
   reverse?: boolean;
 }>();
-/*
-name
-description
-language
-license?
-date?
-
-image
-*/
 
 const imgUrl = `url(/images/projects/${project.img ?? ""})`;
 </script>
