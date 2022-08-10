@@ -13,6 +13,7 @@ interface BlogParsedContent extends ParsedContent {
   tags: string[];
   description?: string;
   readingTime: ReadingTime;
+  nopreview?: boolean;
 }
 
 interface StoryParsedContent extends ParsedContent {
@@ -21,4 +22,5 @@ interface StoryParsedContent extends ParsedContent {
   tags: string[];
   description?: string;
   readingTime: ReadingTime;
+  nopreview?: boolean;
 }

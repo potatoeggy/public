@@ -48,7 +48,7 @@ const descText =
     <ContentRenderer :value="post" :excerpt="true" tag="article">
       <template #empty>No excerpt available.</template>
     </ContentRenderer>
-    <div class="text-right">
+    <div class="text-right" v-if="!post.nopreview">
       <a
         :href="post._path"
         class="no-underline hover:underline font-semibold text-blue-700 dark:text-blue-400"
