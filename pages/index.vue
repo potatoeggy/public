@@ -20,7 +20,6 @@ useTitle("Home");
     <Services />
     <About />
   </main>
-  <ButtonToTop />
 </template>
 
 <style scoped>
