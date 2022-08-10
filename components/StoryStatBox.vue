@@ -1,11 +1,9 @@
 <script setup lang="ts">
 import dayjs from "dayjs";
 import utc from "dayjs/plugin/utc.js";
-import tz from "dayjs/plugin/timezone.js";
 import { type StoryParsedContent } from "@/shared/types";
 
 dayjs.extend(utc);
-dayjs.extend(tz);
 
 const docs = await queryContent<StoryParsedContent>("/stories")
   .sort({ date: 1 })

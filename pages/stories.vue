@@ -1,16 +1,64 @@
 <script setup lang="ts">
 import type { StoryParsedContent } from "@/shared/types";
+import dayjs from "dayjs";
+import utc from "dayjs/plugin/utc.js";
+
+dayjs.extend(utc);
 
 useTitle("Stories");
 
+// TODO: paginate stories
 const docs = await queryContent<StoryParsedContent>("/stories")
   .sort({ date: 1 })
   .where({ _draft: false })
   .find();
+
+const getPrettyDate = (story: StoryParsedContent) => {
+  const date = dayjs(story.date).utc();
+  return date.format("DD MMM YYYY");
+};
 </script>
 
 <template>
-  <main class="flex grow prose dark:prose-invert">
+  <main class="flex flex-col grow prose dark:prose-invert max-w-3xl">
     <h1>Stories</h1>
+    <div class="story-card p-4" v-for="(story, index) in docs" :key="index">
+      <a :href="story._path" class="no-underline">
+        <h3
+          class="text-left text-2xl sm:text-2xl font-bold hover:text-blue-700 leading-tight m-0"
+        >
+          {{ story.title }}
+        </h3>
+      </a>
+      <p class="my-1 text-sm">
+        {{ getPrettyDate(story) }} · {{ story.readingTime.text }}
+      </p>
+      <div class="flex flex-wrap">
+        <Tag
+          :dest="`/stories/tags/${tag}`"
+          v-for="(tag, index) in story.tags"
+          :key="index"
+        >
+          {{ tag }}
+        </Tag>
+      </div>
+      <p class="mb-1">{{ story.description }} ...</p>
+      <div class="text-right">
+        <a
+          :href="story._path"
+          class="no-underline hover:underline font-semibold text-blue-700 m-0"
+        >
+          Continue reading →
+        </a>
+      </div>
+    </div>
   </main>
 </template>
+
+<style scoped>
+.story-card {
+  border: 0.1rem solid gray;
+  max-width: 100%;
+  border-radius: 0.5rem;
+}
+</style>

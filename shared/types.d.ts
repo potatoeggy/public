@@ -11,7 +11,7 @@ interface BlogParsedContent extends ParsedContent {
   date: Date;
   title: string;
   tags: string[];
-  description?: Record<string, any>;
+  description?: string;
   readingTime: ReadingTime;
 }
 
@@ -19,5 +19,6 @@ interface StoryParsedContent extends ParsedContent {
   date: Date;
   title: string;
   tags: string[];
+  description?: string;
   readingTime: ReadingTime;
 }
