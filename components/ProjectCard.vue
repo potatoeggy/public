@@ -14,7 +14,7 @@ date?
 image
 */
 
-const imgUrl = `url(/assets/images/projects/${project.img ?? ""})`;
+const imgUrl = `url(/images/projects/${project.img ?? ""})`;
 </script>
 
 <template>
@@ -27,7 +27,7 @@ const imgUrl = `url(/assets/images/projects/${project.img ?? ""})`;
             <div class="flex gap-1 items-center flex-nowrap">
               <img
                 class="h-5 w-5 m-0"
-                :src="`/assets/images/langs/${lang}.svg`"
+                :src="`/images/langs/${lang}.svg`"
                 v-for="(lang, index) in project.langs"
                 :key="index"
               />

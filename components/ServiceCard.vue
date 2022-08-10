@@ -5,12 +5,14 @@ const props = defineProps<{
   img: string;
   unclickable?: boolean;
 }>();
+
+const imgUrl = `/images/services/${props.img}`;
 </script>
 
 <template>
   <a :href="unclickable ? '' : href" :class="['no-underline', { unclickable }]">
     <div class="card flex flex-col items-center justify-around">
-      <img class="m-0" :src="img" />
+      <img class="m-0" :src="imgUrl" />
       <h3 class="m-0">{{ props.name }}</h3>
       <p class="desc-text text-gray-600 dark:text-gray-200"><slot /></p>
     </div>

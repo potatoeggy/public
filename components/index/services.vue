@@ -14,39 +14,31 @@
     </p>
     <!-- i could make this a list but god i'm so tired with nuxt -->
     <div class="flex justify-around flex-wrap gap-8 items-center">
-      <ServiceCard
-        name="Gitea"
-        href="https://git.eggworld.tk"
-        img="/assets/images/services/gitea.png"
-      >
+      <ServiceCard name="Gitea" href="https://git.eggworld.tk" img="gitea.png">
         Self-hosted GitHub
       </ServiceCard>
       <ServiceCard
         name="Eifueo"
         href="https://eifueo.eggworld.tk"
-        img="/assets/images/services/eifueo.svg"
+        img="eifueo.svg"
       >
         Note collection
       </ServiceCard>
       <ServiceCard
         name="Primoprod"
         href="https://primoprod.eggworld.tk"
-        img="/assets/images/services/primogem.png"
+        img="primogem.png"
       >
         Wish simulator
       </ServiceCard>
       <ServiceCard
         name="Calibre"
         href="https://calibre.eggworld.tk"
-        img="/assets/images/services/calibre-web.png"
+        img="calibre-web.png"
       >
         Kobo Cloud
       </ServiceCard>
-      <ServiceCard
-        name="Plex"
-        href="https://plex.eggworld.tk"
-        img="/assets/images/services/plex.png"
-      >
+      <ServiceCard name="Plex" href="https://plex.eggworld.tk" img="plex.png">
         Ad-filled media server
       </ServiceCard>
 
@@ -61,7 +53,7 @@
       <ServiceCard
         name="Minecraft"
         href="minecraft.eggworld.tk"
-        img="/assets/images/services/minecraft.png"
+        img="minecraft.png"
         :unclickable="true"
       >
         Whitelisted
