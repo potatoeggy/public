@@ -23,7 +23,7 @@ const imgUrl = `url(/assets/images/projects/${project.img ?? ""})`;
       <div class="card-text h-full bg-white p-4 pt-2">
         <div>
           <h3 class="m-0">{{ project.name }}</h3>
-          <div class="flex gap-1 items-center">
+          <div class="flex gap-1 items-center flex-nowrap">
             <img
               class="h-5 w-5 m-0"
               :src="`/assets/images/langs/${lang}.svg`"

@@ -52,8 +52,10 @@ const prettyDate = latestDate.format("DD MMM YYYY");
         </template>
       </ContentRenderer>
       -->
-      <p class="excerpt text-gray-600 dark:text-gray-300 text-base m-0 mt-5">
-        {{ latest.description }} …
+      <p
+        class="excerpt text-gray-600 dark:text-gray-300 text-base m-0 mt-5 text-ellipsis"
+      >
+        {{ latest.description }} ...
       </p>
     </HomeStatBox>
   </div>
@@ -61,6 +63,6 @@ const prettyDate = latestDate.format("DD MMM YYYY");
 
 <style scoped>
 h2 {
-  word-break: break-all;
+  overflow-wrap: break-word;
 }
 </style>

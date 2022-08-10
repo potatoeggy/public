@@ -58,3 +58,9 @@ const prettyDate = latestDate.format("DD MMM YYYY");
     </HomeStatBox>
   </div>
 </template>
+
+<style scoped>
+h2 {
+  overflow-wrap: break-word;
+}
+</style>
