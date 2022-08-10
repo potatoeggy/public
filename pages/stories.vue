@@ -20,12 +20,18 @@ const getPrettyDate = (story: StoryParsedContent) => {
 </script>
 
 <template>
-  <main class="flex flex-col grow prose dark:prose-invert max-w-3xl">
-    <h1>Stories</h1>
-    <div class="story-card p-4" v-for="(story, index) in docs" :key="index">
+  <main
+    class="flex flex-col grow prose dark:prose-invert max-w-3xl gap-6 transition"
+  >
+    <h1 class="mb-0">Stories</h1>
+    <div
+      class="story-card p-4 pb-2"
+      v-for="(story, index) in docs"
+      :key="index"
+    >
       <a :href="story._path" class="no-underline">
         <h3
-          class="text-left text-2xl sm:text-2xl font-bold hover:text-blue-700 leading-tight m-0"
+          class="text-left text-2xl sm:text-2xl font-bold hover:text-blue-700 dark:hover:text-blue-400 leading-tight m-0 transition"
         >
           {{ story.title }}
         </h3>
@@ -46,7 +52,7 @@ const getPrettyDate = (story: StoryParsedContent) => {
       <div class="text-right">
         <a
           :href="story._path"
-          class="no-underline hover:underline font-semibold text-blue-700 m-0"
+          class="no-underline hover:underline font-semibold text-blue-700 dark:text-blue-400"
         >
           Continue reading →
         </a>
