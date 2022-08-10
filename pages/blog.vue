@@ -2,6 +2,7 @@
 import type { BlogParsedContent } from "@/shared/types";
 
 useTitle("Blog");
+definePageMeta({ layout: "withtop" });
 
 // TODO: paginate stories
 const docs = await queryContent<BlogParsedContent>("/blog")

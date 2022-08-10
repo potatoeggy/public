@@ -1,10 +1,15 @@
 <script setup lang="ts">
 const { src } = defineProps<{ src: string }>();
+
+const imgSrc =
+  src.startsWith("http://") || src.startsWith("https://")
+    ? src
+    : `/images/posts/${src}`;
 </script>
 
 <template>
-  <figure>
-    <img :src="`/images/posts/${src}`" />
+  <figure class="flex flex-col items-center">
+    <img :src="imgSrc" />
     <figcaption class="text-center"><Markdown /></figcaption>
   </figure>
 </template>

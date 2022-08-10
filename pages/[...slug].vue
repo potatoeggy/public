@@ -5,6 +5,9 @@ import { calcReadingTime, getPrettyDate } from "@/shared/metadata";
 type GeneralParsedContent = BlogParsedContent | StoryParsedContent;
 
 const route = useRoute();
+definePageMeta({
+  layout: "withtop",
+});
 
 // we're not using ContentDoc because i need control
 const doc = await queryContent<GeneralParsedContent>(route.path).findOne();

@@ -19,7 +19,7 @@ export const tagInfo: Record<string, TagData> = {
   primoprod: {
     name: "Primoprod",
     description:
-      'Reports following the development of <a href="https://github.com/potatoeggy/primoprod>Primoprod</a>.',
+      'Reports following the development of <a href="https://github.com/potatoeggy/primoprod">Primoprod</a>.',
   },
   tech: { name: "Technology" },
   unstagnation: {

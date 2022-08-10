@@ -2,6 +2,7 @@
 import type { StoryParsedContent } from "@/shared/types";
 
 useTitle("Stories");
+definePageMeta({ layout: "withtop" });
 
 // TODO: paginate stories
 const docs = await queryContent<StoryParsedContent>("/stories")
