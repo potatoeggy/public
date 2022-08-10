@@ -10,7 +10,7 @@ export default defineNuxtConfig({
   ],
   nitro: {
     prerender: {
-      routes: ["/sitemap.xml", "/404"],
+      routes: ["/sitemap.xml"],
     },
   },
   typescript: {
@@ -19,7 +19,6 @@ export default defineNuxtConfig({
   sitemap: {
     hostname: process.env.BASE_URL || "https://eggworld.tk",
   },
-  generate: {},
   tailwindcss: {},
   colorMode: {
     classSuffix: "",
