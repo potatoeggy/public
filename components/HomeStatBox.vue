@@ -66,7 +66,7 @@ const cssVars = {
 }
 
 html.dark .container {
-  border: 0.5rem solid v-bind(darkcolor);
+  border: 0.5rem solid var(--darkcolor);
   box-shadow: 0 0.1rem 0.5rem 0 black;
 }
 
@@ -81,7 +81,7 @@ html.dark .container {
 }
 
 html.dark .title {
-  background: var(--dark-color);
+  background: var(--darkcolor);
 }
 
 @media screen and (max-width: 600px) {
