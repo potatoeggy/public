@@ -43,14 +43,14 @@ const captionText =
         {{ tag }}
       </Tag>
     </div>
-    <ContentDoc tag="article" class="pt-0 w-full">
+    <ContentRenderer :value="doc" tag="article" class="pt-0 w-full">
       <template #empty>
         <p>No description found.</p>
       </template>
       <template #not-found>
         <h1>404 - Not Found</h1>
       </template>
-    </ContentDoc>
+    </ContentRenderer>
   </div>
 </template>
 

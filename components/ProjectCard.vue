@@ -5,7 +5,7 @@ const { project, reverse = false } = defineProps<{
   reverse?: boolean;
 }>();
 
-const imgUrl = `url(/images/projects/${project.img ?? ""})`;
+const imgUrl = `url(/images/projects/${project.img ?? "unknown.png"})`;
 </script>
 
 <template>
