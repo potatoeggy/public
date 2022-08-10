@@ -7,6 +7,9 @@ import type { BlogParsedContent } from "@/shared/types";
 dayjs.extend(utc);
 dayjs.extend(tz);
 
+// TODO: make queryContent async so it doesn't delay
+// execution of the template
+
 const docs = await queryContent<BlogParsedContent>("/blog")
   .sort({ date: 1 })
   .where({ _draft: false })

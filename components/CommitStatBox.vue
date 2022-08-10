@@ -6,17 +6,19 @@ import type { GithubCommit, GithubPushEvent } from "@/shared/github";
 import type { Ref } from "vue";
 
 const FEED_URL = "https://api.github.com/users/potatoeggy/events";
+const imgUrl = ref("");
+const href = ref("");
 
-const results = (await useFetch(FEED_URL)).data as Ref<GithubPushEvent[]>;
-
-const latestEvent = results.value.find(
-  (event) => event.type === "PushEvent"
-) as GithubPushEvent;
-const latestCommit = latestEvent.payload.commits[0];
-const imgUrl = `https://opengraph.githubassets.com/hash/${latestEvent.repo.name}/commit/${latestCommit.sha}`;
-const href = `https://github.com/${latestEvent.repo.name}/commit/${latestCommit.sha}`;
-
-const [title, description] = latestCommit.message.split("\n\n");
+onMounted(async () => {
+  const results = (await useFetch(FEED_URL, { initialCache: false }))
+    .data as Ref<GithubPushEvent[]>;
+  const latestEvent = results.value.find(
+    (event) => event.type === "PushEvent"
+  ) as GithubPushEvent;
+  const latestCommit = latestEvent.payload.commits[0];
+  imgUrl.value = `https://opengraph.githubassets.com/hash/${latestEvent.repo.name}/commit/${latestCommit.sha}`;
+  href.value = `https://github.com/${latestEvent.repo.name}/commit/${latestCommit.sha}`;
+});
 </script>
 
 <template>
@@ -35,6 +37,7 @@ const [title, description] = latestCommit.message.split("\n\n");
         <p v-if="description">{{ description }}</p>
       </div>
       -->
+      <noscript> Enable JavaScript to see the latest commit! </noscript>
     </HomeStatBox>
   </div>
 </template>

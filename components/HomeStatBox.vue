@@ -22,12 +22,22 @@ const {
 }>();
 
 const padding = clearstyles ? "0" : "1rem";
-const height = forceheight ?? "auto";
+const height = forceheight ?? "100%";
+
+// v-bind DOES NOT WORK on initial render
+// so unfortunately we have to use the old way
+
+const cssVars = {
+  "--padding": padding,
+  "--height": height,
+  "--color": color,
+  "--darkcolor": darkcolor,
+};
 </script>
 
 <template>
-  <a class="no-underline inline-block flex" :href="href">
-    <div class="container box">
+  <a class="no-underline inline-block flex flex-col items-stretch" :href="href">
+    <div class="container box" :style="cssVars">
       <p class="m-0 w-full title">{{ title }}</p>
       <div class="main-content">
         <slot />
@@ -43,8 +53,8 @@ const height = forceheight ?? "auto";
    * mobile
    */
   width: 28rem;
-  height: v-bind(height);
-  border: 0.5rem solid v-bind(color);
+  height: var(--height);
+  border: 0.5rem solid var(--color);
   border-radius: 0.5rem;
   transition: transform 0.2s ease;
   box-shadow: 0 0.1rem 0.5rem 0 gray;
@@ -61,17 +71,17 @@ html.dark .container {
 }
 
 .main-content {
-  padding: v-bind(padding);
+  padding: var(--padding);
   padding-top: 0;
   overflow-wrap: break-word;
 }
 
 .title {
-  background: v-bind(color);
+  background: var(--color);
 }
 
 html.dark .title {
-  background: v-bind(darkcolor);
+  background: var(--dark-color);
 }
 
 @media screen and (max-width: 600px) {
