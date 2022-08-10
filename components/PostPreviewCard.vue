@@ -1,21 +1,12 @@
 <script setup lang="ts">
 import type { StoryParsedContent, BlogParsedContent } from "@/shared/types";
-import { calcReadingTime } from "@/shared/readingTime";
-import dayjs from "dayjs";
-import utc from "dayjs/plugin/utc.js";
-
-dayjs.extend(utc);
+import { calcReadingTime, getPrettyDate } from "@/shared/metadata";
 
 const { post, type, highlighttags } = defineProps<{
   post: StoryParsedContent | BlogParsedContent;
   type: "stories" | "blog";
   highlighttags?: string[];
 }>();
-
-const getPrettyDate = (story: StoryParsedContent) => {
-  const date = dayjs(story.date).utc();
-  return date.format("DD MMM YYYY");
-};
 
 const readingTime = calcReadingTime(post);
 const descText =

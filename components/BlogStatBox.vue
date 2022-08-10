@@ -1,10 +1,6 @@
 <script setup lang="ts">
-import dayjs from "dayjs";
-import utc from "dayjs/plugin/utc.js";
 import type { BlogParsedContent } from "@/shared/types";
-import { calcReadingTime } from "@/shared/readingTime";
-
-dayjs.extend(utc);
+import { calcReadingTime, getPrettyDate } from "@/shared/metadata";
 
 const docs = await queryContent<BlogParsedContent>("/blog")
   .sort({ date: 1 })
@@ -12,9 +8,7 @@ const docs = await queryContent<BlogParsedContent>("/blog")
   .find();
 
 const latest = docs.at(-1) as BlogParsedContent;
-
-const latestDate = dayjs(latest.date).utc();
-const prettyDate = latestDate.format("DD MMM YYYY");
+const prettyDate = getPrettyDate(latest);
 </script>
 
 <template>
