@@ -3,7 +3,6 @@ title: Magic Paint Gun Cartridges
 date: 2021-05-31
 tags:
  - unstagnation
- - literature
 ---
 *Pew pew!*
 
