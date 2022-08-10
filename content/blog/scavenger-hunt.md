@@ -10,6 +10,8 @@ SPOILERS if you haven't completed it.
 
 Assume all part 1 commands here are run in the home directory. Assume all part 2 commands are run in the `part2` directory.
 
+<!-- more -->
+
 ## Clue 1
 
 #### Solution

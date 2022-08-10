@@ -30,7 +30,13 @@ export default defineNuxtConfig({
     meta: [
       { name: "viewport", content: " width=device-width,initial-scale=1" },
     ],
-    link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
+    link: [
+      { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
+      {
+        rel: "stylesheet",
+        href: "https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css",
+      },
+    ],
   },
   content: {
     documentDriven: false,
@@ -38,7 +44,8 @@ export default defineNuxtConfig({
       theme: "dracula",
     },
     markdown: {
-      remarkPlugins: ["remark-reading-time"],
+      remarkPlugins: ["remark-math"],
+      rehypePlugins: [["rehype-katex", { output: "html" }]],
     },
   },
   experimental: {

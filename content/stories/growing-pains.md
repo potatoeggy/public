@@ -9,12 +9,12 @@ Renge Academy\
 No address\
 Biyori, Asvyn
 
-<!-- more -->
-
 Hina Asvyn\
 Empress\
 1 Kansei Road\
 Emina, Asvyn
+
+<!-- more -->
 
 Empress,
 

@@ -2,6 +2,7 @@
 import dayjs from "dayjs";
 import utc from "dayjs/plugin/utc.js";
 import type { BlogParsedContent } from "@/shared/types";
+import { calcReadingTime } from "@/shared/readingTime";
 
 dayjs.extend(utc);
 
@@ -26,33 +27,28 @@ const prettyDate = latestDate.format("DD MMM YYYY");
     >
       <h2 class="m-0 mt-4 mb-1">{{ latest.title }}</h2>
       <p class="text-sm text-gray-500 dark:text-gray-400 m-0">
-        {{ prettyDate }} · {{ latest.readingTime.text }}
+        {{ prettyDate }} · {{ calcReadingTime(latest).minutes }} min read
       </p>
       <div class="tag-list mt-1">
         <Tag
           v-for="(tag, index) in latest.tags"
           :key="index"
-          :dest="`/blog/tags/${tag}`"
+          :dest="`/tags/blog/${tag}`"
         >
           {{ tag }}
         </Tag>
       </div>
-      <!--
       <ContentRenderer
         tag="article"
         :value="latest"
         :excerpt="true"
-        class="pt-0 w-full"
+        class="text-gray-600 dark:text-gray-300 text-base m-0 mt-5"
       >
         <ContentRendererMarkdown :value="latest" :excerpt="true" />
         <template #empty>
           <p>No description found.</p>
         </template>
       </ContentRenderer>
-      -->
-      <p class="excerpt text-gray-600 dark:text-gray-300 text-base m-0 mt-5">
-        {{ latest.description }} …
-      </p>
     </HomeStatBox>
   </div>
 </template>
