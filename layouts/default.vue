@@ -1,6 +1,5 @@
 <script setup lang="ts">
-import Navbar from "../components/Navbar.vue";
-
+// this is in /components so i can import the thing
 useHead({ title: "Eggworld" });
 </script>
 
@@ -25,6 +24,7 @@ useHead({ title: "Eggworld" });
       </p>
     </footer>
   </div>
+  <slot name="top-button" />
 </template>
 
 <style>

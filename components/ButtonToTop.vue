@@ -1,13 +1,6 @@
 <template>
-  <Teleport to="body"> <a href="#" class="go-top" /></Teleport>
+  <a href="#" class="go-top" />
 </template>
-
-<style>
-body {
-  display: grid;
-  grid-template-columns: 0 auto;
-}
-</style>
 
 <style scoped>
 .go-top {
@@ -15,9 +8,9 @@ body {
   position: sticky;
   bottom: 1rem;
   left: 1rem;
+  margin-right: 1rem;
   place-self: end;
   margin-top: calc(100vh + var(--offset));
-
   width: 2rem;
   height: 2rem;
   background: #ff8b24;
