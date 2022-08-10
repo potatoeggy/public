@@ -30,7 +30,7 @@ const imgUrl = `url(/assets/images/projects/${project.img ?? ""})`;
               v-for="(lang, index) in project.langs"
               :key="index"
             />
-            <span class="text-xs text-gray-500"
+            <span class="text-xs text-gray-500 whitespace-nowrap"
               >· {{ project.license ?? "no license" }}</span
             >
           </div>
@@ -74,6 +74,7 @@ html.dark .card {
 .card-text {
   width: 25%;
   border-radius: 1.5rem 0 0 0;
+  transition: width 0.2s ease;
 }
 
 .card-img {
@@ -81,8 +82,10 @@ html.dark .card {
   background: v-bind(imgUrl);
   background-color: rgb(255, 237, 241);
   background-position: right 90% top 15%;
-  background-size: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
   border-radius: 0 0 1.5rem 100%;
+  transition: width 0.2s ease;
 }
 
 .desc-text {
@@ -93,5 +96,25 @@ html.dark .card {
 
 a.unclickable {
   pointer-events: none;
+}
+
+@media screen and (max-width: 720px) {
+  .card-text {
+    width: 30%;
+  }
+
+  .card-img {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .card-text {
+    width: 37.5%;
+  }
+
+  .card-img {
+    width: 62.5%;
+  }
 }
 </style>
