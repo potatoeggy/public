@@ -23,6 +23,7 @@ body {
   background: #ff8b24;
   border-radius: 1rem;
   box-shadow: 0 0.1rem 0.5rem 0 gray;
+  z-index: 2;
 }
 
 html.dark .go-top {
