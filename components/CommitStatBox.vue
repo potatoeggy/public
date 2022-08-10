@@ -1,7 +1,4 @@
 <script setup lang="ts">
-import dayjs from "dayjs";
-import utc from "dayjs/plugin/utc.js";
-import tz from "dayjs/plugin/timezone.js";
 import type { GithubCommit, GithubPushEvent } from "@/shared/github";
 import type { Ref } from "vue";
 

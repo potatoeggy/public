@@ -1,5 +1,4 @@
 <script setup lang="ts">
-// this is in /components so i can import the thing
 useHead({ title: "Eggworld" });
 </script>
 
