@@ -20,24 +20,36 @@ const imgUrl = `url(/assets/images/projects/${project.img ?? ""})`;
 <template>
   <a :href="project.href" class="no-underline project-anchor">
     <div class="card flex items-center justify-between">
-      <div class="card-text h-full bg-white p-4 pt-2">
-        <div>
-          <h3 class="m-0">{{ project.name }}</h3>
-          <div class="flex gap-1 items-center flex-nowrap">
-            <img
-              class="h-5 w-5 m-0"
-              :src="`/assets/images/langs/${lang}.svg`"
-              v-for="(lang, index) in project.langs"
-              :key="index"
-            />
-            <span class="text-xs text-gray-500 whitespace-nowrap"
-              >· {{ project.license ?? "no license" }}</span
+      <div class="card-text h-full px-4 py-2">
+        <div class="h-full flex flex-col justify-between">
+          <div>
+            <h3 class="m-0">{{ project.name }}</h3>
+            <div class="flex gap-1 items-center flex-nowrap">
+              <img
+                class="h-5 w-5 m-0"
+                :src="`/assets/images/langs/${lang}.svg`"
+                v-for="(lang, index) in project.langs"
+                :key="index"
+              />
+              <span
+                class="text-xs text-gray-500 dark:text-gray-300 whitespace-nowrap"
+                >· {{ project.license ?? "no license" }}</span
+              >
+            </div>
+          </div>
+          <div class="flex flex-col justify-between grow">
+            <p
+              class="desc-text text-gray-600 dark:text-gray-200 mt-3 mb-0 text-left text-sm"
             >
+              {{ project.description }}
+            </p>
+            <p
+              class="desc-text text-gray-600 dark:text-gray-200 text-left text-sm m-0 whitespace-nowrap"
+            >
+              {{ project.longDescription }}
+            </p>
           </div>
         </div>
-        <p class="desc-text text-gray-600 dark:text-gray-200">
-          <slot />
-        </p>
       </div>
       <div class="card-img h-full p-4 flex" />
     </div>
@@ -62,7 +74,7 @@ const imgUrl = `url(/assets/images/projects/${project.img ?? ""})`;
 
 html.dark .card {
   border: 0.2rem solid rgb(126, 93, 98);
-  background: rgb(110, 90, 92);
+  background: #444;
   box-shadow: 0 0.1rem 0.5rem 0 black;
 }
 
@@ -73,8 +85,13 @@ html.dark .card {
 
 .card-text {
   width: 25%;
+  background: white;
   border-radius: 1.5rem 0 0 0;
   transition: width 0.2s ease;
+}
+
+html.dark .card-text {
+  background: #444;
 }
 
 .card-img {
@@ -88,10 +105,14 @@ html.dark .card {
   transition: width 0.2s ease;
 }
 
+html.dark .card-img {
+  background-color: rgb(180, 136, 143);
+}
+
 .desc-text {
-  font-size: 0.8rem;
-  margin: 0;
-  text-align: center;
+  width: 139%;
+  /* 140% is too close */
+  transition: width 0.2s ease;
 }
 
 a.unclickable {
@@ -106,15 +127,24 @@ a.unclickable {
   .card-img {
     width: 70%;
   }
+
+  .desc-text {
+    width: 135%;
+  }
 }
 
 @media screen and (max-width: 540px) {
   .card-text {
-    width: 37.5%;
+    width: 45%;
   }
 
   .card-img {
-    width: 62.5%;
+    width: 55%;
+  }
+
+  .desc-text {
+    width: 120%;
+    font-size: 0.72rem;
   }
 }
 </style>

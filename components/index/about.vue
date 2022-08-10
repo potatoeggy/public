@@ -11,9 +11,7 @@ import { projects } from "@/data/projects";
         v-for="(proj, index) in projects"
         :project="proj"
         :key="index"
-      >
-        {{ proj.description }}
-      </ProjectCard>
+      />
     </div>
 
     <h1 id="about" class="text-center mb-4 mt-8">About</h1>
