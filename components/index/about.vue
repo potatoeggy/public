@@ -4,7 +4,19 @@ import { projects } from "@/data/projects";
 
 <template>
   <div class="prose dark:prose-invert w-full flex flex-col mt-9">
-    <h1 id="about" class="text-center mb-4">About</h1>
+    <h1 class="text-center mb-0">Fun things</h1>
+    <p class="text-center">(aka my programming projects)</p>
+    <div class="flex flex-col items-center justify-around gap-5 mt-6">
+      <ProjectCard
+        v-for="(proj, index) in projects"
+        :project="proj"
+        :key="index"
+      >
+        {{ proj.description }}
+      </ProjectCard>
+    </div>
+
+    <h1 id="about" class="text-center mb-4 mt-8">About</h1>
 
     <!-- this could be in markdown but eh -->
     <p>
@@ -47,20 +59,6 @@ import { projects } from "@/data/projects";
       <li><strong>Storage:</strong> 300 GB hard drive</li>
       <li><strong>OS:</strong> Arch Linux</li>
     </ul>
-
-    <h1 class="text-center mb-0 mt-8">Fun things</h1>
-    <p class="text-center mb-4">(aka my programming projects)</p>
-    <div class="flex flex-col items-center justify-around gap-5">
-      <ProjectCard
-        v-for="(proj, index) in projects"
-        :name="proj.name"
-        :href="proj.href"
-        img=""
-        :key="index"
-      >
-        {{ proj.description }}
-      </ProjectCard>
-    </div>
   </div>
 </template>
 
