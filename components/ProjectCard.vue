@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import type { Project } from "@/data/projects";
+import { unref as _unref } from "vue";
 const { project, reverse = false } = defineProps<{
   project: Project;
   reverse?: boolean;
@@ -87,7 +88,7 @@ html.dark .card-text {
 
 .card-img {
   width: 75%;
-  background: v-bind(imgUrl);
+  background: var(--imgurl);
   background-color: rgb(255, 237, 241);
   background-position: right 90% top 15%;
   background-size: cover;
