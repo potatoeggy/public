@@ -7,6 +7,7 @@ export default defineNuxtConfig({
     "@nuxtjs/tailwindcss",
     "@nuxtjs/color-mode",
     "@nuxtjs/sitemap",
+    "nuxt-full-static",
   ],
   nitro: {
     prerender: {

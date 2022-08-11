@@ -474,7 +474,7 @@
     unimport "^0.4.5"
     untyped "^0.4.4"
 
-"@nuxt/kit@npm:@nuxt/kit-edge@3.0.0-rc.6-27669113.5aa7288":
+"@nuxt/kit@npm:@nuxt/kit-edge@3.0.0-rc.6-27669113.5aa7288", "@nuxt/kit@npm:@nuxt/kit-edge@^3.0.0-rc.6-27661960.60656df":
   version "3.0.0-rc.6-27669113.5aa7288"
   resolved "https://registry.yarnpkg.com/@nuxt/kit-edge/-/kit-edge-3.0.0-rc.6-27669113.5aa7288.tgz#07191c11f88f4ab26e169314ea8e41b85a65e1ad"
   integrity sha512-G0MZ6qjYNL9hLfSmQMrtvEMlGaBm1519iU3uUn/wTcAUQ8XqbPzDzm9g0bDes50wRnSwM/nNDovBX62Khb0YqA==
@@ -4394,6 +4394,14 @@ nth-check@^2.0.1:
   integrity sha512-qHs8D1Wi/+AbFWb5KOvJmwzCtigkYp1W4r0y32lGuQLXfArI0vBUt7pFOQhyLezDcu5TRJfUE5KGBl3QqDR3nA==
   optionalDependencies:
     fsevents "~2.3.2"
+
+nuxt-full-static@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/nuxt-full-static/-/nuxt-full-static-0.1.1.tgz#695097ff93937391818c5858c08deccfcdb7fcc2"
+  integrity sha512-n2As19bVPerWEn/Le7p0DzSTsAES9S7CKDy+ojZKXhSn0z8NzwldCTZmORYImma/WlF7XTFdB54NHYrUzQlB+w==
+  dependencies:
+    "@nuxt/kit" "npm:@nuxt/kit-edge@^3.0.0-rc.6-27661960.60656df"
+    pathe "^0.3.3"
 
 "nuxt@npm:nuxt3@latest":
   version "3.0.0-rc.6-27669113.5aa7288"
