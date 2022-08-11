@@ -14,6 +14,9 @@ const docs = await queryContent<StoryParsedContent>("/stories")
   .sort({ date: -1 })
   .where({ _draft: false, tags: { $contains: tag } })
   .find();
+
+const title = `${details.name ?? `"${tag}"`} Stories`;
+useTitle(title, details.description);
 </script>
 
 <template>
@@ -21,7 +24,7 @@ const docs = await queryContent<StoryParsedContent>("/stories")
     class="prose dark:prose-invert max-w-3xl flex flex-col grow gap-6 transition"
   >
     <div>
-      <h1 class="mb-0">{{ details.name ?? `"${tag}"` }} Stories</h1>
+      <h1 class="mb-0">{{ title }} Stories</h1>
       <p
         v-if="details.description"
         v-html="details.description"

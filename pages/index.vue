@@ -3,7 +3,7 @@ import Services from "@/components/index/services.vue";
 import About from "@/components/index/about.vue";
 
 definePageMeta({ layout: "withtop" });
-useTitle("Home");
+useTitle("Home", "Personal website!");
 </script>
 
 <template>

@@ -21,7 +21,7 @@ const descText =
   type === "stories"
     ? `${calcReadingTime(doc).words.total} words`
     : `${calcReadingTime(doc).minutes} min read`;
-useTitle(doc.title);
+useTitle(doc.title, doc.description);
 
 const captionText =
   type === "stories" ? "Story" : type === "blog" ? "Blog post" : "";

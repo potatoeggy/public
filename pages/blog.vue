@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import type { BlogParsedContent } from "@/shared/types";
 
-useTitle("Blog");
+useTitle("Blog", "Ramblings and ideas");
 definePageMeta({ layout: "withtop" });
 
 // TODO: paginate stories

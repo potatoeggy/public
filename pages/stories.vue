@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import type { StoryParsedContent } from "@/shared/types";
 
-useTitle("Stories");
+useTitle("Stories", "Fantasies and worlds");
 definePageMeta({ layout: "withtop" });
 
 // TODO: paginate stories
