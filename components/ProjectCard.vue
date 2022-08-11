@@ -43,7 +43,7 @@ const imgUrl = project.img ? `url(/images/projects/${project.img})` : "none";
           </div>
         </div>
       </div>
-      <div class="card-img h-full p-4 flex" />
+      <div class="card-img h-full p-4 flex" :style="{ '--imgurl': imgUrl }" />
     </div>
   </a>
 </template>
