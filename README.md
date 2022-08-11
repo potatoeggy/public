@@ -1,6 +1,10 @@
-# Nuxt 3 Minimal Starter
+# Eggworld v3: Nuxt 3
 
-**WARN: Volar 0.40.0 breaks everything and I don't know why — stick with Volar 0.39.5.**
+After hand-written HTML and a static site generator comes Nuxt!
+
+**WARN: Volar 0.40.0 breaks all type-checking and I don't know why — stick with Volar 0.39.5.**
+
+**WARN: Nuxt 3 is too new that prerendering actually renders a ton of JS and causes blinking — remove all `Prose*.mjs` to stop it**
 
 Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
 
@@ -11,12 +15,6 @@ Make sure to install the dependencies:
 ```bash
 # yarn
 yarn install
-
-# npm
-npm install
-
-# pnpm
-pnpm install --shamefully-hoist
 ```
 
 ## Development Server
@@ -24,21 +22,15 @@ pnpm install --shamefully-hoist
 Start the development server on http://localhost:3000
 
 ```bash
-npm run dev
+yarn dev
 ```
 
 ## Production
 
-Build the application for production:
-
-```bash
-npm run build
-```
-
 Locally preview production build:
 
 ```bash
-npm run preview
+yarn preview
 ```
 
 Checkout the [deployment documentation](https://v3.nuxtjs.org/guide/deploy/presets) for more information.
