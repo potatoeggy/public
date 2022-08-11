@@ -81,4 +81,15 @@ export default defineNuxtConfig({
   experimental: {
     reactivityTransform: true,
   },
+  hooks: {
+    "vite:extendConfig"(config: any, { isServer }: { isServer: any }) {
+      if (isServer) {
+        // Workaround for netlify issue
+        // https://github.com/nuxt/framework/issues/6204
+        config.build.rollupOptions.output.inlineDynamicImports = true;
+      }
+    },
+  },
+  target: "static",
+  ssr: true,
 });
