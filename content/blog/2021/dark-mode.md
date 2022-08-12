@@ -9,6 +9,6 @@ On the desktop, dark mode is an abomination that should be eradicated from appli
 
 Browsers, IDEs, and other applications must be freed from their shadowy chains and returned to light — where they truly belong.
 
-::image{src=light-discord.png}
+::image{src=light-discord.webp}
 Perfect.
 ::

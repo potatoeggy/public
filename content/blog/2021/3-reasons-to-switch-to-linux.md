@@ -17,7 +17,7 @@ However, this article will largely focus on **desktop Linux**, which competes wi
 
 Perhaps the biggest feature of Linux is its ability to do whatever you want, however you want. After a *tiny* bit of tinkering, you'll be able to set up your computer exactly how you'd like it!
 
-::image{src=sway-desktop.png}
+::image{src=sway-desktop.webp}
 A terminal, an emulated Switch game, a game launcher, and a browser all automagically arranged by a tiling window manager. The currently playing song is in the top bar.
 ::
 
