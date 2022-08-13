@@ -7,8 +7,7 @@ const imgUrl = ref("");
 const href = ref("");
 
 onMounted(async () => {
-  const results = (await useFetch(FEED_URL, { initialCache: false }))
-    .data as Ref<GithubPushEvent[]>;
+  const results = (await useFetch(FEED_URL)).data as Ref<GithubPushEvent[]>;
   const latestEvent = results.value.find(
     (event) => event.type === "PushEvent"
   ) as GithubPushEvent;
@@ -22,12 +21,13 @@ onMounted(async () => {
   <div class="prose dark:prose-invert">
     <HomeStatBox
       :href="href"
+      id="github-commit-a"
       color="lightgray"
       darkcolor="slategray"
       title="Latest commit"
       :clearstyles="true"
     >
-      <img class="m-0 w-full h-full" :src="imgUrl" />
+      <img class="m-0 w-full h-full" :src="imgUrl" id="github-commit-img" />
       <!--
         <div>
         <h2>{{ title }}</h2>

@@ -82,7 +82,4 @@ export default defineNuxtConfig({
   experimental: {
     reactivityTransform: true,
   },
-  hooks: {},
-  target: "static",
-  ssr: true,
 });

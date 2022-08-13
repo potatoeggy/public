@@ -6,6 +6,12 @@ After hand-written HTML and a static site generator comes Nuxt!
 
 **WARN: Nuxt 3 is too new that prerendering actually renders a ton of JS and causes blinking — remove all `Prose*.mjs` to stop it**
 
+Post-build instructions (while prerendering is bork)
+
+ - Strip all <script /> tags in every HTML file
+ - Compile `/script.ts` to `/script.js`
+ - Remove `/api` and `/_nuxt`
+
 Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
 
 ## Setup

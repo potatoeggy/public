@@ -34,7 +34,7 @@ onMounted(() => {
         <IconSun />
       </div>
       <input
-        id="toggle"
+        id="dark-toggle"
         name="toggle"
         type="checkbox"
         :checked="isToggled"

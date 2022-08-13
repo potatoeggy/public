@@ -7,6 +7,7 @@ import { unref as _unref } from "vue";
 
 const {
   href,
+  id,
   color = "pink",
   darkcolor = "#c88994",
   title,
@@ -14,6 +15,7 @@ const {
   forceheight,
 } = defineProps<{
   href?: string;
+  id?: string;
   color?: Color;
   darkcolor?: Color;
   title?: string;
@@ -36,7 +38,11 @@ const cssVars = {
 </script>
 
 <template>
-  <a class="no-underline inline-block flex flex-col items-stretch" :href="href">
+  <a
+    class="no-underline inline-block flex flex-col items-stretch"
+    :href="href"
+    :id="id"
+  >
     <div class="container box" :style="cssVars">
       <p class="m-0 w-full title">{{ title }}</p>
       <div class="main-content">
