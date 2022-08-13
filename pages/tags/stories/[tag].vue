@@ -3,7 +3,7 @@ import { tagInfo, type TagData } from "@/data/tagInfo";
 import type { StoryParsedContent } from "@/shared/types";
 
 const route = useRoute();
-//definePageMeta({ layout: "withtop" });
+definePageMeta({ layout: "withtop" });
 
 const tag =
   typeof route.params.tag === "string" ? route.params.tag : route.params.tag[0];
