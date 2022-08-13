@@ -27,7 +27,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <label for="toggle" :class="['toggle-wrapper']">
+  <label for="dark-toggle" :class="['toggle-wrapper']">
     <div :class="['toggle', isToggled ? 'enabled' : 'disabled']">
       <div class="icons">
         <IconMoon />
@@ -35,7 +35,7 @@ onMounted(() => {
       </div>
       <input
         id="dark-toggle"
-        name="toggle"
+        name="dark-toggle"
         type="checkbox"
         :checked="isToggled"
         ref="darkToggleEl"

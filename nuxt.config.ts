@@ -43,6 +43,7 @@ export default defineNuxtConfig({
         defer: true,
         src: "/script.js",
         hid: "stupidEmergencyScript",
+        type: "module",
       },
     ],
   },

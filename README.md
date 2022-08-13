@@ -9,8 +9,8 @@ After hand-written HTML and a static site generator comes Nuxt!
 Post-build instructions (while prerendering is bork)
 
  - Strip all <script /> tags in every HTML file
- - Compile `/script.ts` to `/script.js`
- - Remove `/api` and `/_nuxt`
+ - Compile `/script.ts` to `/script.js` (`tsc script.ts -m esnext -t esnext --moduleReslution node`)
+ - Remove `/api` and `/_nuxt/*.mjs`
 
 Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
 
