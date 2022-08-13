@@ -38,6 +38,13 @@ export default defineNuxtConfig({
         href: "https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css",
       },
     ],
+    script: [
+      {
+        defer: true,
+        src: "/script.js",
+        hid: "stupidEmergencyScript",
+      },
+    ],
   },
   content: {
     documentDriven: false,
