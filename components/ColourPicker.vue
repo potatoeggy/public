@@ -1,34 +1,17 @@
 <script setup lang="ts">
-import { ref } from "vue";
 import IconSun from "@/assets/images/sun.svg?component";
 import IconMoon from "@/assets/images/moon.svg?component";
 
 const colorMode = useColorMode();
 
-const isToggled = ref(colorMode.value === "dark");
-
 const toggle = () => {
-  isToggled.value = !isToggled.value;
-  colorMode.preference = isToggled.value ? "dark" : "light";
+  colorMode.preference = colorMode.value === "light" ? "dark" : "light";
 };
-
-/*
-// it unchecks on refresh and i can't make it automatically
-// check itself
-
-const darkToggleEl: Ref<HTMLInputElement> = ref(null);
-
-onMounted(() => {
-  if (isToggled.value) {
-    darkToggleEl.value.checked = true;
-  }
-});
-*/
 </script>
 
 <template>
-  <label for="dark-toggle" :class="['toggle-wrapper']">
-    <div :class="['toggle', isToggled ? 'enabled' : 'disabled']">
+  <label for="dark-toggle" class="toggle-wrapper">
+    <div class="toggle">
       <div class="icons">
         <IconMoon />
         <IconSun />
@@ -37,7 +20,6 @@ onMounted(() => {
         id="dark-toggle"
         name="dark-toggle"
         type="checkbox"
-        :checked="isToggled"
         ref="darkToggleEl"
         @click="toggle"
       />
@@ -87,7 +69,7 @@ html.dark .toggle-wrapper {
   transition: transform var(--transition), background var(--transition);
 }
 
-.toggle.enabled::before {
+html.dark .toggle::before {
   transform: translateX(calc(var(--scale)));
 }
 
