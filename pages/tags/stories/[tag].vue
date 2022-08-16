@@ -15,7 +15,7 @@ const docs = await queryContent<StoryParsedContent>("/stories")
   .where({ _draft: false, tags: { $contains: tag } })
   .find();
 
-const title = `${details.name ?? `"${tag}"`} Stories`;
+const title = details.name ?? `"${tag}"`;
 useTitle(title, details.description);
 </script>
 
