@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { revisions } from "@/data/siteRevisions";
 useHead({ title: "Eggworld" });
 </script>
 
@@ -7,19 +8,39 @@ useHead({ title: "Eggworld" });
     <Navbar />
     <slot />
     <footer
-      class="flex flex-col items-center p-3 bg-gray-100 w-full text-sm dark:bg-gray-800"
+      class="flex items-center justify-between p-3 bg-gray-100 w-full text-sm dark:bg-gray-800 flex-col md:flex-row gap-2"
     >
-      <p>Ⓒ 2022 Daniel Chen</p>
-      <p>
-        Licensed under the AGPL-3.0 on
-        <a class="underline" href="https://github.com/potatoeggy/public">
-          GitHub</a
+      <div class="flex items-center gap-2">
+        <p>Revision:</p>
+        <!--
+          the onchange is so bad - i'd rather it be done through vue
+          but nuxt is genuinely screwing me over here
+
+          ig r4 has to be in next.js
+        -->
+        <select
+          class="p-2 border rounded rounded-lg"
+          onchange="location = this.value"
         >
-        and
-        <a class="underline" href="https://git.eggworld.tk/eggy/public">
-          Gitea
-        </a>
-      </p>
+          <option v-for="(r, i) in revisions" :key="i" :value="r.url">
+            {{ r.title }}
+          </option>
+        </select>
+      </div>
+      <div class="flex flex-col items-center">
+        <p>Ⓒ 2022 Daniel Chen</p>
+        <p>
+          Licensed under the AGPL-3.0 on
+          <a class="underline" href="https://github.com/potatoeggy/public">
+            GitHub</a
+          >
+          and
+          <a class="underline" href="https://git.eggworld.tk/eggy/public">
+            Gitea
+          </a>
+        </p>
+      </div>
+      <div></div>
     </footer>
   </div>
   <slot name="top-button" />
