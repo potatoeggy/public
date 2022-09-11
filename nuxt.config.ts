@@ -8,6 +8,7 @@ export default defineNuxtConfig({
     "@nuxtjs/color-mode",
     "@nuxtjs/sitemap",
     "nuxt-full-static",
+    "nuxt-zero-js",
   ],
   nitro: {
     prerender: {
