@@ -32,7 +32,6 @@ import { projects } from "@/data/projects";
       <li>Linux and server administration</li>
       <li>web development in the form of a Chrome extension and my sites</li>
       <li>hackathons</li>
-      <li></li>
       <li>Godot Engine Cat Simulator DX</li>
       <li>ski instruction</li>
       <li>writing of literature</li>
