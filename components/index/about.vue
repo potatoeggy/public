@@ -18,10 +18,10 @@ import { projects } from "@/data/projects";
 
     <!-- this could be in markdown but eh -->
     <p>
-      Hello! It's very nice to meet you — I'm a student and Linux enthusiast who
-      is quite passionate about some subjects but is quite lazy in every other.
+      Hello! It's very nice to meet you — my name's Daniel, a student studying
+      Computer Engineering at the University of Waterloo who is quite passionate
+      about some subjects but is quite lazy in every other.
     </p>
-
     <p>
       I've dabbled extensively and non-extensively in a variety of topics to
       play with, including:
@@ -31,6 +31,8 @@ import { projects } from "@/data/projects";
       <li>GUI toolkits very very briefly in GTK, Qt, and Swing</li>
       <li>Linux and server administration</li>
       <li>web development in the form of a Chrome extension and my sites</li>
+      <li>hackathons</li>
+      <li></li>
       <li>Godot Engine Cat Simulator DX</li>
       <li>ski instruction</li>
       <li>writing of literature</li>
@@ -39,7 +41,8 @@ import { projects } from "@/data/projects";
     <p>…and other things that I'm forgetting right now.</p>
     <p>
       I have two server machines at home — a Dell OptiPlex 780 and a Dell
-      Latitude E5520. Yes, one of them is a laptop.
+      Latitude E5520. One of them is a laptop and I'm surprised it hasn't burnt
+      up yet.
     </p>
     <h3>OptiPlex 780 ("asvyn")</h3>
     <ul>
