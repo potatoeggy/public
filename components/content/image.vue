@@ -10,6 +10,6 @@ const imgSrc =
 <template>
   <figure class="flex flex-col items-center">
     <img :src="imgSrc" />
-    <figcaption class="text-center"><Markdown /></figcaption>
+    <figcaption class="text-center"><slot /></figcaption>
   </figure>
 </template>

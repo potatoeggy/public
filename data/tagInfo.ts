@@ -27,5 +27,10 @@ export const tagInfo: Record<string, TagData> = {
     description:
       "A collection of very short stories written to do something productive during June–August 2020 and August 2021.",
   },
+  albatross: {
+    name: "The FOSS Albatross",
+    description:
+      'Articles about free and open source software. Also available on <a href="https://medium.com/the-foss-albatross">Medium</a>.',
+  },
 };
 export default tagInfo;
