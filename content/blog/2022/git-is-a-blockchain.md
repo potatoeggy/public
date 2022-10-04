@@ -10,6 +10,8 @@ This article is [also published in *The FOSS Albatross.*](https://medium.com/the
 
 Git today is a beloved technology developers all around the world now use to track the history of a project through revisions. Obviously, it's not magic — if you look at the hidden files in a Git repository, you'll find a `.git` folder at least as big as the rest of your repo.
 
+<!-- more -->
+
 But for a technology that lets you revert the exact state of your files back any number of years, that `.git` folder is surprisingly small. You'd expect that any backup program worth its salt would actually back up each version of each file, but Git tracks *changes* to files instead of the actual files themselves, a method known as [delta encoding](https://en.wikipedia.org/wiki/Delta_encoding).
 
 Not to mention all of the other features that Git piles on for practically no storage cost, such as branches, merges, cherry-picking, and more?
