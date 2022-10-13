@@ -3,6 +3,7 @@ title: "Transition to Universe City"
 date: 2022-10-12
 tags:
 - barin
+---
 
 Porter Hall\
 Universe City, Leeco
@@ -11,6 +12,8 @@ Brian Wright\
 Chancellor\
 10077 Seascout Avenue\
 Cekendery, Leeco
+
+<!-- more -->
 
 Dear Chancellor Wright,
 
