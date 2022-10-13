@@ -8,9 +8,9 @@ tags:
 
 A huge uproar erupts from the crowds of Saiyu as the results of the 2020 Weilamese election are revealed to the world.
 
-<!-- more -->
-
 "…and your new President of Weilam until 2024 is…Roy Tamino!"
+
+<!-- more -->
 
 "What the hell!" One citizen has his mouth hanging open. "How—how did *he* win!"
 
