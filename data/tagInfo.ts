@@ -4,12 +4,20 @@ export interface TagData {
 }
 
 export const tagInfo: Record<string, TagData> = {
-  barin: { name: "Barin" },
+  barin: {
+    name: "Barin",
+    description:
+      "Welcome to Barin — a world in constant conflict between productivity and procrastination.",
+  },
   bsscc: {
     name: "BSSCC",
     description: "Posts related to Bayview's Computer Club.",
   },
-  ibia: { name: "Ibia" },
+  ibia: {
+    name: "Ibia",
+    description:
+      "A Kurious child struggles to fight the misinformation brought by the Six Goddesses of the Subjects.",
+  },
   misc: { name: "Miscellaneous" },
   poetry: {
     name: "Poetry",
