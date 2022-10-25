@@ -10,11 +10,11 @@ This article is [also published in The FOSS Albatross.](https://medium.com/the-f
 
 Windows is a beloved operating system with absolutely no flaws whatsoever. It  is the pinnacle of engineering — sheer perfection in its design.
 
+<!-- more -->
+
 But say you like being objectively correct and actually think that Windows  has its own problems, so you decide to switch to a Mac or to use Linux  instead.
 
 What happens to all of the programs you leave behind? Linux and macOS don't  recognise .exe files as ones they can run, so you won't be able to run  those incompatible with Linux without extra work. If you can find  alternatives for all of them, that's great, but there still might be stragglers for beloved programs such as niche apps and games.
-
-<!-- more -->
 
 You could launch real Windows inside a virtual machine, which guarantees  compatibility (except with certain anti-cheats), but tends to have a  pretty big performance impact. If you're interested, check out [our article on running virtual machines](https://medium.com/the-foss-albatross/an-os-inside-an-os-how-to-run-virtual-machines-a3ddf6c8bbed)!
 
