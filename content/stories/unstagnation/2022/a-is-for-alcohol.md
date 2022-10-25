@@ -16,17 +16,15 @@ Quiet keys clack and pencils scribble as the Bird family finds itself working, s
 
 "Guys, I hate my AIF. With a *passion*." Bean Bird sets down a half-filled mug and she glares all around, slamming her hands on the table. "AIF sucks *ass*. But, like, not good ass."
 
-Noodle Bird blinks, her attention suddenly lifted from her 50k-real person fic. "Oh."
+Noodle Bird blinks, her attention suddenly lifted from her 50k-word real person fic. "Oh."
 
-Bean continues her tirade, invigorated. "Poopy crusty ass! Like, straight white male unwashed ass."
-
-Sighing, she lays her head down on her arm for only a second before she sits upright again, strangling thin air with her bare hands. "I'm fucking *losing my mind* *I hate this IA so much."*
+Bean continues her tirade, invigorated. "Poopy crusty ass! Like, straight white male unwashed ass." Sighing, she lays her head down on her arm for only a second before she sits upright again, strangling thin air with her bare hands. "I'm fucking *losing my mind* *I hate this IA so much."*
 
 "Why?" For the life of her, Noodle can't imagine what difficulties one could possibly have with the Internal Assessment. The soul-wrenching dread of the IA has avoided her completely.
 
 "I never thought I had to listen to a British guy appealing to the crowds to work with the *USSR*." She peeks at the video between her fingers like it's out to doom her and her alone. "NOOOOOO!"
 
-"Oh, god" Noodle says sadly. There is nothing she can do. Bean must walk her own path down this chosen path, or die trying.
+"Oh, god," Noodle says sadly. There is nothing she can do. Bean must walk her own path down this chosen path, or die trying.
 
 "It's okay," Egg assures her, with the confidence of one who has yet to experience true suffering. "Get a level 5 and get it over with."
 
@@ -66,9 +64,9 @@ Noodle seriously considers the topic. "We *are* technically longer than pigs…m
 
 Bean's sincerity moves Noodle's heart and she deflates. "I know… I love you too."
 
-"I would drink all the rose tea if it meant you didn't have to…" Bean swoons. occasionally stopping to sip out of her mug. "It's okay, you'll grow."
+"I would drink all the rose tea if it meant you didn't have to…" Bean swoons, occasionally stopping to sip out of her mug. "It's okay, you'll grow."
 
-Noodle looks up.
+Noodle looks up. She knows.
 
 Evidently, Soup also wanted to jump in earlier but was dissuaded by Egg's shutdown. Now he takes his opportunity. "Any…cannibals in the chat?"
 
