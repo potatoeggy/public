@@ -1,12 +1,14 @@
 ---
 title: "Etymology of Barin"
 date: 2022-10-12
-draft: true
+_draft: true
 tags:
 - barin
 ---
 
 The [Barin](/tags/stories/barin) universe hosts a variety of different locations. The word "Barin" itself originates as an anagram of the word "brain".
+
+<!-- more -->
 
 ## Preton
 
