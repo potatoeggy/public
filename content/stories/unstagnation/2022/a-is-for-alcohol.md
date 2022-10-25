@@ -2,8 +2,8 @@
 title: "A is for Alcohol and IAs"
 date: 2022-10-24
 tags:
-- unstagnation
 - birds
+- unstagnation
 ---
 
 **Summary:** Bean Bird and Noodle Bird enjoy a chat together on a quiet night slaving away before they leave in the summer. Bean wishes she had a stronger drink.
