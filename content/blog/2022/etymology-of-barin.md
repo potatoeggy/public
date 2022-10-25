@@ -1,6 +1,7 @@
 ---
 title: "Etymology of Barin"
 date: 2022-10-12
+draft: true
 tags:
 - barin
 ---
