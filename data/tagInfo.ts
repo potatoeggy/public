@@ -40,5 +40,10 @@ export const tagInfo: Record<string, TagData> = {
     description:
       'Articles about free and open source software. Also available on <a href="https://medium.com/the-foss-albatross">Medium</a>.',
   },
+  birds: {
+    name: "Bird Family",
+    description:
+      "A large, loving family of birds who have found in each other a kindred soul for eternal suffering.",
+  },
 };
 export default tagInfo;
