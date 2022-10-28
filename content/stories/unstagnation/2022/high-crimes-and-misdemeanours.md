@@ -93,3 +93,5 @@ The egg's injustice will go unpunished. He confidently strides away, knowing tha
 Bread desperately reaches out, trying to rip the signature sheet out of the egg's hand, but someone from the crowd pulls him back. As he's questioned about drugs and integration, he looks helplessly to the egg who ruined them all.
 
 Bread clenches his fist. He will not forget this. One day, he will have his revenge. His heart has hardened. From this day onward, no longer will he sign any such "poutine appreciation board". No longer will he trust others so unconditionally. The egg has done something that he will never forget, destroyed something inside Bread that will never return.
+
+A single tear falls from the side of his cheek.
