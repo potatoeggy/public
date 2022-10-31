@@ -10,6 +10,8 @@ This article is [also published in *The FOSS Albatross*](https://medium.com/the-
 
 You're a web developer and you need to make a website. How should you build one? Do you start writing static files right away to be served immediately, or do you start setting up a project environment?
 
+<!-- more -->
+
 First, do you decide to use a framework? They're all the rage these days.
 
 By far the biggest advantage of a web framework is its ability to make things declarative. Imagine you want to make a to-do list. You might write code like this to be able to add a new todo:
