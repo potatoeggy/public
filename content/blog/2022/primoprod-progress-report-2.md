@@ -151,6 +151,6 @@ If you have any idea how to fix them, please do send a suggestion on the [issue 
 
 And that's everything that changed since August! Primoprod has come a long way from being a mere personal project to a proper personal project with fancy badges! Hopefully in the future it'll be able to be played standalone (chibi sprite combat, anyone?) so that it'll be interesting enough that people can set their goals and stick to them.
 
-In case you'd like to check it out, version 1.1.0 released just [yesterday](https://github.com/potatoeggy/primoprod/releases/tag/v1.1.0) and is available for download for Windows, macOS, Linux, and Android, with a web version available at https://primoprod.eggworld.tk!
+In case you'd like to check it out, version 1.1.0 released just [yesterday](https://github.com/potatoeggy/primoprod/releases/tag/v1.1.0) and is available for download for Windows, macOS, Linux, and Android, with a web version available at https://primoprod.eggworld.me!
 
 Until next time!

@@ -18,7 +18,7 @@ export default defineNuxtConfig({
     shim: false,
   },
   sitemap: {
-    hostname: process.env.BASE_URL || "https://eggworld.tk",
+    hostname: process.env.BASE_URL || "https://eggworld.me",
   },
   tailwindcss: {},
   colorMode: {

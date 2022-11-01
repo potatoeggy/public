@@ -6,7 +6,7 @@ tags:
 - tech
 ---
 
-Welcome to the very first [Primoprod](https://primoprod.eggworld.tk) progress report! In a similar vein to quite a few open source emulation projects (such as those I follow myself using [emufeed](https://github.com/potatoeggy/emufeed/blob/master/sources.py)), I'll be releasing these tidbits in lieu of daily Unstagnation shorts sometimes.
+Welcome to the very first [Primoprod](https://primoprod.eggworld.me) progress report! In a similar vein to quite a few open source emulation projects (such as those I follow myself using [emufeed](https://github.com/potatoeggy/emufeed/blob/master/sources.py)), I'll be releasing these tidbits in lieu of daily Unstagnation shorts sometimes.
 
 In this hopefully small series of development notes, I'll be laying out my experiences learning web development as an absolute amateur.
 
@@ -83,7 +83,7 @@ For now, every time you pressed the wish button, you got a five-star animation.
 
 ## Asset prefetching and inconsistencies
 
-Progress was steady and things appeared to be running perfectly. but on my local machine things load instantly, courtesy of it not being beamed around the world. So when it was deployed to https://primoprod.eggworld.tk, even with a relatively fast download speed, the background image loaded slowly, and there were a few seconds of downtime before a video would play.
+Progress was steady and things appeared to be running perfectly. but on my local machine things load instantly, courtesy of it not being beamed around the world. So when it was deployed to https://primoprod.eggworld.me, even with a relatively fast download speed, the background image loaded slowly, and there were a few seconds of downtime before a video would play.
 
 This was unacceptable, so I investigated around on how Vue prefetches assets before giving up and setting up an [Electron](https://www.electronjs.org/) build for the desktop — this doesn't resolve the issue on the web, but until I'm more competent with Vue I can't quite make the necessary changes. The issue of slow asset loading also severely lengthened the suffering in the `ItemRevealScreen.vue` arc, where animations and audio had to be timed…
 

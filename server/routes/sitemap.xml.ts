@@ -4,7 +4,7 @@ import { SitemapStream, streamToPromise } from "sitemap";
 export default defineEventHandler(async (event) => {
   // Fetch all documents
   const docs = await serverQueryContent(event).find();
-  const sitemap = new SitemapStream({ hostname: "https://eggworld.tk" });
+  const sitemap = new SitemapStream({ hostname: "https://eggworld.me" });
   for (const doc of docs) {
     sitemap.write({ url: doc._path, changefreq: "monthly" });
   }
