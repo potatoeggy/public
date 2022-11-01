@@ -40,7 +40,7 @@ useHead({ title: "Eggworld" });
           </a>
         </p>
       </div>
-      <div></div>
+      <div class="w-36"></div>
     </footer>
   </div>
   <slot name="top-button" />
