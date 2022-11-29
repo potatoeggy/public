@@ -9,15 +9,13 @@ tags:
 
 This article is [also published in *The FOSS Albatross.*](https://medium.com/the-foss-albatross/rust-changes-how-you-think-and-code-2b5ee4d8def2)
 
----
-
 Rust is the hot new language on the block (as new as a language from 2006 can be) that boasts reliability and efficiency.
 
 How does it do this? Well, Rust has something that no other language does — it guarantees memory and thread safety while maintaining the same high performance of C or C++, all the while having high level features such as pattern matching and functional programming!
 
-Some languages come close: Go is known for being both fast to run and to write, but its garbage collector and xenophobia toward other languages adds overhead that means that it is not suited for a systems programming language.
-
 <!-- more -->
+
+Some languages come close: Go is known for being both fast to run and to write, but its garbage collector and xenophobia toward other languages adds overhead that means that it is not suited for a systems programming language.
 
 In safe Rust, there is *no such thing* as undefined behaviour. Everything your code says it does will happen — segfaults and NullPointerExceptions are impossible.
 
