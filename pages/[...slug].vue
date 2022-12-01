@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import type { BlogParsedContent, StoryParsedContent } from "@/shared/types";
-import { calcReadingTime, getPrettyDate } from "@/shared/metadata";
+import { calcReadingTime } from "@/shared/metadata";
 
 type GeneralParsedContent = BlogParsedContent | StoryParsedContent;
 
@@ -33,7 +33,7 @@ const captionText =
       {{ captionText }}
     </p>
     <h1 class="m-0">{{ doc.title }}</h1>
-    <p class="my-2">{{ getPrettyDate(doc) }} · {{ descText }}</p>
+    <p class="my-2"><Date :doc="doc" /> · {{ descText }}</p>
     <div class="flex flex-wrap">
       <Tag
         v-for="(tag, index) in doc.tags"

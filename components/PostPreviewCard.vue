@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import type { StoryParsedContent, BlogParsedContent } from "@/shared/types";
-import { calcReadingTime, getPrettyDate } from "@/shared/metadata";
+import { calcReadingTime } from "@/shared/metadata";
 
 const { post, type, highlighttags } = defineProps<{
   post: StoryParsedContent | BlogParsedContent;
@@ -25,7 +25,7 @@ const descText =
         {{ post.title }}
       </a>
     </h3>
-    <p class="my-1 text-sm">{{ getPrettyDate(post) }} · {{ descText }}</p>
+    <p class="my-1 text-sm"><Date :doc="post" /> · {{ descText }}</p>
     <div class="flex flex-wrap">
       <Tag
         :dest="`/tags/${type}/${tag}`"

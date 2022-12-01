@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import type { BlogParsedContent } from "@/shared/types";
-import { calcReadingTime, getPrettyDate } from "@/shared/metadata";
+import { calcReadingTime } from "@/shared/metadata";
 
 const docs = await queryContent<BlogParsedContent>("/blog")
   .sort({ date: 1 })
@@ -8,7 +8,6 @@ const docs = await queryContent<BlogParsedContent>("/blog")
   .find();
 
 const latest = docs.at(-1) as BlogParsedContent;
-const prettyDate = getPrettyDate(latest);
 </script>
 
 <template>
@@ -21,7 +20,7 @@ const prettyDate = getPrettyDate(latest);
     >
       <h2 class="m-0 mt-4 mb-1">{{ latest.title }}</h2>
       <p class="text-sm text-gray-500 dark:text-gray-400 m-0">
-        {{ prettyDate }} · {{ calcReadingTime(latest).minutes }} min read
+        <Date :doc="latest" /> · {{ calcReadingTime(latest).minutes }} min read
       </p>
       <div class="tag-list mt-1">
         <Tag

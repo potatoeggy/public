@@ -37,3 +37,8 @@ export function getPrettyDate(doc: BlogParsedContent | StoryParsedContent) {
   const date = dayjs(doc.date).utc();
   return date.format("DD MMM YYYY");
 }
+
+export function getUtcDate(doc: BlogParsedContent | StoryParsedContent) {
+  const date = dayjs(doc.date).utc();
+  return date.format("YYYY-MM-DD");
+}
