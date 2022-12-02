@@ -45,5 +45,14 @@ export const tagInfo: Record<string, TagData> = {
     description:
       "A large, loving family of birds who have found in each other a kindred soul for eternal suffering.",
   },
+  uoft: {
+    name: "University of Teyvat",
+    description: "A <em>Genshin Impact</em> university AU.",
+  },
+  nanowrimo: {
+    name: "NaNoWriMo",
+    description:
+      "Story snippets written during National Novel Writing Month as part of a larger work.",
+  },
 };
 export default tagInfo;
