@@ -9,5 +9,5 @@ const utcDate = getUtcDate(props.doc);
 </script>
 
 <template>
-  <time pubdate :datetime="utcDate">{{ prettyDate }}</time> ·
+  <time pubdate :datetime="utcDate">{{ prettyDate }}</time>
 </template>
