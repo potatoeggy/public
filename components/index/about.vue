@@ -40,8 +40,9 @@ import { projects } from "@/data/projects";
     <p>…and other things that I'm forgetting right now.</p>
     <p>
       I have two server machines at home — a Dell OptiPlex 780 and a Dell
-      Latitude E5520. One of them is a laptop and I'm surprised it hasn't burnt
-      up yet.
+      Latitude E5520. One of them is a laptop and
+      <s>I'm surprised it hasn't burnt up yet </s>
+      <span class="redphasis">it has burnt up.</span>
     </p>
     <h3>OptiPlex 780 ("asvyn")</h3>
     <ul>
@@ -58,6 +59,10 @@ import { projects } from "@/data/projects";
       <li><strong>RAM:</strong> 10 GB</li>
       <li><strong>Storage:</strong> 300 GB hard drive</li>
       <li><strong>OS:</strong> Arch Linux</li>
+      <li>
+        <strong>Status: </strong>
+        <span class="redphasis">ON FIRE.</span>
+      </li>
     </ul>
   </div>
 </template>
@@ -70,5 +75,10 @@ p {
 ul {
   margin: 0;
   line-height: 1.35;
+}
+
+.redphasis {
+  font-weight: bold;
+  color: red;
 }
 </style>

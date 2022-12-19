@@ -36,7 +36,12 @@
       >
         Kobo Cloud
       </ServiceCard>
-      <ServiceCard name="Plex" href="https://plex.eggworld.me" img="plex.webp">
+      <ServiceCard
+        name="Plex"
+        href="https://plex.eggworld.me"
+        img="plex.webp"
+        broken
+      >
         Ad-filled media server
       </ServiceCard>
 
@@ -44,6 +49,7 @@
         name="Jellyfin"
         href="https://jellyfin.eggworld.me"
         img="jellyfin.webp"
+        broken
       >
         FOSS media server
       </ServiceCard>
@@ -52,7 +58,8 @@
         name="Minecraft"
         href="minecraft.eggworld.me"
         img="minecraft.webp"
-        :unclickable="true"
+        unclickable
+        broken
       >
         Whitelisted
       </ServiceCard>

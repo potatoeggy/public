@@ -4,13 +4,17 @@ const props = defineProps<{
   href: string;
   img: string;
   unclickable?: boolean;
+  broken?: boolean;
 }>();
 
 const imgUrl = `/images/services/${props.img}`;
 </script>
 
 <template>
-  <a :href="unclickable ? '' : href" :class="['no-underline', { unclickable }]">
+  <a
+    :href="unclickable ? '' : href"
+    :class="['no-underline', { unclickable: unclickable || broken, broken }]"
+  >
     <div class="card flex flex-col items-center justify-around">
       <img class="m-0" :src="imgUrl" />
       <h3 class="m-0">{{ props.name }}</h3>
@@ -34,6 +38,26 @@ img {
   line-height: 1.25;
   transition: all 0.2s ease;
   box-shadow: 0 0.1rem 0.5rem 0 gray;
+}
+
+a.broken::before {
+  content: "PANQUIA IS ON FIRE";
+  position: absolute;
+  color: red;
+  transform: rotate(-45deg);
+  font-size: 1.5rem;
+  text-align: center;
+  z-index: 2;
+  top: 40%;
+  left: -12.5%;
+  width: 125%;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+a.broken > .card {
+  filter: grayscale(100%);
+  opacity: 0.4;
 }
 
 html.dark .card {
