@@ -28,7 +28,7 @@ const captionText =
 </script>
 
 <template>
-  <div class="container prose dark:prose-invert w-full">
+  <main class="container prose dark:prose-invert w-full">
     <p class="m-0 uppercase font-mono text-sm" v-if="captionText !== ''">
       {{ captionText }}
     </p>
@@ -55,7 +55,7 @@ const captionText =
         </p>
       </template>
     </ContentRenderer>
-  </div>
+  </main>
 </template>
 
 <style scoped>
