@@ -29,12 +29,6 @@ div#__nuxt {
   --bg: #091a28;
 }
 
-.icon.icon-link {
-  @apply absolute  opacity-0 h-4 -ml-6 w-10 bg-no-repeat;
-  background-image: url("/icons/link.svg");
-  margin-top: 6px;
-}
-
 .prose h2 > a,
 .prose h3 > a,
 .prose h4 > a,
