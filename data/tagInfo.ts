@@ -54,5 +54,9 @@ export const tagInfo: Record<string, TagData> = {
     description:
       "Story snippets written during National Novel Writing Month as part of a larger work.",
   },
+  skyprojections: {
+    name: "Projections in the Sky",
+    description: "Dreams or reality — what is the difference?",
+  },
 };
 export default tagInfo;
