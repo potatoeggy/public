@@ -1,4 +1,4 @@
-import { defineNuxtConfig } from "nuxt";
+import { defineNuxtConfig } from "nuxt/config";
 import svgLoader from "vite-svg-loader";
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
@@ -6,7 +6,7 @@ export default defineNuxtConfig({
     "@nuxt/content",
     "@nuxtjs/tailwindcss",
     "@nuxtjs/color-mode",
-    "@nuxtjs/sitemap",
+    "@funken-studio/sitemap-nuxt-3",
     "nuxt-full-static",
   ],
   nitro: {
@@ -17,6 +17,7 @@ export default defineNuxtConfig({
   typescript: {
     shim: false,
   },
+  /* @ts-expect-error */
   sitemap: {
     hostname: process.env.BASE_URL || "https://eggworld.me",
   },
