@@ -42,11 +42,11 @@ div#__nuxt {
   @apply font-bold no-underline !important;
 }
 
-.prose h2 > a:hover::before,
-.prose h3 > a:hover::before,
-.prose h4 > a:hover::before,
-.prose h5 > a:hover::before,
-.prose h6 > a:hover::before {
+article .prose h2 > a:hover::before,
+article .prose h3 > a:hover::before,
+article .prose h4 > a:hover::before,
+article .prose h5 > a:hover::before,
+article .prose h6 > a:hover::before {
   content: "#";
   position: absolute;
   left: -2rem;
