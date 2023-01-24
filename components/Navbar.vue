@@ -9,11 +9,16 @@ const props = defineProps<{ activeItem?: string }>();
   <nav class="flex items-center justify-between">
     <ul>
       <li class="home-text"><a href="/">Eggworld</a></li>
-      <li v-for="(item, index) in navItems" :key="index">
+      <li
+        v-for="(item, index) in navItems"
+        :key="index"
+        :class="{ dominant: item.dominant }"
+      >
         <a :href="item.href" class="flex gap-2">
           <img :src="`/nav/${item.title.toLowerCase()}.svg`" />
-          {{ item.title }}</a
-        >
+          {{ item.title }}
+          <img v-if="item.dominant" src="/icons/arrow-right-line.svg" />
+        </a>
       </li>
     </ul>
     <div class="flex items-center">
@@ -74,6 +79,20 @@ li.home-text {
   font-weight: bold;
 }
 
+li.dominant {
+  background: royalblue;
+  color: white;
+  font-weight: bold;
+}
+
+li.dominant:hover {
+  background: skyblue;
+}
+
+li.dominant img {
+  filter: invert(1);
+}
+
 .hamburger {
   width: 0rem;
   opacity: 0;
@@ -85,6 +104,14 @@ li.home-text {
   transition: opacity var(--trans), transform var(--trans), gap var(--trans),
     width var(--trans), box-shadow var(--box-trans-time) ease,
     filter var(--trans), padding-left var(--trans), padding-right var(--trans);
+}
+
+@media screen and (max-width: 750px) and (min-width: 601px) {
+  li.home-text {
+    width: 0;
+    opacity: 0;
+    padding: 0;
+  }
 }
 
 @media screen and (max-width: 600px) {

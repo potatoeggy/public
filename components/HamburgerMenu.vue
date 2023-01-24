@@ -26,7 +26,12 @@ const getSvgIcon = async (name: string) => {
       </svg>
     </label>
     <div class="drawer prose dark:prose-invert">
-      <li class="m-0" v-for="(item, index) in navItems" :key="index">
+      <li
+        class="m-0"
+        v-for="(item, index) in navItems"
+        :key="index"
+        :class="{ dominant: item.dominant }"
+      >
         <!-- stupid vite doesn't let require work
           i should have just hardcoded the navbar items -->
         <a :href="item.href" class="p-2 flex gap-2">
@@ -36,6 +41,11 @@ const getSvgIcon = async (name: string) => {
             preload="auto"
           />
           {{ item.title }}
+          <img
+            v-if="item.dominant"
+            src="/icons/arrow-right-line.svg"
+            class="m-0"
+          />
         </a>
         <hr class="m-0 m-2" v-if="index !== navItems.length - 1" />
       </li>
@@ -131,6 +141,20 @@ html.dark .drawer {
 .drawer li {
   list-style: none;
   width: 100%;
+}
+
+.drawer li.dominant a {
+  background: royalblue;
+  color: white;
+  font-weight: bold;
+}
+
+.drawer li.dominant img {
+  filter: invert(1);
+}
+
+.drawer li.dominant a:hover {
+  background: skyblue;
 }
 
 .drawer li a {
