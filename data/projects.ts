@@ -72,7 +72,7 @@ export const projects: Project[] = [
     langs: ["rust"],
     license: "GPL-3.0",
     type: "embedded",
-    img: "pillow.jpg",
+    img: "pillow.webp",
   },
   {
     name: "Eifueo",
