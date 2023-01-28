@@ -75,16 +75,6 @@ export const projects: Project[] = [
     img: "pillow.webp",
   },
   {
-    name: "Eifueo",
-    href: "https://github.com/potatoeggy/eifueo",
-    langs: ["markdown"],
-    license: "GPL-3.0",
-    img: "eifueo.webp",
-    description: "A collection of rewritten notes to remember things better.",
-    longDescription: "THIS IS NOT A TEXTBOOK.",
-    type: "client",
-  },
-  {
     name: "Napbot",
     href: "https://github.com/potatoeggy/napbot",
     langs: ["python"],
@@ -132,16 +122,6 @@ export const projects: Project[] = [
     license: "GPL-3.0",
     description:
       "Automatically update fanfiction in a Calibre database to instantly update them on your Kobo.",
-    type: "client",
-  },
-  {
-    name: "Website",
-    href: "https://github.com/potatoeggy/public",
-    description:
-      "This website! It's gone through three iterations before this one, and this one's the first to use a framework.",
-    langs: ["typescript", "vue"],
-    license: "AGPL-3.0",
-    img: "public.webp",
     type: "client",
   },
 ];
