@@ -68,5 +68,11 @@ div#__nuxt {
   a:hover {
     @apply hover:text-blue-700 dark:hover:text-blue-400;
   }
+  p {
+    font-family: "Source Serif Pro", serif;
+    line-height: 1.8;
+    color: #111;
+    font-size: 1.25rem;
+  }
 }
 </style>
