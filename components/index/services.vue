@@ -37,23 +37,12 @@
         Kobo Cloud
       </ServiceCard>
       <ServiceCard
-        name="Plex"
-        href="https://plex.eggworld.me"
-        img="plex.webp"
-        broken
-      >
-        Ad-filled media server
-      </ServiceCard>
-
-      <ServiceCard
         name="Jellyfin"
         href="https://jellyfin.eggworld.me"
         img="jellyfin.webp"
-        broken
       >
         FOSS media server
       </ServiceCard>
-
       <ServiceCard
         name="Minecraft"
         href="minecraft.eggworld.me"
