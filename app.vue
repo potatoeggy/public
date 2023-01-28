@@ -5,6 +5,8 @@
 </template>
 
 <style lang="scss">
+@import url("https://fonts.googleapis.com/css2?family=Bitter:wght@300;400;600;700;800;900&display=swap");
+
 * {
   box-sizing: border-box;
   /* for that cool wave dark mode effect */
@@ -41,18 +43,22 @@ div#__nuxt {
   h5,
   h6 {
     & > a {
-      font-weight: bold !important;
+      font-weight: 800 !important;
       text-decoration: none !important;
     }
   }
 }
 
 .prose article {
+  h1,
   h2,
   h3,
   h4,
   h5,
   h6 {
+    font-family: Bitter, ui-sans-serif, system-ui, -apple-system,
+      BlinkMacSystemFont, "Segoe UI", Roboto, "Open Sans", "Helvetica Neue",
+      sans-serif;
     & > a:hover {
       @apply hover:text-blue-700 dark:hover:text-blue-400;
       &::before {
