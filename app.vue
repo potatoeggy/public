@@ -4,7 +4,7 @@
   </NuxtLayout>
 </template>
 
-<style>
+<style lang="scss">
 * {
   box-sizing: border-box;
   /* for that cool wave dark mode effect */
@@ -29,28 +29,44 @@ div#__nuxt {
   --bg: #091a28;
 }
 
-.prose h2 > a,
-.prose h3 > a,
-.prose h4 > a,
-.prose h5 > a,
-.prose h6 > a {
+.prose {
   /*
   override default tailwind styles
 
   these have a default specificity of 0, 4, 0 so !important is basically the only way
   */
-  @apply font-bold no-underline !important;
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    & > a {
+      font-weight: bold !important;
+      text-decoration: none !important;
+    }
+  }
 }
 
-article .prose h2 > a:hover::before,
-article .prose h3 > a:hover::before,
-article .prose h4 > a:hover::before,
-article .prose h5 > a:hover::before,
-article .prose h6 > a:hover::before {
-  content: "#";
-  position: absolute;
-  left: -2rem;
-  opacity: 0.5;
-  font-style: italic;
+.prose article {
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    & > a:hover {
+      @apply hover:text-blue-700 dark:hover:text-blue-400;
+      &::before {
+        content: "#";
+        position: absolute;
+        opacity: 0.5;
+        left: -2rem;
+        font-style: italic;
+      }
+    }
+  }
+
+  a:hover {
+    @apply hover:text-blue-700 dark:hover:text-blue-400;
+  }
 }
 </style>

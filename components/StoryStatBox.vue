@@ -11,7 +11,7 @@ const latest = docs.at(-1) as StoryParsedContent;
 </script>
 
 <template>
-  <div class="prose dark:prose-invert flex">
+  <div class="prose dark:prose-invert flex onhover">
     <HomeStatBox
       :href="latest._path"
       color="lightgreen"
@@ -49,5 +49,9 @@ const latest = docs.at(-1) as StoryParsedContent;
 <style scoped>
 h2 {
   overflow-wrap: break-word;
+}
+
+div.onhover:hover h2 {
+  @apply text-blue-700 dark:text-blue-400;
 }
 </style>

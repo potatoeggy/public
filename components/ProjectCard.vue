@@ -56,6 +56,10 @@ const imgUrl = props.project.img
   width: 100%;
 }
 
+.project-anchor:hover h3 {
+  @apply text-blue-700 dark:text-blue-400;
+}
+
 .card {
   border: 0.2rem solid pink;
   background: white;
