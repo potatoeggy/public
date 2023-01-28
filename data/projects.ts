@@ -26,7 +26,7 @@ export const projects: Project[] = [
       "A comic downloader and converter to CBZ / EPUB / PDF for my Kobo.",
     longDescription: "Available via CLI and a Qt GUI!",
     langs: ["python"],
-    license: "LGPL-3.0",
+    license: "AGPL-3.0",
     img: "mandown.webp",
   },
   {
