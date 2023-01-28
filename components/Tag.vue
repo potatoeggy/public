@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const { dest, highlight = false } = defineProps<{
+const props = defineProps<{
   dest: string;
   highlight?: boolean;
 }>();

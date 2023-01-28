@@ -7,7 +7,6 @@ export default defineNuxtConfig({
     "@nuxtjs/tailwindcss",
     "@nuxtjs/color-mode",
     "@funken-studio/sitemap-nuxt-3",
-    "nuxt-full-static",
   ],
   nitro: {
     prerender: {
@@ -89,7 +88,6 @@ export default defineNuxtConfig({
     },
   },
   experimental: {
-    reactivityTransform: true,
     noScripts: true,
   },
 });

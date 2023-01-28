@@ -2,15 +2,15 @@
 import type { StoryParsedContent, BlogParsedContent } from "@/shared/types";
 import { calcReadingTime } from "@/shared/metadata";
 
-const { post, type, highlighttags } = defineProps<{
+const props = defineProps<{
   post: StoryParsedContent | BlogParsedContent;
   type: "stories" | "blog";
   highlighttags?: string[];
 }>();
 
-const readingTime = calcReadingTime(post);
+const readingTime = calcReadingTime(props.post);
 const descText =
-  type === "stories"
+  props.type === "stories"
     ? `${readingTime.words.total} words`
     : `${readingTime.minutes} min read`;
 </script>

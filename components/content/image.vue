@@ -1,6 +1,7 @@
 <script setup lang="ts">
-const { src } = defineProps<{ src: string }>();
+const props = defineProps<{ src: string }>();
 
+const src = props.src;
 const imgSrc =
   src.startsWith("http://") || src.startsWith("https://")
     ? src

@@ -1,12 +1,14 @@
 <script setup lang="ts">
 import type { Project } from "@/data/projects";
 import { unref as _unref } from "vue";
-const { project, reverse = false } = defineProps<{
+const props = defineProps<{
   project: Project;
   reverse?: boolean;
 }>();
 
-const imgUrl = project.img ? `url(/images/projects/${project.img})` : "none";
+const imgUrl = props.project.img
+  ? `url(/images/projects/${props.project.img})`
+  : "none";
 </script>
 
 <template>
