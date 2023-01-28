@@ -61,7 +61,7 @@ const captionText =
 <style scoped>
 .container {
   width: 80%;
-  max-width: 72ch;
+  max-width: 80ch;
   padding-top: 2rem;
 }
 

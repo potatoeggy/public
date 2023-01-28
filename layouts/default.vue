@@ -78,7 +78,7 @@ html.dark::before {
 
 main {
   width: 80%;
-  max-width: 60rem;
+  max-width: 90ch;
   margin: auto;
   padding-top: 2rem;
 }

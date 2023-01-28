@@ -43,7 +43,7 @@ div#__nuxt {
   h5,
   h6 {
     & > a {
-      font-weight: 800 !important;
+      font-weight: bold;
       text-decoration: none !important;
     }
   }
@@ -69,12 +69,17 @@ div#__nuxt {
         font-style: italic;
       }
     }
+
+    & > a {
+      font-weight: 800;
+    }
   }
 
   a:hover {
     @apply hover:text-blue-700 dark:hover:text-blue-400;
   }
-  p {
+  p,
+  li {
     font-family: "Source Serif Pro", serif;
     line-height: 1.8;
     color: #111;
