@@ -7,7 +7,9 @@ export type Language =
   | "react"
   | "markdown"
   | "flutter"
-  | "android";
+  | "android"
+  | "rust"
+  | "golang";
 export interface Project {
   name: string;
   href: string;
@@ -16,6 +18,7 @@ export interface Project {
   longDescription?: string;
   langs: Language[];
   license?: "AGPL-3.0" | "GPL-3.0" | "MIT" | "LGPL-3.0";
+  type: "full" | "server" | "client" | "embedded";
 }
 
 export const projects: Project[] = [
@@ -28,6 +31,7 @@ export const projects: Project[] = [
     langs: ["python"],
     license: "AGPL-3.0",
     img: "mandown.webp",
+    type: "client",
   },
   {
     name: "Noveldown",
@@ -37,6 +41,7 @@ export const projects: Project[] = [
     description:
       "A webnovel downloader and converter to EPUB for my Kobo, with lots of metadata!",
     longDescription: "Heavily borrows Mandown's design.",
+    type: "client",
   },
   {
     name: "Jeopardy",
@@ -46,6 +51,7 @@ export const projects: Project[] = [
     license: "AGPL-3.0",
     description: "Kahoot-inspired Jeopardy! game, including Final Jeopardy!",
     longDescription: "Created for Bayview's Computer Club.",
+    type: "full",
   },
   {
     name: "Primoprod",
@@ -56,6 +62,16 @@ export const projects: Project[] = [
     description:
       "A game simulator to increase productivity with quests and gambling.",
     longDescription: "My first project with a JS framework!",
+    type: "client",
+  },
+  {
+    name: "PillowⓇ",
+    href: "https://github.com/potatoeggy/ece198",
+    description:
+      "A water quality statistics aggregator written for the STM32 microcontroller with an LCD display and keypad.",
+    langs: ["rust"],
+    license: "GPL-3.0",
+    type: "embedded",
   },
   {
     name: "Eifueo",
@@ -65,6 +81,7 @@ export const projects: Project[] = [
     img: "eifueo.webp",
     description: "A collection of rewritten notes to remember things better.",
     longDescription: "THIS IS NOT A TEXTBOOK.",
+    type: "client",
   },
   {
     name: "Napbot",
@@ -74,6 +91,7 @@ export const projects: Project[] = [
     description:
       "A Discord bot initially to track sleep hours as friendly competition but is now a local music bot with synchronised lyrics!",
     img: "napbot.webp",
+    type: "server",
   },
   {
     name: "Resketch",
@@ -83,6 +101,7 @@ export const projects: Project[] = [
     description:
       'A "reverse-Pictionary" where you compete to have an AI recognise your drawings.',
     longDescription: "Written for YRHacks 2022.",
+    type: "full",
   },
   {
     name: "Perdiem",
@@ -93,6 +112,7 @@ export const projects: Project[] = [
     description:
       "A pretty budget tracking app where I learned too much about server-side rendering.",
     longDescription: "Written for StormHacks 2022.",
+    type: "client",
   },
   {
     name: "RecipeReady",
@@ -102,6 +122,7 @@ export const projects: Project[] = [
     description:
       "Android app to automagically plan meals and prepare a shopping list so you don't have to.",
     longDescription: "Written for Hack the North 2021.",
+    type: "full",
   },
   {
     name: "AutoFicFare",
@@ -110,6 +131,7 @@ export const projects: Project[] = [
     license: "GPL-3.0",
     description:
       "Automatically update fanfiction in a Calibre database to instantly update them on your Kobo.",
+    type: "client",
   },
   {
     name: "Website",
@@ -119,6 +141,24 @@ export const projects: Project[] = [
     langs: ["typescript", "vue"],
     license: "AGPL-3.0",
     img: "public.webp",
+    type: "client",
+  },
+];
+
+const unreleasedProjects: Project[] = [
+  {
+    name: "Aleister",
+    href: "https://github.com/potatoeggy/aleister",
+    langs: ["rust"],
+    license: "AGPL-3.0",
+    type: "server",
+  },
+  {
+    name: "Aoto",
+    href: "https://github.com/potatoeggy/aoto",
+    langs: ["golang", "typescript", "react"],
+    license: "AGPL-3.0",
+    type: "full",
   },
 ];
 
