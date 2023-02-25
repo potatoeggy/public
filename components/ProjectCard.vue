@@ -17,7 +17,7 @@ const imgUrl = props.project.img
       <div class="card-text h-full px-4 py-2">
         <div class="h-full flex flex-col justify-between">
           <div>
-            <h3 class="m-0">{{ project.name }}</h3>
+            <h3 class="m-0 font-bold font-sans">{{ project.name }}</h3>
             <div class="flex gap-1 items-center flex-nowrap">
               <img
                 class="h-5 w-5 m-0"

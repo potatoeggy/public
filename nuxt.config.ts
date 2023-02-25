@@ -8,6 +8,7 @@ export default defineNuxtConfig({
     "@nuxtjs/color-mode",
     "@funken-studio/sitemap-nuxt-3",
   ],
+  css: ["@/assets/css/main.scss"],
   nitro: {
     prerender: {
       routes: ["/sitemap.xml"],

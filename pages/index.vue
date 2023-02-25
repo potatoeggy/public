@@ -8,8 +8,10 @@ useTitle("Home", "Personal website!");
 
 <template>
   <main class="flex flex-col items-center justify-around gap-8">
-    <h1>Welcome!</h1>
-    <p>What are you here to see?</p>
+    <div class="flex flex-col items-center">
+      <h1 class="text-bitter font-bold">Welcome!</h1>
+      <p>What are you here to see?</p>
+    </div>
     <div
       class="flex justify-around items-stretch w-full flex-wrap gap-x-8 gap-y-10"
     >
