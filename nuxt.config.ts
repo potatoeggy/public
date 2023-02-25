@@ -16,6 +16,7 @@ export default defineNuxtConfig({
   typescript: {
     shim: false,
   },
+  css: ["~/assets/css/main.scss"],
   /* @ts-expect-error */
   sitemap: {
     hostname: process.env.BASE_URL || "https://eggworld.me",
