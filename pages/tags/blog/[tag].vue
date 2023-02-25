@@ -16,7 +16,7 @@ const docs = await queryContent<BlogParsedContent>("/blog")
   .find();
 
 const title = details.name ?? `"${tag}"`;
-useTitle(title, details.description);
+useTitle(title + " Posts", details.description);
 </script>
 
 <template>
