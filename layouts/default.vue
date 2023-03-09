@@ -19,7 +19,7 @@ useHead({ title: "Eggworld" });
           ig r4 has to be in next.js
         -->
         <select
-          class="p-2 border rounded rounded-lg dark:bg-[#222]"
+          class="p-2 border rounded-lg dark:bg-[#222]"
           onchange="location = this.value"
         >
           <option v-for="(r, i) in revisions" :key="i" :value="r.url">
