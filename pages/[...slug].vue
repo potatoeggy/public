@@ -5,9 +5,9 @@ import { calcReadingTime } from "@/shared/metadata";
 type GeneralParsedContent = BlogParsedContent | StoryParsedContent;
 
 const route = useRoute();
-definePageMeta({
-  layout: "withtop",
-});
+// definePageMeta({
+//   layout: "withtop",
+// });
 
 // we're not using ContentDoc because i need control
 const doc = await queryContent<GeneralParsedContent>(route.path).findOne();
@@ -63,6 +63,13 @@ const captionText =
   width: 80%;
   max-width: 72ch;
   padding-top: 2rem;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    max-width: 80ch;
+    width: 90%;
+  }
 }
 
 * {

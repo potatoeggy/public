@@ -72,6 +72,13 @@ html::before {
   z-index: 0;
 }
 
+/* div#__nuxt {
+  min-height: 100vh;
+} 
+
+it's better if everything is sort of long but that is not the case
+*/
+
 html.dark::before {
   transform: translateX(0);
 }
