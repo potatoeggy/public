@@ -11,6 +11,11 @@ useTitle("Home", "Personal website!");
     <div class="flex flex-col items-center">
       <h1 class="text-bitter font-bold">Welcome!</h1>
       <p>What are you here to see?</p>
+      <p>
+        For my portfolio, please visit
+        <a class="underline" href="https://github.com/potatoeggy">GitHub</a>
+        instead.
+      </p>
     </div>
     <div
       class="flex justify-around items-stretch w-full flex-wrap gap-x-8 gap-y-10"
