@@ -1,6 +1,7 @@
 ---
 title: "GitHub for Dummies"
 date: "2022-06-17"
+_draft: true
 tags:
 - tech
 - albatross

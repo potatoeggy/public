@@ -1,6 +1,7 @@
 ---
 title: "Reviving Older Games Through Emulation"
 date: "2022-05-22"
+_draft: true
 tags:
 - tech
 - albatross
