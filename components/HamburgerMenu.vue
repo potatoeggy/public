@@ -34,10 +34,11 @@ const getSvgIcon = async (name: string) => {
             :src="`/nav/${item.title.toLowerCase()}.svg`"
             class="m-0"
             preload="auto"
+            :alt="`${item.title} logo`"
           />
           {{ item.title }}
         </a>
-        <hr class="m-0 m-2" v-if="index !== navItems.length - 1" />
+        <hr class="m-2" v-if="index !== navItems.length - 1" />
       </li>
     </div>
   </div>

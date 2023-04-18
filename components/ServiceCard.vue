@@ -16,7 +16,7 @@ const imgUrl = `/images/services/${props.img}`;
     :class="['no-underline', { unclickable: unclickable || broken, broken }]"
   >
     <div class="card flex flex-col items-center justify-around">
-      <img class="m-0" :src="imgUrl" />
+      <img class="m-0" :src="imgUrl" :alt="`${name} logo`" />
       <h3 class="m-0">{{ props.name }}</h3>
       <p class="desc-text text-gray-600 dark:text-gray-200"><slot /></p>
     </div>
