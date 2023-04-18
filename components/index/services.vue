@@ -7,8 +7,9 @@
       This site is statically generated using
       <a href="https://v3.nuxtjs.org">Nuxt.js</a> with the help of templates and
       Markdown — because really, writing HTML by hand is tedious and I don't
-      know why I ever tried — and its source is available
-      <a href="https://github.com/potatoeggy/public">here</a>.
+      know why I ever tried — and its
+      <a href="https://github.com/potatoeggy/public">source is available here</a
+      >.
     </p>
     <!-- i could make this a list but god i'm so tired with nuxt -->
     <div class="flex justify-around flex-wrap gap-8 items-center">
