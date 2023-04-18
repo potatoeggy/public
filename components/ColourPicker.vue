@@ -10,7 +10,11 @@ const toggle = () => {
 </script>
 
 <template>
-  <label for="dark-toggle" class="toggle-wrapper">
+  <label
+    for="dark-toggle"
+    class="toggle-wrapper"
+    aria-label="Dark mode indicator label"
+  >
     <div class="toggle">
       <div class="icons">
         <IconMoon />
@@ -21,6 +25,7 @@ const toggle = () => {
         name="dark-toggle"
         type="checkbox"
         ref="darkToggleEl"
+        aria-label="Toggle dark mode"
         @click="toggle"
       />
     </div>
