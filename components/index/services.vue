@@ -12,7 +12,7 @@
     </p>
     <!-- i could make this a list but god i'm so tired with nuxt -->
     <div class="flex justify-around flex-wrap gap-8 items-center">
-      <ServiceCard name="Gitea" href="https://git.eggworld.me" img="gitea.webp">
+      <ServiceCard name="Gitea" href="https://git.eggworld.me" img="gitea.svg">
         Self-hosted GitHub
       </ServiceCard>
       <ServiceCard
@@ -39,14 +39,14 @@
       <ServiceCard
         name="Jellyfin"
         href="https://jellyfin.eggworld.me"
-        img="jellyfin.webp"
+        img="jellyfin.svg"
       >
         FOSS media server
       </ServiceCard>
       <ServiceCard
         name="Minecraft"
         href="minecraft.eggworld.me"
-        img="minecraft.webp"
+        img="minecraft.svg"
         unclickable
         broken
       >
