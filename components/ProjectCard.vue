@@ -24,6 +24,7 @@ const imgUrl = props.project.img
                 :src="`/images/langs/${lang}.svg`"
                 v-for="(lang, index) in project.langs"
                 :key="index"
+                :alt="`${lang} logo`"
               />
               <span
                 class="text-xs text-gray-500 dark:text-gray-300 whitespace-nowrap"
