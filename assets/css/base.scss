@@ -18,6 +18,16 @@
   position: relative;
 }
 
+html,
+body,
+div#__nuxt {
+  height: 100%;
+}
+
+main {
+  flex-grow: 1;
+}
+
 :root {
   --text-color: #243746;
   --bg: #f1e7d0;
