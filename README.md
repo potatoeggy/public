@@ -6,7 +6,7 @@ After hand-written HTML and a static site generator comes Nuxt!
 
 Post-build instructions (while prerendering is bork)
 
- - Compile `/script.ts` to `/script.js` (`tsc script.ts -m esnext -t esnext --moduleReslution node`)
+- Compile `/script.ts` to `/script.js` (`tsc script.ts -m esnext -t esnext --moduleResolution node`)
 
 Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
 
