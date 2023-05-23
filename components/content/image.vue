@@ -10,7 +10,7 @@ const imgSrc =
 
 <template>
   <figure class="flex flex-col items-center">
-    <img :src="imgSrc" />
-    <figcaption class="text-center"><slot /></figcaption>
+    <img :src="imgSrc" class="drop-shadow-lg" />
+    <figcaption class="text-center m-0"><slot /></figcaption>
   </figure>
 </template>
