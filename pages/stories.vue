@@ -2,7 +2,7 @@
 import type { StoryParsedContent } from "@/shared/types";
 
 useTitle("Stories", "Fantasies and worlds");
-definePageMeta({ layout: "withtop" });
+//definePageMeta({ layout: "withtop" });
 
 // TODO: paginate stories
 const docs = await queryContent<StoryParsedContent>("/stories")
