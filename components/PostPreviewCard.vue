@@ -33,10 +33,9 @@ const descText =
         :dest="`/tags/${type}/${tag}`"
         v-for="(tag, index) in post.tags"
         :key="index"
+        :name="tag"
         :highlight="highlighttags?.includes(tag)"
-      >
-        {{ tag }}
-      </Tag>
+      />
     </div>
     <ContentRenderer :value="post" :excerpt="true" tag="section">
       <template #empty>No excerpt available.</template>

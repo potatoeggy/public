@@ -37,9 +37,8 @@ const captionText =
         v-for="(tag, index) in doc.tags"
         :dest="`/tags/${type}/${tag}`"
         :key="index"
-      >
-        {{ tag }}
-      </Tag>
+        :name="tag"
+      />
     </div>
     <ContentRenderer :value="doc" tag="article" class="pt-0 w-full">
       <template #empty>

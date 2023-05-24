@@ -27,9 +27,8 @@ const latest = docs.at(-1) as StoryParsedContent;
           v-for="(tag, index) in latest.tags"
           :key="index"
           :dest="`/tags/stories/${tag}`"
-        >
-          {{ tag }}
-        </Tag>
+          :name="tag"
+        />
       </div>
       <ContentRenderer
         tag="article"

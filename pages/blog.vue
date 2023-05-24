@@ -30,9 +30,8 @@ const tags = new Set(
         :dest="`/tags/blog/${tag}`"
         v-for="(tag, index) in tags"
         :key="index"
-      >
-        {{ tag }}
-      </Tag>
+        :name="tag"
+      />
     </div>
     <PostPreviewCard
       v-for="(post, index) in docs"
