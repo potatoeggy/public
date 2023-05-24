@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import type { StoryParsedContent, BlogParsedContent } from "@/shared/types";
+import type { AnyParsedContent } from "@/shared/types";
 import { calcReadingTime } from "@/shared/metadata";
 
 const props = defineProps<{
-  post: StoryParsedContent | BlogParsedContent;
+  post: AnyParsedContent;
   type: "stories" | "blog";
   highlighttags?: string[];
 }>();

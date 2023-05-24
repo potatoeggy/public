@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { type StoryParsedContent } from "@/shared/types";
+import type { StoryParsedContent } from "@/shared/types";
 import { calcReadingTime } from "@/shared/metadata";
 
 const docs = await queryContent<StoryParsedContent>("/stories")

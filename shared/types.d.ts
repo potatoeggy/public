@@ -24,3 +24,5 @@ interface StoryParsedContent extends ParsedContent {
   readingTime: ReadingTime;
   nopreview?: boolean;
 }
+
+type AnyParsedContent = BlogParsedContent | StoryParsedContent;

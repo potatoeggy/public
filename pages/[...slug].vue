@@ -1,8 +1,6 @@
 <script setup lang="ts">
-import type { BlogParsedContent, StoryParsedContent } from "@/shared/types";
+import type { AnyParsedContent } from "@/shared/types";
 import { calcReadingTime } from "@/shared/metadata";
-
-type GeneralParsedContent = BlogParsedContent | StoryParsedContent;
 
 const route = useRoute();
 // definePageMeta({
@@ -10,7 +8,7 @@ const route = useRoute();
 // });
 
 // we're not using ContentDoc because i need control
-const doc = await queryContent<GeneralParsedContent>(route.path).findOne();
+const doc = await queryContent<AnyParsedContent>(route.path).findOne();
 const type = route.path.startsWith("/stories")
   ? "stories"
   : route.path.startsWith("/blog")
