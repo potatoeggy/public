@@ -109,7 +109,7 @@ html.dark .card-img {
 }
 
 .desc-text {
-  width: 139%;
+  width: 140%;
   /* 140% is too close */
   transition: width 0.2s ease;
 }
@@ -128,7 +128,7 @@ a.unclickable {
   }
 
   .desc-text {
-    width: 135%;
+    width: 136%;
   }
 }
 

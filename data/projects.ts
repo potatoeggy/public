@@ -39,7 +39,7 @@ export const projects: Project[] = [
     langs: ["python"],
     license: "LGPL-3.0",
     description:
-      "A webnovel downloader and converter to EPUB for my Kobo, with lots of metadata!",
+      "A webnovel downloader and EPUB converter for my Kobo, with lots of metadata!",
     longDescription: "Heavily borrows Mandown's design.",
     type: "client",
   },
@@ -68,7 +68,7 @@ export const projects: Project[] = [
     name: "PillowⓇ",
     href: "https://github.com/potatoeggy/ece198",
     description:
-      "A water quality statistics aggregator written for the STM32 microcontroller with an LCD display and keypad.",
+      "A water quality statistics aggregator written for the STM32 microcontroller with a display and keypad.",
     langs: ["rust"],
     license: "GPL-3.0",
     type: "embedded",
@@ -80,7 +80,7 @@ export const projects: Project[] = [
     langs: ["python"],
     license: "AGPL-3.0",
     description:
-      "A Discord bot initially to track sleep hours as friendly competition but is now a local music bot with synchronised lyrics!",
+      "A Discord music bot with synchronised lyrics, originally a sleep tracking bot to encourage sleeping.",
     img: "napbot.webp",
     type: "server",
   },
@@ -101,7 +101,7 @@ export const projects: Project[] = [
     license: "AGPL-3.0",
     img: "perdiem.webp",
     description:
-      "A pretty budget tracking app where I learned too much about server-side rendering.",
+      "A pretty budgeting app where I learned too much about server-side rendering.",
     longDescription: "Written for StormHacks 2022.",
     type: "client",
   },
@@ -111,7 +111,7 @@ export const projects: Project[] = [
     langs: ["python", "android", "flutter"],
     img: "recipeready.webp",
     description:
-      "Android app to automagically plan meals and prepare a shopping list so you don't have to.",
+      "App to automagically plan meals and prepare a grocery list so you don't have to.",
     longDescription: "Written for Hack the North 2021.",
     type: "full",
   },
