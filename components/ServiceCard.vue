@@ -44,12 +44,12 @@ a.broken::before {
   content: "PANQUIA IS ON FIRE";
   position: absolute;
   color: red;
-  transform: rotate(-45deg);
+  transform: rotate(-40deg);
   font-size: 1.5rem;
   text-align: center;
   z-index: 2;
-  top: 40%;
-  left: -12.5%;
+  top: 32.5%;
+  left: -8%;
   width: 125%;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
