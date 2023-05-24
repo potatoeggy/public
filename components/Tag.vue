@@ -9,7 +9,7 @@ const props = defineProps<{
   <a :href="dest">
     <div
       :class="[
-        'inline-block text-xs rounded-lg py-1 px-2 mt-1 mr-1 transition border border-pink-200 dark:border-pink-900 border-2 shadow-md',
+        'inline-block text-xs rounded-lg py-1 px-2 mt-1 mr-1 transition border border-pink-200 dark:border-pink-900 border-2 shadow-md font-medium',
         { 'bg-pink-200 dark:bg-pink-900': highlight },
       ]"
     >
