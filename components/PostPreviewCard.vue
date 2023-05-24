@@ -17,7 +17,7 @@ const descText =
 
 <template>
   <div
-    class="break-words max-w-full rounded-lg p-4 shadow-md border border-2 border-gray-300"
+    class="break-words max-w-full rounded-lg p-4 shadow-md border border-2 border-gray-300 dark:border-gray-600"
   >
     <h3 class="m-0">
       <a
