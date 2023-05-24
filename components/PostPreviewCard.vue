@@ -16,7 +16,9 @@ const descText =
 </script>
 
 <template>
-  <div class="story-card p-4">
+  <div
+    class="break-words max-w-full rounded-lg p-4 shadow-md border border-2 border-gray-300"
+  >
     <h3 class="m-0">
       <a
         :href="post._path"
@@ -50,12 +52,3 @@ const descText =
     </div>
   </div>
 </template>
-
-<style scoped>
-.story-card {
-  border: 0.1rem solid gray;
-  max-width: 100%;
-  border-radius: 0.5rem;
-  overflow-wrap: break-word;
-}
-</style>
