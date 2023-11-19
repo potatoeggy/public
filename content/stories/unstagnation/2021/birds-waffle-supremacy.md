@@ -4,6 +4,7 @@ date: 2021-11-01
 tags:
 - birds
 - unstagnation
+- featured
 ---
 
 **Summary:** The Birds enter a debate at school over the supremacy of waffles over pancakes. Obviously, one of them is the better food, but it's up to them to prove it.

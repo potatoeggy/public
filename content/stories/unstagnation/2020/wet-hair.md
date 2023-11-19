@@ -3,6 +3,7 @@ title: Wet Hair
 date: 2020-06-26
 tags:
 - unstagnation
+- featured
 ---
 
 *Splash!*

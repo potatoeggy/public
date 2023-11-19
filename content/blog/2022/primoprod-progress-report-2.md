@@ -4,6 +4,7 @@ date: "2022-01-15"
 tags:
 - tech
 - primoprod
+- featured
 ---
 
 Six months have passed since the [first progress report](/blog/2021/primoprod-progress-report/). Since then, a flood of changes have made it in, including hundredth-class Android support!

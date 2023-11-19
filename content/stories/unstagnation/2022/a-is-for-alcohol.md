@@ -4,6 +4,7 @@ date: 2022-10-24
 tags:
 - birds
 - unstagnation
+- featured
 ---
 
 **Summary:** Bean Bird and Noodle Bird enjoy a chat together on a quiet night slaving away before they leave in the summer. Bean wishes she had a stronger drink.

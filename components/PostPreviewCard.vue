@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import type { AnyParsedContent } from "@/shared/types";
 import { calcReadingTime } from "@/shared/metadata";
+import { SpecialTags } from "@/data/specialTags";
+import IconStar from "@/assets/images/star.svg?component";
 
 const props = defineProps<{
   post: AnyParsedContent;
@@ -19,7 +21,8 @@ const descText =
   <div
     class="break-words max-w-full rounded-lg p-4 shadow-md border border-2 border-gray-300 dark:border-gray-600"
   >
-    <h3 class="m-0">
+    <h3 class="m-0 flex items-center gap-1.5">
+      <IconStar v-if="post.tags.includes('featured')" class="fill-yellow-500 outline-none" />
       <a
         :href="post._path"
         class="no-underline text-left text-2xl sm:text-2xl font-bold hover:text-blue-700 dark:hover:text-blue-400 leading-tight transition"
@@ -29,13 +32,14 @@ const descText =
     </h3>
     <p class="my-1 text-sm"><Date :doc="post" /> · {{ descText }}</p>
     <div class="flex flex-wrap">
+      <template v-for="(tag, index) in post.tags" :key="index">
       <Tag
         :dest="`/tags/${type}/${tag}`"
-        v-for="(tag, index) in post.tags"
-        :key="index"
         :name="tag"
         :highlight="highlighttags?.includes(tag)"
+        v-if="!SpecialTags.includes(tag)"
       />
+      </template>
     </div>
     <ContentRenderer :value="post" :excerpt="true" tag="section">
       <template #empty>No excerpt available.</template>

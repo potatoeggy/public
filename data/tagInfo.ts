@@ -58,5 +58,9 @@ export const tagInfo: Record<string, TagData> = {
     name: "Projections in the Sky",
     description: "Dreams or reality — what is the difference?",
   },
+  featured: {
+    name: "Featured",
+    description: "Works that are less rambly and more actually good!",
+  }
 };
 export default tagInfo;

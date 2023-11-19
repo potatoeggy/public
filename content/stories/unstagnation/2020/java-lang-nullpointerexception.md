@@ -4,6 +4,7 @@ date: 2020-06-19
 tags:
 - barin
 - unstagnation
+- featured
 ---
 
 *Test 19/20 failed: Memory access violation.*
