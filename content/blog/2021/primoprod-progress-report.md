@@ -35,13 +35,11 @@ At the time, coming from Python/Java, I opted in to the class components plugin 
 
 The [first few commits](https://github.com/potatoeggy/primoprod/commit/ed9d94b61bf91ea9b82ac4d832dfb2b9ff2efc59) had me playing around until I was comfortable enough to introduce my very [first component](https://github.com/potatoeggy/primoprod/commit/fcbb4068dd3b018db2809ccfcc5381d4ea3ae727): the WishButton.
 
-::image{src=wish-button-emulated.webp}
-::
+![](src=wish-button-emulated.webp)
 
 I'd say it turned out pretty well! Since I wanted to emulate Genshin's UI, I wanted to match it as closely as I could. These two buttons are made of an image inside of a div relatively positioned with text absolutely positioned inside. Original image for comparison:
 
-::image{src=wish-button-original.webp}
-::
+![](wish-button-original.webp)
 
 There are still some differences between the texts since Genshin uses antialiasing, and the alignment and shadow of the icon beside the wish quantity is slightly off too, but I would consider this result to be acceptable.
 
@@ -59,10 +57,7 @@ See [GemCounter](https://github.com/potatoeggy/primoprod/blob/master/src/compone
 
 Although I had read up on [MDN's](https://developer.mozilla.org/en-US/) fantastic tutorials/documentation a fair bit and used flexboxes and `rem` everywhere, I apparently did not catch `box-sizing: border-box` and the margins and padding just did not arrange themselves how they should have.
 
-::image{src=mdn-box-sizing-tip.webp}
-::
-
-:/ thanks MDN for letting me know
+![:/ thanks MDN for letting me know](src=mdn-box-sizing-tip.webp)
 
 [Some foreshadowing](https://github.com/potatoeggy/primoprod/blob/master/src/components/ItemRevealScreen.vue#L224)
 
@@ -70,13 +65,11 @@ Although I had read up on [MDN's](https://developer.mozilla.org/en-US/) fantasti
 
 Designing the basic screen was pretty straightforward. For all its woes, pure CSS still works and is intuitive enough that my git history was only slightly too messy and I got my results.
 
-::image{src=primoprod-wishbanners.webp}
-::
+![](primoprod-wishbanners.webp)
 
 Pretty good, right? Now, the design still isn't adaptive enough *since things get cut off for who knows why I thought flexboxes were supposed to solve all this* but for the most part it looks good enough. It appears I'll have to make a lot of exceptions for mobile devices…
 
-::image{src=primoprod-wishbanners-scaled.webp}
-::
+![](primoprod-wishbanners-scaled.webp)
 
 With some help taken by examining the assets of https://genshin.thekima.com and https://gi-wish-simulator.uzairashraf.dev, I grabbed a static background image as well as the videos!
 
@@ -145,11 +138,9 @@ In fact, I consider those two to be 100% done unless I can find a way to apply a
 
 But it looks great!
 
-::image{src=itemdescriptionoverlay.webp}
-::
+![](itemdescriptionoverlay.webp)
 
-::image{src=itemobtainoverlay.webp}
-::
+![](itemobtainoverlay.webp)
 
 ## Wrapping up
 

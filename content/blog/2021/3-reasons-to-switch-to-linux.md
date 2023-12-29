@@ -13,13 +13,11 @@ First, what is Linux? At its heart, it is a [kernel](https://en.wikipedia.org/wi
 
 However, this article will largely focus on **desktop Linux**, which competes with other operating systems such as Windows and macOS.
 
-# Complete freedom
+## Complete freedom
 
 Perhaps the biggest feature of Linux is its ability to do whatever you want, however you want. After a *tiny* bit of tinkering, you'll be able to set up your computer exactly how you'd like it!
 
-::image{src=sway-desktop.webp}
-A terminal, an emulated Switch game, a game launcher, and a browser all automagically arranged by a tiling window manager. The currently playing song is in the top bar.
-::
+![A terminal, an emulated Switch game, a game launcher, and a browser all automagically arranged by a tiling window manager. The currently playing song is in the top bar.](sway-desktop.webp)
 
 Or, if you aren't the type to spend hours fiddling every little thing, you can choose from a variety of existing default desktop interfaces.
 
@@ -33,8 +31,7 @@ Or Plasma's endless customisation:
 
 ![](https://upload.wikimedia.org/wikipedia/commons/9/94/KDE_Plasma_5.21_Breeze_Twilight_screenshot.png)
 
-::image{src=https://www.omgubuntu.co.uk/wp-content/uploads/2019/07/kde-plasma-desktop.jpg}
-::
+![](https://www.omgubuntu.co.uk/wp-content/uploads/2019/07/kde-plasma-desktop.jpg)
 
 And this is only the beginning — it's not just appearance you have control over, although both GNOME and Plasma also come with their assortment of applications that have designs that perfectly mesh with the desktop, with global theming letting you click a single button in your settings menu to change colours or styles across all your apps.
 
@@ -42,7 +39,7 @@ Don't like your file manager? Swap it out for one of the dozens out there. Don't
 
 **You can do anything.**
 
-# The package manager
+## The package manager
 
 Speaking of the update manager…
 
@@ -56,22 +53,20 @@ Here are just a couple of the graphical stores available:
 
 GNOME Software for GNOME:
 
-::image{src=https://www.omgubuntu.co.uk/wp-content/uploads/2021/02/gnome-software-refresh.jpg}
-::
+![](https://www.omgubuntu.co.uk/wp-content/uploads/2021/02/gnome-software-refresh.jpg)
 
 Discover for Plasma:
 
-::image{src=https://userbase.kde.org/images.userbase/thumb/2/2d/Discoverappfocus.png/500px-Discoverappfocus.png}
-::
+![](https://userbase.kde.org/images.userbase/thumb/2/2d/Discoverappfocus.png/500px-Discoverappfocus.png)
 
 By contrast, the Microsoft Store was (is) a complete and utter mess that is nowhere near the integration and experience Linux has had for decades.
 
-# Open source
+## Open source
 
 Not only that, desktop Linux was built by thousands of volunteers, each contributing their own code to make the best product they can. Because it's completely open source (anyone can see or edit the source code), it's inherently more secure as simply more people are looking at it to fix issues and squash bugs.
 
 Learning Linux is a great opportunity to jump into learning more about computers because of the knowledge you gain over time of how your computer works on a fundamental level as you inevitably start troubleshooting *when* something breaks. And perhaps you'll be the one to contribute back upstream to the project too, if you fix a bug or add a new feature, and have your own code distributed around to millions of other users.
 
-# Try it now!
+## Try it now!
 
 With dozens of well-maintained versions of Linux operating systems out there, you'll be sure to find one that suits your needs. To try GNOME, [Pop!_OS](https://pop.system76.com/) or [Fedora](https://getfedora.org/en/workstation/download/) provide a seamless out-of-the-box experience. To try Plasma, [Kubuntu](https://kubuntu.org/) is a fantastic starting point. To get a macOS-like feel, [Elementary OS](https://elementary.io/) gives you that Apple vibe while, like every other Linux OS, is completely free of charge, and lets you try it out before you decide to install it.

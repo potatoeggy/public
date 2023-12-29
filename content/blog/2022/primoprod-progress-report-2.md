@@ -15,8 +15,7 @@ This report will cover from where the previous left off to the present day: 21 A
 
 ## No more
 
-::image{src="primoprod-itemrevealscreen.webp"}
-::
+![](primoprod-itemrevealscreen.webp)
 
 It's done. The pull screen is done. The element/weapon icon was added to the pull. Audio syncs up (well enough). The only thing missing is all of the fancy effects like glow and particles.
 
@@ -24,8 +23,7 @@ Nah, this is good enough.
 
 ## Take this!
 
-::image{src="primoprod-questscreen.webp"}
-::
+![](primoprod-questscreen.webp)
 
 Until now, you had to manually edit the browser's `localStorage` to gain any currency. The quest screen makes primoprod finally usable as now you can make your own long-term "quests" that give 900 Primogems each as well as set four daily "tasks" that give 30 Primogems each plus 60 when all are done — if only the base game was this generous. These are editable and can have whatever title or description you want. The logic here went through several rewrites as the structure was finalised and an interface developed to the rest of primoprod. Dailies will automatically refresh themselves on the next day.
 
@@ -57,8 +55,7 @@ Sounds incredible, right? As it turns out, as you gain more experience with tech
 
 This is why [the shop](https://github.com/potatoeggy/primoprod/blob/master/src/components/ShopScreen.vue) and the [dialog to buy things from the shop](https://github.com/potatoeggy/primoprod/blob/master/src/components/ItemPurchaseOverlay.vue) are so nicely done! It reused most of my types and was admittedly much simpler than some of the other screens, but I only ran into one insurmountable problem: range styling.
 
-::image{src="primoprod-itempurchaseoverlay.webp"}
-::
+![](primoprod-itempurchaseoverlay.webp)
 
 *I wish I was actually this rich in the base game.*
 
@@ -68,8 +65,7 @@ As you can see, the slider looks very out of place. Why? That's because [only Fi
 
 Up until now, only one banner was supported. This was finally fixed in November with the addition of [banner headers](https://github.com/potatoeggy/primoprod/pull/25) to match the base game. Now, you can simultaneously roll for Qiqi on *both* banners!
 
-::image{src="selected-wanderlust-invocation.webp"}
-::
+![](selected-wanderlust-invocation.webp)
 
 On a side note, did you know that Vue puts all of their reactive things into Proxies? This means you can't simply `console.log(obj)` without going through five more clicks to find what you actually want. No, no. To properly print out the actual object, you have to *copy its contents to a clean, non-reactive Object* for this to work. Why??
 
@@ -128,8 +124,7 @@ Back to laptop compilation we go!
 
 Obviously, you aren't a *real* free and open source project if you don't have [pretty badges](https://github.com/potatoeggy/primoprod/blob/master/README.md) on your README. This was a major concern, so I copied Vue's style and now made primoprod a proper FOSS repo — build checkmark and badges and all!
 
-::image{src="primoprod-badges.webp"}
-::
+![](primoprod-badges.webp)
 
 ## Kids and their phones
 
@@ -141,8 +136,7 @@ ItemRevealScreen? What's that? Now [WishBanners](https://github.com/potatoeggy/p
 
 At last, though, we have a [proper mobile UI](https://github.com/potatoeggy/primoprod/pull/33).
 
-::image{src="mobile-primoprod.webp"}
-::
+![](mobile-primoprod.webp)
 
 Still some niggles to work out, but it looks "good enough"! With the completion of proper mobile orientation came the merging of the [Android branch](https://github.com/potatoeggy/primoprod/pull/32) made with [Capacitor.js](https://capacitorjs.com/), basically the mobile equivalent of Electron. It has even more niggles than the web version does.
 

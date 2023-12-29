@@ -36,9 +36,7 @@ This is perhaps the biggest reason, and I have to say that I'm quite disappointe
 
 High school had many courses that were "expression"-focused, and those were the courses that Eifueo excelled in. English, chemistry, and history all were less about getting the answer or precise process correct, and more about how well you can bullshit your way out of it. Even math was pretty easy to apply a shallow formula and get the right answer.
 
-::image{src=thanks-192-ta.webp}
-We love nice TAs!
-::
+![We love nice TAs!](thanks-192-ta.webp)
 
 Unfortunately, the physics courses are antithetical to everything Eifueo stands for. They have a rigid structure that you can't bullshit your way out of but are also flexible enough that you can't simply apply a formula. The best way to get good is simply to do more problems.
 
@@ -52,6 +50,4 @@ o7  It has served me well.
 
 
 
-::image{src=assessment-art.webp}
-At this rate, I'm going to be an expert in perspective art!
-::
+![At this rate, I'm going to be an expert in perspective art!](src=assessment-art.webp)
