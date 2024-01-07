@@ -28,7 +28,6 @@ useHead({ title: "Eggworld" });
         </select>
       </div>
       <div class="flex flex-col items-center">
-        <p>Ⓒ 2023 Daniel Chen</p>
         <p>
           Licensed under the AGPL-3.0 on
           <a class="underline" href="https://github.com/potatoeggy/public">
