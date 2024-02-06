@@ -22,7 +22,7 @@ const descText =
     class="break-words max-w-full rounded-lg p-4 shadow-md border border-2 border-gray-300 dark:border-gray-600"
   >
     <h3 class="m-0 flex items-center gap-1.5">
-      <a :href="`/tags/${props.type}/featured`">
+      <a :href="`/tags/${props.type}/featured`" v-if="highlighttags?.includes('featured')">
         <IconStar class="fill-yellow-500 outline-none" />
       </a>
       <a
