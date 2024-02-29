@@ -12,8 +12,8 @@ const doc = await queryContent<AnyParsedContent>(route.path).findOne();
 const type = route.path.startsWith("/stories")
   ? "stories"
   : route.path.startsWith("/blog")
-  ? "blog"
-  : "unknown";
+    ? "blog"
+    : "unknown";
 
 const descText =
   type === "stories"
@@ -27,7 +27,7 @@ const captionText =
 
 <template>
   <main class="container prose dark:prose-invert w-full">
-    <p class="m-0 uppercase font-mono text-sm" v-if="captionText !== ''">
+    <p class="m-0 uppercase font-mono text-sm" v-if="captionText">
       {{ captionText }}
     </p>
     <h1 class="m-0">{{ doc.title }}</h1>
@@ -66,6 +66,10 @@ const captionText =
   .container {
     max-width: 80ch;
     width: 90%;
+  }
+
+  .container h1 {
+    overflow-wrap: break-word;
   }
 }
 
