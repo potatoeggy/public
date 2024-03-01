@@ -31,7 +31,7 @@ export default defineNuxtConfig({
     "@nuxt/content",
     "@nuxtjs/tailwindcss",
     "@nuxtjs/color-mode",
-    "@funken-studio/sitemap-nuxt-3",
+    "@nuxtjs/sitemap",
   ],
   css: ["@/assets/css/main.scss"],
   nitro: {
@@ -42,9 +42,11 @@ export default defineNuxtConfig({
   typescript: {
     shim: false,
   },
-  /* @ts-expect-error */
+  site: {
+    url: process.env.BASE_URL || "https://eggworld.me",
+  },
   sitemap: {
-    hostname: process.env.BASE_URL || "https://eggworld.me",
+    strictNuxtContentPaths: true,
   },
   tailwindcss: {},
   colorMode: {
@@ -94,6 +96,9 @@ export default defineNuxtConfig({
     },
   },
   experimental: {
+    sharedPrerenderData: true,
+  },
+  features: {
     noScripts: true,
   },
 });
