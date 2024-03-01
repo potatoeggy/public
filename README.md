@@ -1,27 +1,25 @@
-# Eggworld v3: Nuxt 3
+# Oeufs?
 
-After hand-written HTML and a static site generator comes Nuxt!
+Après le HTML manuscrit et le générateur de site statique — c'est Nuxt!
 
-**WARN: Volar 0.40.0 breaks all type-checking and I don't know why — stick with Volar 0.39.5.**
+Instructions post-compilation (pendant Nuxt n'a pas le prérendu)
 
-Post-build instructions (while prerendering is bork)
+- Compilez `/script.ts` à `/script.js` (`tsc script.ts -m esnext -t esnext --moduleResolution node`)
 
-- Compile `/script.ts` to `/script.js` (`tsc script.ts -m esnext -t esnext --moduleResolution node`)
+Lisez la [documentation de Nuxt](https://v3.nuxtjs.org) pour en savoir plus.
 
-Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
+## Installation
 
-## Setup
-
-Make sure to install the dependencies:
+Assurez-vous d'installer les dépendances:
 
 ```bash
 # yarn
 yarn install
 ```
 
-## Development Server
+## Serveur de développement
 
-Start the development server on http://localhost:3000
+Démarrez le serveur de développement sur http://localhost:3000
 
 ```bash
 yarn dev
@@ -29,10 +27,10 @@ yarn dev
 
 ## Production
 
-Locally preview production build:
+Prévisualisez la production sur votre système local:
 
 ```bash
 yarn preview
 ```
 
-Checkout the [deployment documentation](https://v3.nuxtjs.org/guide/deploy/presets) for more information.
+Lisez la [documentation de déploiement](https://v3.nuxtjs.org/guide/deploy/presets) pour en savoir plus.
