@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { revisions } from "@/data/siteRevisions";
-useHead({ title: "Eggworld" });
+useHead({ title: "Oeufs?" });
 </script>
 
 <template>
@@ -49,7 +49,9 @@ useHead({ title: "Eggworld" });
 html {
   background: white;
   color: black;
-  transition: color 0.2s ease, background 0.2s ease;
+  transition:
+    color 0.2s ease,
+    background 0.2s ease;
   overflow-x: hidden;
   overflow-y: scroll;
   scroll-behavior: smooth;
