@@ -3,10 +3,12 @@ export default {
   darkMode: "class",
   theme: {
     extend: {
-      typography: (theme) => ({
+      typography: ({ theme }) => ({
         DEFAULT: {
           css: [
             {
+              '--tw-prose-body': theme('colors.gray[900]'),
+              '--tw-prose-invert-body': theme('colors.gray[100]'),
               hr: {
                 marginTop: "1.5em",
                 marginBottom: "1.5em",

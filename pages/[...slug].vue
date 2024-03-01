@@ -58,13 +58,12 @@ const captionText =
 <style scoped>
 .container {
   width: 80%;
-  max-width: 72ch;
+  max-width: 80ch;
   padding-top: 2rem;
 }
 
 @media screen and (max-width: 600px) {
   .container {
-    max-width: 80ch;
     width: 90%;
   }
 
