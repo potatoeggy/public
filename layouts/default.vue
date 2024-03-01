@@ -10,7 +10,7 @@ useHead({ title: "Oeufs?" });
     <footer
       class="flex items-center justify-between p-3 bg-gray-100 w-full text-sm dark:bg-gray-800 flex-col md:flex-row gap-2"
     >
-      <div class="flex items-center gap-2">
+      <label class="flex items-center gap-2">
         <p>Revision:</p>
         <!--
           the onchange is so bad - i'd rather it be done through vue
@@ -26,7 +26,7 @@ useHead({ title: "Oeufs?" });
             {{ r.title }}
           </option>
         </select>
-      </div>
+      </label>
       <div class="flex flex-col items-center">
         <p>
           Licensed under the AGPL-3.0 on
