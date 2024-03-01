@@ -4,6 +4,7 @@ date: 2024-02-29
 tags:
 - featured
 - shorts
+- university
 ---
 
 **Summary:** A student is mildly frustrated by his professor's pace of speaking.
