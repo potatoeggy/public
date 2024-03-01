@@ -49,7 +49,6 @@ const descText =
     <ContentRenderer :value="post" :excerpt="true" tag="section">
       <template #empty>No excerpt available.</template>
     </ContentRenderer>
-    <!--<p v-if="!post.nopreview" class="m-0">…</p>-->
     <div class="text-right" v-if="!post.nopreview">
       <a
         :href="post._path"
