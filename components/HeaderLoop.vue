@@ -91,9 +91,9 @@ const props = defineProps<{ strings: string[]; class?: string }>();
   * For one element, we have the following pattern. To expand it to 2+
   * els, we divide 100% by the number of els and turn on the animation
   * only at the correct time.
-  * 0%: invis
-  * 20%: vis
-  * 90%: vis
+  * -5%: invis
+  * 0%: vis
+  * 95%: vis
   * 100%: invis
   */
 
