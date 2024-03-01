@@ -4,12 +4,14 @@ import About from "@/components/index/about.vue";
 
 //definePageMeta({ layout: "withtop" });
 useTitle("Home", "Personal website!");
+
+const welcomeStrings = ["Welcome!", "Bienvenue!", "欢迎!"];
 </script>
 
 <template>
   <main class="flex flex-col items-center justify-around gap-8">
     <div class="flex flex-col items-center">
-      <h1 class="text-bitter font-bold">Welcome!</h1>
+      <HeaderLoop class="text-bitter font-bold" :strings="welcomeStrings" />
       <p>What are you here to see?</p>
       <p>
         For my portfolio, please visit
