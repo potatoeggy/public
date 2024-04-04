@@ -2,8 +2,9 @@
 title: "Illusion of Solitude"
 date: 2023-12-29
 tags:
-- birdseye
-- featured
+  - birdseye
+  - nanowrimo
+  - featured
 ---
 
 **Summary:** An old bluebird takes her grandson human-watching in Vancouver. This time, they find a young child dealing with grown-ups who just don't understand.
@@ -14,7 +15,7 @@ tags:
 
 Keep to the left. Mind the seagulls. We're approaching the coast. Those bastards appear far too often. One of the only reasons why there isn't a permanent bluebird population in Vancouver.
 
-We've almost reached our destination. I suppose we could fit *one* more experiment here. Reach out to one last human. For this last one, how about you pick? You've seen me do it a couple of times. If you need assistance, I'll be right here.
+We've almost reached our destination. I suppose we could fit _one_ more experiment here. Reach out to one last human. For this last one, how about you pick? You've seen me do it a couple of times. If you need assistance, I'll be right here.
 
 That building? That could be anything. If I were to guess, judging by the number of residential buildings in the area, that might be a school. Good timing. School should be in session by this time in the morning.
 
@@ -30,7 +31,7 @@ She is truly talking to the wall with nothing in her hands. Is the wall named Zo
 
 "Ruth, are you talking to nothing again? Why don't you play with the rest of the kids?"
 
-"Mrs. Pernumble, I'm having a tea party with Zoe! And *you're* not invited. So go away."
+"Mrs. Pernumble, I'm having a tea party with Zoe! And _you're_ not invited. So go away."
 
 "Right. Zoe. Your…"
 
@@ -54,7 +55,7 @@ I would like to re-attest that there is, in fact, a lack of any tea or anything 
 
 "Because you haven't said a word to her and now she's very upset. It's okay, Zoe. I'll never leave you. Have another cup of tea."
 
-I know that I'm getting along in years, but I *do not* see a human child. Several worm children that look very tasty, yes, but no human child. Or tea. Do you see a human child?
+I know that I'm getting along in years, but I _do not_ see a human child. Several worm children that look very tasty, yes, but no human child. Or tea. Do you see a human child?
 
 Where is it?
 
@@ -70,7 +71,7 @@ Heh. If there's one thing that is common between humans and bluebirds, children 
 
 Although I certainly wouldn't sigh and walk away like her. No, misbehaving children must be punished so they don't do it again.
 
-"Thank you for the biscuit, Zoe. Have you heard from Miss Piggy recently? I heard that Miss Froggy and her had the most delicious of teas the other day. Mm. You're right. That *is* very interesting."
+"Thank you for the biscuit, Zoe. Have you heard from Miss Piggy recently? I heard that Miss Froggy and her had the most delicious of teas the other day. Mm. You're right. That _is_ very interesting."
 
 I must admit, it is rather strange to watch a conversation happening with a human I cannot perceive in any way. I hope you're learning more than I am.
 
@@ -78,7 +79,7 @@ I must admit, it is rather strange to watch a conversation happening with a huma
 
 That sigh does not belong on a child her age. How adorable — perhaps she thinks that if she's as petulant as one, others will see her as an adult.
 
-"I'm *so* sorry, Zoe. I know you don't like it when our tea parties get interrupted. What *is* it, Peter?"
+"I'm _so_ sorry, Zoe. I know you don't like it when our tea parties get interrupted. What _is_ it, Peter?"
 
 "Who are you talking to?"
 
@@ -92,17 +93,17 @@ Ha! Another victim of Zoe's invisibility! He looks so confused — oh, my sides.
 
 "Who? I don't see her."
 
-"I *told* you, Zoe's my best friend. It's not *her* fault that you can't see her."
+"I _told_ you, Zoe's my best friend. It's not _her_ fault that you can't see her."
 
 That hesitant wave — the worm on top! Glorious. I might have to start observing the younger humans more. They're such a racket! Two inexperienced creatures learning about the world.
 
 "Are you sure she's real?"
 
-"Of *course* she's real! Say sorry to Zoe, right now! I can't believe you'd say that. I'm sorry, Zoe. He didn't mean it. He just doesn't know better. Right?"
+"Of _course_ she's real! Say sorry to Zoe, right now! I can't believe you'd say that. I'm sorry, Zoe. He didn't mean it. He just doesn't know better. Right?"
 
 "Uh, I'm sorry!"
 
-"Zoe's over *here*. Look at her properly when you say sorry."
+"Zoe's over _here_. Look at her properly when you say sorry."
 
 "…Sorry."
 
@@ -118,11 +119,7 @@ That hesitant wave — the worm on top! Glorious. I might have to start observin
 
 My scientific mind is racing at the possibilities. The child couldn't see her. The human couldn't see her. I can't see her. What are the criteria for who can and cannot see Zoe?
 
-
-
-------
-
-
+---
 
 "Be sure to finish the letters worksheet — I expect to see perfect 'A's from everyone! Now, children, fetch your bags — it's time to go home!"
 
@@ -136,11 +133,7 @@ The chatter of children after school is the same regardless of their age. It's a
 
 "Come on, everyone. Less talking, more moving! Once you've changed into your outdoor shoes, line up against the wall outside the classroom!"
 
-
-
-------
-
-
+---
 
 Well done, child. You're following your humans quite well. I barely had to help you at all.
 
@@ -156,29 +149,25 @@ Well done, child. You're following your humans quite well. I barely had to help 
 
 "Aw, that sucks. Does Zoe want a glass of orange juice, too? Maybe it'll help her feel better?"
 
-"Daddy! Zoe is *allergic* to orange juice, remember? I told you *yesterday!* She'll have her unicorn hair tea like she always does. Mommy, can I eat my cookies upstairs? Me and Zoe are having a tea party again."
+"Daddy! Zoe is _allergic_ to orange juice, remember? I told you _yesterday!_ She'll have her unicorn hair tea like she always does. Mommy, can I eat my cookies upstairs? Me and Zoe are having a tea party again."
 
 "All right, but don't spill any of the crumbs! We don't want ants moving into our house, don't we?"
 
-Oh! How unfortunate. Child, I must interject — allergies are new to you, yes? Bluebirds don't particularly have the horrid disease. If some humans — and it's impossible to tell which humans before they actually eat it — eat certain foods, like peanuts! Or fruits, or nearly anything — they could *die*. That's called an allergic reaction.
+Oh! How unfortunate. Child, I must interject — allergies are new to you, yes? Bluebirds don't particularly have the horrid disease. If some humans — and it's impossible to tell which humans before they actually eat it — eat certain foods, like peanuts! Or fruits, or nearly anything — they could _die_. That's called an allergic reaction.
 
 To have an allergy toward a fruit — truly a pitiable existence it must be.
 
 "Tea party time! Zoe, here is your unicorn hair tea. Freshly stirred! Only the best for my best friend. Oh, thank you! Yes, I'm doing great. Can you help me with my homework after this? You're always so good at drawing those weird lines. Mrs. Prenumble says that they're part of letters, which are part of words.
 
-"Zoe… Why does everyone hate you so much? They never want to talk to you. Even Mrs. Prenumble. They all pretend that you're not a *real* person. But don't worry. *I* know that you're real. No matter what everyone else says. You're my best friend, right? I can't leave you alone. If you want, I'll stay with you, forever and ever!
+"Zoe… Why does everyone hate you so much? They never want to talk to you. Even Mrs. Prenumble. They all pretend that you're not a _real_ person. But don't worry. _I_ know that you're real. No matter what everyone else says. You're my best friend, right? I can't leave you alone. If you want, I'll stay with you, forever and ever!
 
 "Will you also stay with me, forever and ever?"
 
 Human children. So adorable! Already forming pacts for life in the tender young stage of pre-adolescence.
 
+---
 
-
-------
-
-
-
-Finally some change. Pardon me, but I can only listen to a child have a multi-hour tea party go on for so long before even *my* patience wanes. Let us investigate the commotion at the door. Ooh. An older boy. A family! Human families are so small. Their babies don't die nearly as often as bluebird babies, but there are just so few of them in the world. I suppose that explains the parents' protectiveness. But if they want their children to succeed, why don't they simply have more children? That would maximise the probability of successful children reproducing in the future.
+Finally some change. Pardon me, but I can only listen to a child have a multi-hour tea party go on for so long before even _my_ patience wanes. Let us investigate the commotion at the door. Ooh. An older boy. A family! Human families are so small. Their babies don't die nearly as often as bluebird babies, but there are just so few of them in the world. I suppose that explains the parents' protectiveness. But if they want their children to succeed, why don't they simply have more children? That would maximise the probability of successful children reproducing in the future.
 
 "Mom, dad, I'm home."
 
@@ -186,7 +175,7 @@ Finally some change. Pardon me, but I can only listen to a child have a multi-ho
 
 "Hey, kiddo! How was school? Beat up any girls today?"
 
-"Oh my god, you can't *do* that, dad!"
+"Oh my god, you can't _do_ that, dad!"
 
 "Hmph. All these fancy schmancy new norms are stifling. Back in my day, you could hit whoever you wanted, and the other guy would just hit you back! None of this 'no hitting girls' nonsense."
 
@@ -194,15 +183,15 @@ I knew that humans discriminated between their sexes, but I didn't realise that 
 
 "They're weaker, so it's not fair. They can't hit back, so it's up to us men to show other men who's boss."
 
-Nonsense! Excuse *me?* I don't know about *humans*, but female *bluebirds* pack a pretty punch in their wings. It's true that males usually only fight males and females usually only fight females — because, let's be honest, why would a female ever need to fight a male? — but I did not realise that there was *no* cross-sex combat in human world. Strange, too. I could have sworn that I'd seen human males fighting human females multiple times over my many years.
+Nonsense! Excuse _me?_ I don't know about _humans_, but female _bluebirds_ pack a pretty punch in their wings. It's true that males usually only fight males and females usually only fight females — because, let's be honest, why would a female ever need to fight a male? — but I did not realise that there was _no_ cross-sex combat in human world. Strange, too. I could have sworn that I'd seen human males fighting human females multiple times over my many years.
 
-"Son, maybe the times are changing. And I respect that. But no matter what happens, never lose that fighting spirit. Can't fight the girls? Fine. There's still a good half of the population you can beat some sense into. Now, if they say that *fighting is bad* and that *no one should do it* or whatever? That's when you put your fist down and screw the rules. Let no one tell you what you can or can't do."
+"Son, maybe the times are changing. And I respect that. But no matter what happens, never lose that fighting spirit. Can't fight the girls? Fine. There's still a good half of the population you can beat some sense into. Now, if they say that _fighting is bad_ and that _no one should do it_ or whatever? That's when you put your fist down and screw the rules. Let no one tell you what you can or can't do."
 
 "I'll do my best, dad!"
 
 "I know you will, son. Make me proud. Nothing like a good fist to the noggin to help loosen any lips."
 
-Wonderful parenting. *This* I can get behind one hundred percent. I know I have a lot of negative things to say about humans, but in reality, they're so diverse that there are so many different viewpoints to learn from. There are some that are objectively wrong, some that are objectively right, and then most are in the middle. It's rather refreshing to have one's opinions validated every once in a while.
+Wonderful parenting. _This_ I can get behind one hundred percent. I know I have a lot of negative things to say about humans, but in reality, they're so diverse that there are so many different viewpoints to learn from. There are some that are objectively wrong, some that are objectively right, and then most are in the middle. It's rather refreshing to have one's opinions validated every once in a while.
 
 And what camaraderie! Certainly bluebird children are never so close to their parents. Or their grandparents, for that matter.
 
@@ -218,7 +207,7 @@ And what camaraderie! Certainly bluebird children are never so close to their pa
 
 "Hmph. Ruth! Open up! Mom says it's time for dinner!"
 
-I wonder why she isn't responding. Drat! If only we could be invisible and incorporeal like Zoe must be, so we could position ourselves *in* the door and see both sides of the conversation. Having to move around to the back of the house just to see the hallway is *so* irritating.
+I wonder why she isn't responding. Drat! If only we could be invisible and incorporeal like Zoe must be, so we could position ourselves _in_ the door and see both sides of the conversation. Having to move around to the back of the house just to see the hallway is _so_ irritating.
 
 "Ruth! If you don't say anything, I'm coming in in three…two…"
 
@@ -234,21 +223,21 @@ This is actually quite nice. It means if we circle around to the other side of t
 
 "Oi. I just came to pass on a message. Why do you have to get so pissy?"
 
-"This is *my* room." How funny. Ruth trying to push Jacob out of her room. Certainly it isn't happening unless it's under his own volition. Valiant effort, though. I would applaud like the humans do if I had hands. "Can't you read the sign? It says NO JACOBS!"
+"This is _my_ room." How funny. Ruth trying to push Jacob out of her room. Certainly it isn't happening unless it's under his own volition. Valiant effort, though. I would applaud like the humans do if I had hands. "Can't you read the sign? It says NO JACOBS!"
 
 "Do you even know how to read?"
 
-"Shut *up!* Zoe said that you can't be here, and that means you can't be here! Zoe needs her time to herself. She's has a very tiring day and she needs her tea and biscuits —"
+"Shut _up!_ Zoe said that you can't be here, and that means you can't be here! Zoe needs her time to herself. She's has a very tiring day and she needs her tea and biscuits —"
 
-"Zoe this and Zoe that. Jeez, don't you have any *real* people to back you up?"
+"Zoe this and Zoe that. Jeez, don't you have any _real_ people to back you up?"
 
 Oh. That one might have hit her harder than him slamming the door open. What is that expression on her face, I wonder?
 
 "Yeah? Don't have anything to say, dontcha? I wonder why?"
 
-"Say sorry to Zoe right now. She's my *best friend."*
+"Say sorry to Zoe right now. She's my _best friend."_
 
-"Oh my god, Ruth. How are you still so stuck on her? Zoe's not real! She's in your *mind!* She's one of those *imaginary friends!"*
+"Oh my god, Ruth. How are you still so stuck on her? Zoe's not real! She's in your _mind!_ She's one of those _imaginary friends!"_
 
 Certainly not. I find it rather unlikely that the human adults and the human children spoke to her if she wasn't real. That Mrs. Pernumble or whatever it was wanted to have a conversation with her, too.
 
@@ -256,9 +245,9 @@ However, judging by the blankness of Ruth's face, she might believe him.
 
 "No."
 
-"Yes." Rather gleeful of him. "You're *imagining* her. Probably because no one likes you enough for you to have *real* friends."
+"Yes." Rather gleeful of him. "You're _imagining_ her. Probably because no one likes you enough for you to have _real_ friends."
 
-"That's not true. Shut *up.*"
+"That's not true. Shut _up._"
 
 "Oh, yeah? What's her favourite colour?"
 
@@ -268,7 +257,7 @@ However, judging by the blankness of Ruth's face, she might believe him.
 
 "Unicorn hair tea with rainbow biscuits!"
 
-An eyebrow raised. In his defense, I didn't think that those were real either. But it makes sense to me. What else would an invisible person eat? Oh! It just clicked for me. That must be *why* she's invisible! All of these exotic ingredients must have an effect on the body that makes her difficult to perceive. And Ruth must be consuming enough that she can perceive her but not turn invisible herself.
+An eyebrow raised. In his defense, I didn't think that those were real either. But it makes sense to me. What else would an invisible person eat? Oh! It just clicked for me. That must be _why_ she's invisible! All of these exotic ingredients must have an effect on the body that makes her difficult to perceive. And Ruth must be consuming enough that she can perceive her but not turn invisible herself.
 
 My cleverness and intelligence scare me sometimes. But I digress.
 
@@ -286,9 +275,9 @@ My cleverness and intelligence scare me sometimes. But I digress.
 
 "When did you meet her?"
 
-Oh? 
+Oh?
 
-"When grandmama went home! She's *real*, Jacob! I *know* I met her. She was outside on the swing outside grandmama's house when the sun was setting and I was sad and we went on the swing together and we were friends ever since. Zoe's *real!"* And here comes the crying. If she was sobbing before, she's bawling now.
+"When grandmama went home! She's _real_, Jacob! I _know_ I met her. She was outside on the swing outside grandmama's house when the sun was setting and I was sad and we went on the swing together and we were friends ever since. Zoe's _real!"_ And here comes the crying. If she was sobbing before, she's bawling now.
 
 Hm? Why isn't he saying anything else? Are tears so effective against physical and verbal combat? He seems shocked. How could this be surprising? Bluebirds meet new bluebirds all the time. Is this not true for humans?
 

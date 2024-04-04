@@ -45,6 +45,10 @@ export const tagInfo: Record<string, TagData> = {
     description:
       "A large, loving family of birds who have found in each other a kindred soul for eternal suffering.",
   },
+  birdseye: {
+    name: "Bird's-Eye View",
+    description: "What's the world like to a pair of human-watching bluebirds?",
+  },
   uoft: {
     name: "University of Teyvat",
     description: "A <em>Genshin Impact</em> university AU.",
@@ -61,6 +65,6 @@ export const tagInfo: Record<string, TagData> = {
   featured: {
     name: "Featured",
     description: "Works that are less rambly and more actually good!",
-  }
+  },
 };
 export default tagInfo;
