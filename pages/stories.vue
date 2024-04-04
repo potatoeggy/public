@@ -14,7 +14,6 @@ const tags = new Set(
   docs
     .map((p) => p.tags)
     .flat()
-    .filter((p) => !p.includes(" ")) // do not include AO3-style tags
     .sort()
 );
 </script>
