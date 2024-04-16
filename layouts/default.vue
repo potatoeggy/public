@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { revisions } from "@/data/siteRevisions";
-useHead({ title: "Eggworld" });
+useHead({ title: "Oeufs?" });
 </script>
 
 <template>
@@ -10,7 +10,7 @@ useHead({ title: "Eggworld" });
     <footer
       class="flex items-center justify-between p-3 bg-gray-100 w-full text-sm dark:bg-gray-800 flex-col md:flex-row gap-2"
     >
-      <div class="flex items-center gap-2">
+      <label class="flex items-center gap-2">
         <p>Revision:</p>
         <!--
           the onchange is so bad - i'd rather it be done through vue
@@ -19,16 +19,15 @@ useHead({ title: "Eggworld" });
           ig r4 has to be in next.js
         -->
         <select
-          class="p-2 border rounded rounded-lg dark:bg-[#222]"
+          class="p-2 border rounded-lg dark:bg-[#222]"
           onchange="location = this.value"
         >
           <option v-for="(r, i) in revisions" :key="i" :value="r.url">
             {{ r.title }}
           </option>
         </select>
-      </div>
+      </label>
       <div class="flex flex-col items-center">
-        <p>Ⓒ 2023 Daniel Chen</p>
         <p>
           Licensed under the AGPL-3.0 on
           <a class="underline" href="https://github.com/potatoeggy/public">
@@ -50,7 +49,9 @@ useHead({ title: "Eggworld" });
 html {
   background: white;
   color: black;
-  transition: color 0.2s ease, background 0.2s ease;
+  transition:
+    color 0.2s ease,
+    background 0.2s ease;
   overflow-x: hidden;
   overflow-y: scroll;
   scroll-behavior: smooth;
@@ -71,6 +72,13 @@ html::before {
   transition: transform 0.2s ease;
   z-index: 0;
 }
+
+/* div#__nuxt {
+  min-height: 100vh;
+} 
+
+it's better if everything is sort of long but that is not the case
+*/
 
 html.dark::before {
   transform: translateX(0);

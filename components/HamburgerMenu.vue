@@ -11,8 +11,17 @@ const getSvgIcon = async (name: string) => {
 
 <template>
   <div class="hamburger">
-    <input class="checkbox" type="checkbox" id="checkbox" />
-    <label class="checkbox-label" for="checkbox">
+    <input
+      class="checkbox"
+      type="checkbox"
+      id="checkbox"
+      aria-label="Hamburger menu toggle"
+    />
+    <label
+      class="checkbox-label"
+      for="checkbox"
+      aria-label="Hamburger menu indicator label"
+    >
       <svg class="ham ham-rotate" viewBox="0 0 100 100" width="60">
         <path
           class="line top"
@@ -25,7 +34,7 @@ const getSvgIcon = async (name: string) => {
         />
       </svg>
     </label>
-    <div class="drawer prose dark:prose-invert">
+    <ul class="drawer prose dark:prose-invert">
       <li class="m-0" v-for="(item, index) in navItems" :key="index">
         <!-- stupid vite doesn't let require work
           i should have just hardcoded the navbar items -->
@@ -34,12 +43,13 @@ const getSvgIcon = async (name: string) => {
             :src="`/nav/${item.title.toLowerCase()}.svg`"
             class="m-0"
             preload="auto"
+            :alt="`${item.title} logo`"
           />
           {{ item.title }}
         </a>
-        <hr class="m-0 m-2" v-if="index !== navItems.length - 1" />
+        <hr class="m-2" v-if="index !== navItems.length - 1" />
       </li>
-    </div>
+    </ul>
   </div>
 </template>
 

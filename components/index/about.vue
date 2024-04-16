@@ -18,8 +18,7 @@ import { projects } from "@/data/projects";
 
     <!-- this could be in markdown but eh -->
     <p>
-      Hello! It's very nice to meet you — my name's Daniel, a student studying
-      Computer Engineering at the University of Waterloo who is quite passionate
+      Hello! It's very nice to meet you — I'm a student who is quite passionate
       about some subjects but is quite lazy in every other.
     </p>
     <p>

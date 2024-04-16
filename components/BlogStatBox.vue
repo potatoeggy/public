@@ -27,9 +27,8 @@ const latest = docs.at(-1) as BlogParsedContent;
           v-for="(tag, index) in latest.tags"
           :key="index"
           :dest="`/tags/blog/${tag}`"
-        >
-          {{ tag }}
-        </Tag>
+          :name="tag"
+        />
       </div>
       <ContentRenderer
         tag="article"

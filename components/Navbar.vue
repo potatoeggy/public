@@ -8,10 +8,13 @@ const props = defineProps<{ activeItem?: string }>();
 <template>
   <nav class="flex items-center justify-between">
     <ul>
-      <li class="home-text"><a href="/">Eggworld</a></li>
+      <li class="home-text"><a href="/">Oeufs?</a></li>
       <li v-for="(item, index) in navItems" :key="index">
         <a :href="item.href" class="flex gap-2">
-          <img :src="`/nav/${item.title.toLowerCase()}.svg`" />
+          <img
+            :src="`/nav/${item.title.toLowerCase()}.svg`"
+            :alt="`${item.title} logo`"
+          />
           {{ item.title }}</a
         >
       </li>

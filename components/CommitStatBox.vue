@@ -27,7 +27,12 @@ onMounted(async () => {
       title="Latest commit"
       :clearstyles="true"
     >
-      <img class="m-0 w-full h-full" :src="imgUrl" id="github-commit-img" />
+      <img
+        class="m-0 w-full h-full"
+        :src="imgUrl"
+        id="github-commit-img"
+        alt="Latest GitHub commit"
+      />
       <!--
         <div>
         <h2>{{ title }}</h2>

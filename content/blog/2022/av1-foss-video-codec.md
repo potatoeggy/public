@@ -1,6 +1,7 @@
 ---
 title: "AV1 — The FOSS Video Codec"
 date: 2022-11-13
+_draft: true
 tags:
 - tech
 - albatross

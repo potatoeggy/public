@@ -2,15 +2,17 @@
 title: "Welcome to Ciers!"
 date: 2020-06-14
 tags:
-- barin
-- unstagnation
+  - barin
+  - unstagnation
 ---
 
-“*You are now at: Escribe Station. This is the last stop on the Ciers–Xunil Line.*
+“_You are now at: Escribe Station. This is the last stop on the Ciers–Xunil Line._
 
-*“The doors will be opening on the: left side.*
+_“The doors will be opening on the: left side._
 
-*“Please stand clear of the doors.”
+_“Please stand clear of the doors.”_
+
+<!-- more -->
 
 ---
 
@@ -20,7 +22,7 @@ Welcome to Ciers! Please ensure that you have at least one of the following befo
 
 - Otherwise, if you are a citizen of another tribe in the Farele Free Travel Area, you must have valid government identification from your tribe. These include:
 
-- - Leecan Student Licenses
+  - Leecan Student Licenses
   - Leecan Teacher Licenses
   - Leecan Non Licenses
   - Demaugian Intertribal Tickets

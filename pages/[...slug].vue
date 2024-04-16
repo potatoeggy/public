@@ -1,21 +1,19 @@
 <script setup lang="ts">
-import type { BlogParsedContent, StoryParsedContent } from "@/shared/types";
+import type { AnyParsedContent } from "@/shared/types";
 import { calcReadingTime } from "@/shared/metadata";
 
-type GeneralParsedContent = BlogParsedContent | StoryParsedContent;
-
 const route = useRoute();
-definePageMeta({
-  layout: "withtop",
-});
+// definePageMeta({
+//   layout: "withtop",
+// });
 
 // we're not using ContentDoc because i need control
-const doc = await queryContent<GeneralParsedContent>(route.path).findOne();
+const doc = await queryContent<AnyParsedContent>(route.path).findOne();
 const type = route.path.startsWith("/stories")
   ? "stories"
   : route.path.startsWith("/blog")
-  ? "blog"
-  : "unknown";
+    ? "blog"
+    : "unknown";
 
 const descText =
   type === "stories"
@@ -29,7 +27,7 @@ const captionText =
 
 <template>
   <main class="container prose dark:prose-invert w-full">
-    <p class="m-0 uppercase font-mono text-sm" v-if="captionText !== ''">
+    <p class="m-0 uppercase font-mono text-sm" v-if="captionText">
       {{ captionText }}
     </p>
     <h1 class="m-0">{{ doc.title }}</h1>
@@ -39,9 +37,8 @@ const captionText =
         v-for="(tag, index) in doc.tags"
         :dest="`/tags/${type}/${tag}`"
         :key="index"
-      >
-        {{ tag }}
-      </Tag>
+        :name="tag"
+      />
     </div>
     <ContentRenderer :value="doc" tag="article" class="pt-0 w-full">
       <template #empty>
@@ -63,6 +60,16 @@ const captionText =
   width: 80%;
   max-width: 80ch;
   padding-top: 2rem;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: 90%;
+  }
+
+  .container h1 {
+    overflow-wrap: break-word;
+  }
 }
 
 * {

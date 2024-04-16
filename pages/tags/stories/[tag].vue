@@ -3,7 +3,7 @@ import { tagInfo, type TagData } from "@/data/tagInfo";
 import type { StoryParsedContent } from "@/shared/types";
 
 const route = useRoute();
-definePageMeta({ layout: "withtop" });
+//definePageMeta({ layout: "withtop" });
 
 const tag =
   typeof route.params.tag === "string" ? route.params.tag : route.params.tag[0];
@@ -16,7 +16,7 @@ const docs = await queryContent<StoryParsedContent>("/stories")
   .find();
 
 const title = details.name ?? `"${tag}"`;
-useTitle(title, details.description);
+useTitle(title + " Stories", details.description);
 </script>
 
 <template>

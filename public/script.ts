@@ -20,9 +20,14 @@ function toggleDarkMode() {
   }
 }
 
-const darkToggle = document.getElementById("dark-toggle") as HTMLInputElement;
-darkToggle.checked = html.className === "dark";
-darkToggle.onclick = toggleDarkMode;
+const darkToggle = document.getElementById(
+  "dark-toggle"
+) as HTMLInputElement | null;
+
+if (darkToggle) {
+  darkToggle.checked = html.className === "dark";
+  darkToggle.onclick = toggleDarkMode;
+}
 
 // github commit fetcher
 // pulled from CommitStatBox.vue
@@ -35,13 +40,18 @@ const latestCommit = latestEvent.payload.commits[0];
 
 const commitImg = document.getElementById(
   "github-commit-img"
-) as HTMLImageElement;
+) as HTMLImageElement | null;
 const commitAnchor = document.getElementById(
   "github-commit-a"
 ) as HTMLAnchorElement;
 
-commitImg.src = `https://opengraph.githubassets.com/hash/${latestEvent.repo.name}/commit/${latestCommit.sha}`;
-commitAnchor.href = `https://github.com/${latestEvent.repo.name}/commit/${latestCommit.sha}`;
+if (commitImg) {
+  commitImg.src = `https://opengraph.githubassets.com/hash/${latestEvent.repo.name}/commit/${latestCommit.sha}`;
+}
+
+if (commitAnchor) {
+  commitAnchor.href = `https://github.com/${latestEvent.repo.name}/commit/${latestCommit.sha}`;
+}
 
 // to make this an esm module for top-level await
 export {};

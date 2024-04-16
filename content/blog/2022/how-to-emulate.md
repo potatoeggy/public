@@ -1,6 +1,7 @@
 ---
 title: "Reviving Older Games Through Emulation"
 date: "2022-05-22"
+_draft: true
 tags:
 - tech
 - albatross
@@ -18,9 +19,7 @@ Introducing…emulation!
 
 ### TIL converting games to Australian birds will preserve them.
 
-::image{src="https://upload.wikimedia.org/wikipedia/commons/9/9d/Emu_1_-_Tidbinbilla.jpg"}
-(Wikipedia Commons, public domain)
-::
+![(Wikipedia Commons, public domain)](https://upload.wikimedia.org/wikipedia/commons/9/9d/Emu_1_-_Tidbinbilla.jpg)
 
 Though *emu* and *emulation* share three letters, the only other similarity they have is that large entities have tried and failed miserably to stamp them out in the past. Emulation is the process of one system (such as a phone or computer) imitating another one (such as a video game console) to run programs designed for that system. Emus will now forever ravage the Australian wilderness, and emulation has been ruled to be legal in at least the United States.
 

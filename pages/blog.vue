@@ -2,7 +2,7 @@
 import type { BlogParsedContent } from "@/shared/types";
 
 useTitle("Blog", "Ramblings and ideas");
-definePageMeta({ layout: "withtop" });
+//definePageMeta({ layout: "withtop" });
 
 // TODO: paginate stories
 const docs = await queryContent<BlogParsedContent>("/blog")
@@ -14,7 +14,6 @@ const tags = new Set(
   docs
     .map((p) => p.tags)
     .flat()
-    .filter((p) => !p.includes(" "))
     .sort()
 );
 </script>
@@ -30,9 +29,8 @@ const tags = new Set(
         :dest="`/tags/blog/${tag}`"
         v-for="(tag, index) in tags"
         :key="index"
-      >
-        {{ tag }}
-      </Tag>
+        :name="tag"
+      />
     </div>
     <PostPreviewCard
       v-for="(post, index) in docs"

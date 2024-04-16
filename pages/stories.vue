@@ -2,7 +2,7 @@
 import type { StoryParsedContent } from "@/shared/types";
 
 useTitle("Stories", "Fantasies and worlds");
-definePageMeta({ layout: "withtop" });
+//definePageMeta({ layout: "withtop" });
 
 // TODO: paginate stories
 const docs = await queryContent<StoryParsedContent>("/stories")
@@ -14,7 +14,6 @@ const tags = new Set(
   docs
     .map((p) => p.tags)
     .flat()
-    .filter((p) => !p.includes(" ")) // do not include AO3-style tags
     .sort()
 );
 </script>
@@ -30,9 +29,8 @@ const tags = new Set(
         :dest="`/tags/stories/${tag}`"
         v-for="(tag, index) in tags"
         :key="index"
-      >
-        {{ tag }}
-      </Tag>
+        :name="tag"
+      />
     </div>
     <PostPreviewCard
       v-for="(story, index) in docs"

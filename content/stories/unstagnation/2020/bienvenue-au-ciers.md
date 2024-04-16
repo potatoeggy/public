@@ -2,15 +2,17 @@
 title: "Bienvenue au Ciers!"
 date: 2020-06-17
 tags:
-- barin
-- unstagnation
+  - barin
+  - unstagnation
 ---
 
-*“Vous êtes maintenant à la station d’Escribe. C’est la dernière station de la ligne de train Ciers–Xunil.*
+_“Vous êtes maintenant à la station d’Escribe. C’est la dernière station de la ligne de train Ciers–Xunil._
 
-*“Les portes vont ouvrir: à gauche.*
+_“Les portes vont ouvrir: à gauche._
 
-*“Veuillez vous tenir à l’écart des portes.”*
+_“Veuillez vous tenir à l’écart des portes.”_
+
+<!-- more -->
 
 ---
 
@@ -20,7 +22,7 @@ Bienvenue au Ciers! Veuillez donc vous assurer que vous avez l’une des documen
 
 - Autrement, si vous êtes un citoyen d’une autre tribu dans le zone de voyage de Farele, vous devez avoir identification valide de votre gouvernement de votre tribu. Ceci peut inclure:
 
-- - La licence étudiant de Leeco
+  - La licence étudiant de Leeco
   - La licence professeur de Leeco
   - La licence Non de Leeco
   - Le billet intertribal de Demauge
@@ -32,7 +34,7 @@ Bienvenue au Ciers! Veuillez donc vous assurer que vous avez l’une des documen
 
 - Autrement, si vous êtes du continent de Barin ou tout ses îles (Voir le document de voyage 6-B pour une list complète des îles), vous devez remplir le document de voyage 6-C avant vous allez aux services frontières.
 
-- Autrement, vous devez remplir le document de voyage 6-D avant vous allez aux services frontières. 
+- Autrement, vous devez remplir le document de voyage 6-D avant vous allez aux services frontières.
 
 Malheureusement, à cause de l’état actuel des choses intertribal, les passeports intertribaux ne sont pas acceptées comme identification. Nous nous excusons pour tout inconvénients.
 

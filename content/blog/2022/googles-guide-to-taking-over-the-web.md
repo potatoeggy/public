@@ -1,6 +1,7 @@
 ---
 title: "Google's Guide to Taking Over the Web"
 date: "2022-07-16"
+_draft: true
 tags:
 - tech
 - albatross

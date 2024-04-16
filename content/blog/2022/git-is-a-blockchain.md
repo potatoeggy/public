@@ -1,6 +1,7 @@
 ---
 title: "Git is a Blockchain"
 date: "2022-10-02"
+_draft: true
 tags:
 - tech
 - albatross

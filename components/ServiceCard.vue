@@ -16,7 +16,7 @@ const imgUrl = `/images/services/${props.img}`;
     :class="['no-underline', { unclickable: unclickable || broken, broken }]"
   >
     <div class="card flex flex-col items-center justify-around">
-      <img class="m-0" :src="imgUrl" />
+      <img class="m-0" :src="imgUrl" :alt="`${name} logo`" />
       <h3 class="m-0">{{ props.name }}</h3>
       <p class="desc-text text-gray-600 dark:text-gray-200"><slot /></p>
     </div>
@@ -44,12 +44,12 @@ a.broken::before {
   content: "PANQUIA IS ON FIRE";
   position: absolute;
   color: red;
-  transform: rotate(-45deg);
+  transform: rotate(-40deg);
   font-size: 1.5rem;
   text-align: center;
   z-index: 2;
-  top: 40%;
-  left: -12.5%;
+  top: 32.5%;
+  left: -8%;
   width: 125%;
   font-family: "Roboto", sans-serif;
   font-weight: bold;

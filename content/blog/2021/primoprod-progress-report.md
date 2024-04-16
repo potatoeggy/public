@@ -2,8 +2,9 @@
 title: Primoprod Progress Report
 date: 2021-08-21
 tags:
-- primoprod
-- tech
+  - primoprod
+  - tech
+  - featured
 ---
 
 Welcome to the very first [Primoprod](https://primoprod.eggworld.me) progress report! In a similar vein to quite a few open source emulation projects (such as those I follow myself using [emufeed](https://github.com/potatoeggy/emufeed/blob/master/sources.py)), I'll be releasing these tidbits in lieu of daily Unstagnation shorts sometimes.
@@ -16,9 +17,9 @@ This report will cover the beginnings of the project to the present day: 16 July
 
 ## Introduction
 
-What is Primoprod? Short for "Productivity Primogems", it was born when I noticed that the gacha system employed by games such as *Genshin Impact* could be incredibly addictive, so I decided to see if I could take advantage of it to boost my productivity and at the same time try to learn web development.
+What is Primoprod? Short for "Productivity Primogems", it was born when I noticed that the gacha system employed by games such as _Genshin Impact_ could be incredibly addictive, so I decided to see if I could take advantage of it to boost my productivity and at the same time try to learn web development.
 
-The basic premise was to assign a given point value for each productive task and be able to spend those points on something or have them progress toward a milestone, so that productive tasks would be incentivised. The aforementioned gacha games and Uber use this to great effect, so I decided to emulate the Wish UI of [*Genshin Impact*](https://genshin.mihoyo.com/en).
+The basic premise was to assign a given point value for each productive task and be able to spend those points on something or have them progress toward a milestone, so that productive tasks would be incentivised. The aforementioned gacha games and Uber use this to great effect, so I decided to emulate the Wish UI of [_Genshin Impact_](https://genshin.mihoyo.com/en).
 
 And so the project began! I decided to work with Vue.js because of its gentler learning curve compared to Angular and more traditional HTML/CSS/JS separation compared to React. You can tell when I became more comfortable in using Vue's declarative system in the later components compared to, say, [`App.vue`](https://github.com/potatoeggy/primoprod/blob/master/src/App.vue).
 
@@ -30,17 +31,15 @@ As my first foray into web development, there were many tools and practices I co
 
 Luckily, I didn't have to make any of these decisions because Vue's [CLI](https://cli.vuejs.org/) gives you a list of sane defaults that you can pick from, and since I was learning for the future, I went with the first option of Vue 3 + Typescript. `vue-cli` even nicely [initialised a git repo for me](https://github.com/potatoeggy/primoprod/commit/9b7d7841806c905e8f580f98d1c95d4732178810)!
 
-At the time, coming from Python/Java, I opted in to the class components plugin hoping it made it easier to develop for, but later removed it due to a lack of documentation with it for Vue 3. Occasional downsides of newer technologies ¯\\\_(ツ)_/¯.
+At the time, coming from Python/Java, I opted in to the class components plugin hoping it made it easier to develop for, but later removed it due to a lack of documentation with it for Vue 3. Occasional downsides of newer technologies ¯\\\_(ツ)\_/¯.
 
 The [first few commits](https://github.com/potatoeggy/primoprod/commit/ed9d94b61bf91ea9b82ac4d832dfb2b9ff2efc59) had me playing around until I was comfortable enough to introduce my very [first component](https://github.com/potatoeggy/primoprod/commit/fcbb4068dd3b018db2809ccfcc5381d4ea3ae727): the WishButton.
 
-::image{src=wish-button-emulated.webp}
-::
+![](src=wish-button-emulated.webp)
 
 I'd say it turned out pretty well! Since I wanted to emulate Genshin's UI, I wanted to match it as closely as I could. These two buttons are made of an image inside of a div relatively positioned with text absolutely positioned inside. Original image for comparison:
 
-::image{src=wish-button-original.webp}
-::
+![](wish-button-original.webp)
 
 There are still some differences between the texts since Genshin uses antialiasing, and the alignment and shadow of the icon beside the wish quantity is slightly off too, but I would consider this result to be acceptable.
 
@@ -58,10 +57,7 @@ See [GemCounter](https://github.com/potatoeggy/primoprod/blob/master/src/compone
 
 Although I had read up on [MDN's](https://developer.mozilla.org/en-US/) fantastic tutorials/documentation a fair bit and used flexboxes and `rem` everywhere, I apparently did not catch `box-sizing: border-box` and the margins and padding just did not arrange themselves how they should have.
 
-::image{src=mdn-box-sizing-tip.webp}
-::
-
-:/ thanks MDN for letting me know
+![:/ thanks MDN for letting me know](mdn-box-sizing-tip.webp)
 
 [Some foreshadowing](https://github.com/potatoeggy/primoprod/blob/master/src/components/ItemRevealScreen.vue#L224)
 
@@ -69,13 +65,11 @@ Although I had read up on [MDN's](https://developer.mozilla.org/en-US/) fantasti
 
 Designing the basic screen was pretty straightforward. For all its woes, pure CSS still works and is intuitive enough that my git history was only slightly too messy and I got my results.
 
-::image{src=primoprod-wishbanners.webp}
-::
+![](primoprod-wishbanners.webp)
 
-Pretty good, right? Now, the design still isn't adaptive enough *since things get cut off for who knows why I thought flexboxes were supposed to solve all this* but for the most part it looks good enough. It appears I'll have to make a lot of exceptions for mobile devices…
+Pretty good, right? Now, the design still isn't adaptive enough _since things get cut off for who knows why I thought flexboxes were supposed to solve all this_ but for the most part it looks good enough. It appears I'll have to make a lot of exceptions for mobile devices…
 
-::image{src=primoprod-wishbanners-scaled.webp}
-::
+![](primoprod-wishbanners-scaled.webp)
 
 With some help taken by examining the assets of https://genshin.thekima.com and https://gi-wish-simulator.uzairashraf.dev, I grabbed a static background image as well as the videos!
 
@@ -136,19 +130,17 @@ No it doesn't it's not even close but I'm not coming back to that
 
 ## Sweet release
 
-Now that `ItemRevealScreen` is *done and over with and will not need any changes*, before making myself work on the equally fun part of the project that is `ItemRevealAllOverlay`, I opted for a break in `ItemObtainScreen` and `ItemDescriptionOverlay` and a one-week hiatus.
+Now that `ItemRevealScreen` is _done and over with and will not need any changes_, before making myself work on the equally fun part of the project that is `ItemRevealAllOverlay`, I opted for a break in `ItemObtainScreen` and `ItemDescriptionOverlay` and a one-week hiatus.
 
-And they were easy! Easy and fun. It was blissful to be working with structured HTML and CSS again, and the animation pains there were *nothing* compared to the trauma of  `ItemRevealScreen`.
+And they were easy! Easy and fun. It was blissful to be working with structured HTML and CSS again, and the animation pains there were _nothing_ compared to the trauma of `ItemRevealScreen`.
 
 In fact, I consider those two to be 100% done unless I can find a way to apply a border that looks exactly like the original game's that isn't an image.
 
 But it looks great!
 
-::image{src=itemdescriptionoverlay.webp}
-::
+![](itemdescriptionoverlay.webp)
 
-::image{src=itemobtainoverlay.webp}
-::
+![](itemobtainoverlay.webp)
 
 ## Wrapping up
 

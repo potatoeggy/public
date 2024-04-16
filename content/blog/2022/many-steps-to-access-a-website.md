@@ -1,6 +1,7 @@
 ---
 title: "Appreciate Your Browser!"
 date: "2022-09-18"
+_draft: true
 tags:
 - tech
 - albatross

@@ -18,7 +18,7 @@ export interface Project {
   longDescription?: string;
   langs: Language[];
   license?: "AGPL-3.0" | "GPL-3.0" | "MIT" | "LGPL-3.0";
-  type: "full" | "server" | "client" | "embedded";
+  type: "web" | "tool" | "embedded" | "service";
 }
 
 export const projects: Project[] = [
@@ -31,7 +31,7 @@ export const projects: Project[] = [
     langs: ["python"],
     license: "AGPL-3.0",
     img: "mandown.webp",
-    type: "client",
+    type: "tool",
   },
   {
     name: "Noveldown",
@@ -39,9 +39,9 @@ export const projects: Project[] = [
     langs: ["python"],
     license: "LGPL-3.0",
     description:
-      "A webnovel downloader and converter to EPUB for my Kobo, with lots of metadata!",
+      "A webnovel downloader and EPUB converter for my Kobo, with lots of metadata!",
     longDescription: "Heavily borrows Mandown's design.",
-    type: "client",
+    type: "tool",
   },
   {
     name: "Jeopardy",
@@ -51,7 +51,7 @@ export const projects: Project[] = [
     license: "AGPL-3.0",
     description: "Kahoot-inspired Jeopardy! game, including Final Jeopardy!",
     longDescription: "Created for Bayview's Computer Club.",
-    type: "full",
+    type: "web",
   },
   {
     name: "Primoprod",
@@ -62,13 +62,13 @@ export const projects: Project[] = [
     description:
       "A game simulator to increase productivity with quests and gambling.",
     longDescription: "My first project with a JS framework!",
-    type: "client",
+    type: "web",
   },
   {
     name: "PillowⓇ",
     href: "https://github.com/potatoeggy/ece198",
     description:
-      "A water quality statistics aggregator written for the STM32 microcontroller with an LCD display and keypad.",
+      "A water quality statistics aggregator written for the STM32 microcontroller with a display and keypad.",
     langs: ["rust"],
     license: "GPL-3.0",
     type: "embedded",
@@ -80,40 +80,9 @@ export const projects: Project[] = [
     langs: ["python"],
     license: "AGPL-3.0",
     description:
-      "A Discord bot initially to track sleep hours as friendly competition but is now a local music bot with synchronised lyrics!",
+      "A Discord music bot with synchronised lyrics, originally a sleep tracking bot to encourage sleeping.",
     img: "napbot.webp",
-    type: "server",
-  },
-  {
-    name: "Resketch",
-    href: "https://github.com/anyuan-chen/resketch",
-    langs: ["typescript", "react"],
-    img: "resketch.webp",
-    description:
-      'A "reverse-Pictionary" where you compete to have an AI recognise your drawings.',
-    longDescription: "Written for YRHacks 2022.",
-    type: "full",
-  },
-  {
-    name: "Perdiem",
-    href: "https://github.com/anyuan-chen/perdiem",
-    langs: ["javascript", "react"],
-    license: "AGPL-3.0",
-    img: "perdiem.webp",
-    description:
-      "A pretty budget tracking app where I learned too much about server-side rendering.",
-    longDescription: "Written for StormHacks 2022.",
-    type: "client",
-  },
-  {
-    name: "RecipeReady",
-    href: "https://github.com/christopherlam888/recipe-ready-frontend",
-    langs: ["python", "android", "flutter"],
-    img: "recipeready.webp",
-    description:
-      "Android app to automagically plan meals and prepare a shopping list so you don't have to.",
-    longDescription: "Written for Hack the North 2021.",
-    type: "full",
+    type: "service",
   },
   {
     name: "AutoFicFare",
@@ -122,7 +91,7 @@ export const projects: Project[] = [
     license: "GPL-3.0",
     description:
       "Automatically update fanfiction in a Calibre database to instantly update them on your Kobo.",
-    type: "client",
+    type: "tool",
   },
 ];
 
@@ -132,14 +101,28 @@ const unreleasedProjects: Project[] = [
     href: "https://github.com/potatoeggy/aleister",
     langs: ["rust"],
     license: "AGPL-3.0",
-    type: "server",
+    type: "service",
   },
   {
     name: "Aoto",
     href: "https://github.com/potatoeggy/aoto",
     langs: ["golang", "typescript", "react"],
     license: "AGPL-3.0",
-    type: "full",
+    type: "web",
+  },
+  {
+    name: "Kobink",
+    href: "https://github.com/potatoeggy/kobink",
+    langs: ["rust"],
+    license: "AGPL-3.0",
+    type: "service",
+  },
+  {
+    name: "GBARR",
+    href: "https://github.com/potatoeggy/gbarr",
+    langs: ["rust"],
+    license: "GPL-3.0",
+    type: "embedded",
   },
 ];
 

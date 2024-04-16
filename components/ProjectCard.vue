@@ -17,13 +17,14 @@ const imgUrl = props.project.img
       <div class="card-text h-full px-4 py-2">
         <div class="h-full flex flex-col justify-between">
           <div>
-            <h3 class="m-0">{{ project.name }}</h3>
+            <h3 class="m-0 font-bold font-sans">{{ project.name }}</h3>
             <div class="flex gap-1 items-center flex-nowrap">
               <img
                 class="h-5 w-5 m-0"
                 :src="`/images/langs/${lang}.svg`"
                 v-for="(lang, index) in project.langs"
                 :key="index"
+                :alt="`${lang} logo`"
               />
               <span
                 class="text-xs text-gray-500 dark:text-gray-300 whitespace-nowrap"
@@ -108,7 +109,7 @@ html.dark .card-img {
 }
 
 .desc-text {
-  width: 139%;
+  width: 140%;
   /* 140% is too close */
   transition: width 0.2s ease;
 }
@@ -127,7 +128,7 @@ a.unclickable {
   }
 
   .desc-text {
-    width: 135%;
+    width: 136%;
   }
 }
 
