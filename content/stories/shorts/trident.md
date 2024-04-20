@@ -1,6 +1,7 @@
 ---
 title: "A Triden(t) Against the World"
 date: 2024-02-29
+_draft: true
 tags:
 - shorts
 - "content warning: political fluff"
