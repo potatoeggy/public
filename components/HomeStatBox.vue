@@ -1,20 +1,22 @@
 <script setup lang="ts">
 import type { Color, ViewportLength } from "csstype";
 
-const props = withDefaults(
-  defineProps<{
-    href?: string;
-    id?: string;
-    color?: Color;
-    darkcolor?: Color;
-    title?: string;
-    clearstyles?: boolean;
-    forceheight?: ViewportLength<"rem">;
-  }>(),
-  { color: "pink", darkcolor: "#c88994", clearstyles: false }
-);
+const {
+  color = "pink",
+  darkcolor = "#c88994",
+  clearstyles = false,
+  ...props
+} = defineProps<{
+  href?: string;
+  id?: string;
+  color?: Color;
+  darkcolor?: Color;
+  title?: string;
+  clearstyles?: boolean;
+  forceheight?: ViewportLength<"rem">;
+}>();
 
-const padding = props.clearstyles ? "0" : "1rem";
+const padding = clearstyles ? "0" : "1rem";
 const height = props.forceheight ?? "100%";
 
 // v-bind DOES NOT WORK on initial render
@@ -23,8 +25,8 @@ const height = props.forceheight ?? "100%";
 const cssVars = {
   "--padding": padding,
   "--height": height,
-  "--color": props.color,
-  "--darkcolor": props.darkcolor,
+  "--color": color,
+  "--darkcolor": darkcolor,
 };
 </script>
 

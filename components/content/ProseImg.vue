@@ -1,9 +1,6 @@
 <script setup lang="ts">
-const props = withDefaults(defineProps<{ src: string; alt?: string }>(), {
-  alt: "",
-});
+const { src, alt = "" } = defineProps<{ src: string; alt?: string }>();
 
-const src = props.src;
 const imgSrc =
   src.startsWith("http://") || src.startsWith("https://")
     ? src
