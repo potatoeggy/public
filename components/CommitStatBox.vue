@@ -20,7 +20,7 @@ onMounted(async () => {
 <template>
   <div class="prose dark:prose-invert">
     <HomeStatBox
-      :href="href"
+      :href
       id="github-commit-a"
       color="lightgray"
       darkcolor="slategray"

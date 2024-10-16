@@ -31,11 +31,7 @@ const cssVars = {
 </script>
 
 <template>
-  <a
-    class="no-underline inline-block flex flex-col items-stretch"
-    :href="href"
-    :id="id"
-  >
+  <a class="no-underline inline-block flex flex-col items-stretch" :href :id>
     <div class="container box" :style="cssVars">
       <p class="m-0 w-full title">{{ title }}</p>
       <div class="main-content">
