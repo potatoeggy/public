@@ -20,7 +20,7 @@ const welcomeStrings = ["Welcome!", "Bienvenue!", "欢迎!"];
       </p>
     </div>
     <div
-      class="flex justify-around items-stretch w-full flex-wrap gap-x-8 gap-y-10"
+      class="flex justify-around items-start w-full flex-wrap gap-x-8 gap-y-10"
     >
       <BlogStatBox />
       <StoryStatBox />

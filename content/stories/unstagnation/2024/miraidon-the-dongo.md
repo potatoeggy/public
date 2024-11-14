@@ -7,7 +7,7 @@ tags:
 - featured
 ---
 
-!["Don-dongo. Dongodon dong dongodon?"](dongo.jpg)
+![Dongo is love. Dongo is life.](/dongo-party.png)
 
 <!-- more -->
 
@@ -127,7 +127,11 @@ She falls over. She considers whether to go batshit crazy or lie on the ground. 
 
 "They even talk to each other," he continues. "Here, lemme find a pic."
 
-A ping. With dread in her heart, she slides down the notification. It's a picture of a Victorian lamp. Its flame cheerfully dances, burning the gas. "Shut the fuck up."
+A ping. With dread in her heart, she slides down the notification.
+
+![](/dongo-gaslight.jpg)
+
+It's a picture of a Victorian lamp. Its flame cheerfully dances, burning the gas. "Shut the fuck up."
 
 "Stare into it," he encourages.
 
@@ -188,3 +192,5 @@ The sense of victory makes it easier for her to assert her place in reality. "Th
 "Sounds about right." A pause. "Good night\!"
 
 "Night\!"
+
+!["Don-dongo. Dongodon dong dongodon?"](dongo.jpg)
