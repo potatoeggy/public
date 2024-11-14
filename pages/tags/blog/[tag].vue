@@ -34,7 +34,7 @@ useTitle(title + " Posts", details.description);
     <PostPreviewCard
       v-for="(post, index) in docs"
       :key="index"
-      :post="post"
+      :post
       :highlighttags="[tag]"
       type="blog"
     />

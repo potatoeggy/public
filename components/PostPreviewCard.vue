@@ -4,15 +4,15 @@ import { calcReadingTime } from "@/shared/metadata";
 import { SpecialTags } from "@/data/specialTags";
 import IconStar from "@/assets/images/star.svg?component";
 
-const props = defineProps<{
+const { post, type } = defineProps<{
   post: AnyParsedContent;
   type: "stories" | "blog";
   highlighttags?: string[];
 }>();
 
-const readingTime = calcReadingTime(props.post);
+const readingTime = calcReadingTime(post);
 const descText =
-  props.type === "stories"
+  type === "stories"
     ? `${readingTime.words.total} words`
     : `${readingTime.minutes} min read`;
 </script>
@@ -22,10 +22,7 @@ const descText =
     class="break-words max-w-full rounded-lg p-4 shadow-md border border-2 border-gray-300 dark:border-gray-600"
   >
     <h3 class="m-0 flex items-center gap-1.5">
-      <a
-        :href="`/tags/${props.type}/featured`"
-        v-if="post.tags.includes('featured')"
-      >
+      <a :href="`/tags/${type}/featured`" v-if="post.tags.includes('featured')">
         <IconStar class="fill-yellow-500 outline-none" />
       </a>
       <a

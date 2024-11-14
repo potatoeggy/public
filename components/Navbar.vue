@@ -1,8 +1,6 @@
 <script setup lang="ts">
 import ColourPicker from "./ColourPicker.vue";
 import { navItems } from "@/data/navItems";
-
-const props = defineProps<{ activeItem?: string }>();
 </script>
 
 <template>
@@ -85,9 +83,15 @@ li.home-text {
 * {
   --trans: 0.2s ease;
   --box-trans-time: 0.4s;
-  transition: opacity var(--trans), transform var(--trans), gap var(--trans),
-    width var(--trans), box-shadow var(--box-trans-time) ease,
-    filter var(--trans), padding-left var(--trans), padding-right var(--trans);
+  transition:
+    opacity var(--trans),
+    transform var(--trans),
+    gap var(--trans),
+    width var(--trans),
+    box-shadow var(--box-trans-time) ease,
+    filter var(--trans),
+    padding-left var(--trans),
+    padding-right var(--trans);
 }
 
 @media screen and (max-width: 600px) {

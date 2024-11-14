@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const props = defineProps<{
+const { img } = defineProps<{
   name: string;
   href: string;
   img: string;
@@ -7,7 +7,7 @@ const props = defineProps<{
   broken?: boolean;
 }>();
 
-const imgUrl = `/images/services/${props.img}`;
+const imgUrl = `/images/services/${img}`;
 </script>
 
 <template>
@@ -17,7 +17,7 @@ const imgUrl = `/images/services/${props.img}`;
   >
     <div class="card flex flex-col items-center justify-around">
       <img class="m-0" :src="imgUrl" :alt="`${name} logo`" />
-      <h3 class="m-0">{{ props.name }}</h3>
+      <h3 class="m-0">{{ name }}</h3>
       <p class="desc-text text-gray-600 dark:text-gray-200"><slot /></p>
     </div>
   </a>

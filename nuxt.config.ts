@@ -2,6 +2,7 @@ import { defineNuxtConfig } from "nuxt/config";
 import svgLoader from "vite-svg-loader";
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
+  compatibilityDate: "2024-10-16",
   app: {
     head: {
       htmlAttrs: {
@@ -15,7 +16,7 @@ export default defineNuxtConfig({
         { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
         {
           rel: "stylesheet",
-          href: "https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css",
+          href: "https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css",
         },
       ],
       script: [
@@ -55,6 +56,13 @@ export default defineNuxtConfig({
   },
   vite: {
     plugins: [svgLoader()],
+    css: {
+      preprocessorOptions: {
+        scss: {
+          api: "modern",
+        },
+      },
+    },
   },
   content: {
     documentDriven: false,

@@ -35,7 +35,7 @@ const tags = new Set(
     <PostPreviewCard
       v-for="(post, index) in docs"
       :key="index"
-      :post="post"
+      :post
       type="blog"
     />
   </main>
