@@ -13,19 +13,19 @@ tags:
 
 The boy falls back against his couch, dropping his controller in his lap. The video game on his TV blares cheerful adventurous music. "The game is sooooo slow."
 
-"Fuck," the girl says over voice chat. "You're on emulator, though. 2.5x it?"
+"Fuck," the girl says over video chat. "You're on emulator, though. 2.5x it?"
 
 "The computer isn't quite powerful enough."
 
 "L. Ratio. Cringe PC gamer."
 
-The boy sits straight up again, adding a new monster to his current party. "Dongo disagrees. Do you have a Dongo? Exactly."
+The boy turns his attention back to the game, adding a new monster to his current party. "Dongo disagrees. Do you have a Dongo? Exactly."
 
-"Dongo isn't _real,_ he's _not\!"_
+On the other side of the world, the girl has little to say to that. "Dongo isn't _real,_ he's _not\!"_
 
 "Dongo is life."
 
-"It's time to snap back to reality — car doggo is a myth\!"
+"It's time to snap back to reality — car doggo is a myth."
 
 "I will write Dongo fanfic. He will be real."
 
@@ -45,15 +45,15 @@ Her jaw drops. "You're the one who said to sex it\! Every time I settle down to 
 
 "It's boring\! You click things, it's barely real time nor turn-based. It's as if tower defense and Civ did a Dongo."
 
-"Why is it an _adjective_ now?"
+She takes a moment to parse the mystery word. "Why is it an _adjective_ now?"
 
 "Dongo disapproves." He shakes his head.
 
-"Oh, yeah? Well, I've spoken to Dongo and he said he doesn't like you." She stuck her tongue out, folded her arms, and turned away.
+"Oh, yeah? Well, I've spoken to Dongo and he said he doesn't like you." She sticks her tongue out, folds her arms, and turns away.
 
-"Lies\!" he cried. "You don't have Dongo. Dongo is _mine\!"_
+"Lies\!" he cries. "You don't have Dongo. Dongo is _mine\!"_
 
-"I have him right here," she gloated, peeking off-camera. "He's right in front of me right now. He just doesn't want to see you."
+"I have him right here," she gloats, peeking off-camera. "He's right in front of me right now. He just doesn't want to see you."
 
 "Let's see 'em."
 
