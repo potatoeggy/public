@@ -73,7 +73,7 @@ export const tagInfo: Record<string, TagData> = {
   "emma the narwhal": {
     name: "Emma the Narwhal",
     description:
-      'A mystery-betrayal story April writes in <a href="/tags/stories/monoceros (novel)"><em>Monoceros</em> (novel)</a>.',
+      'A mystery-betrayal story written by April Evans in <a href="/tags/stories/monoceros (novel)"><em>Monoceros</em> (novel)</a>.',
   },
 };
 export default tagInfo;
