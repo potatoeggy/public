@@ -66,5 +66,14 @@ export const tagInfo: Record<string, TagData> = {
     name: "Featured",
     description: "Works that are less rambly and more actually good!",
   },
+  "monoceros (novel)": {
+    name: "Monoceros (novel)",
+    description: "A coffee shop where six students meet and become friends.",
+  },
+  "emma the narwhal": {
+    name: "Emma the Narwhal",
+    description:
+      'A mystery-betrayal story April writes in <a href="/tags/stories/monoceros (novel)"><em>Monoceros</em> (novel)</a>.',
+  },
 };
 export default tagInfo;
