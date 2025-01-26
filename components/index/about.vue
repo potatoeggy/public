@@ -27,27 +27,33 @@ import { projects } from "@/data/projects";
     </p>
     <ul>
       <li>competitive programming on DMOJ</li>
-      <li>GUI toolkits very very briefly in GTK, Qt, and Swing</li>
       <li>Linux and server administration</li>
-      <li>web development in the form of a Chrome extension and my sites</li>
+      <li>web development</li>
       <li>hackathons</li>
-      <li>Godot Engine Cat Simulator DX</li>
       <li>ski instruction</li>
       <li>writing of literature</li>
-      <li>emulation</li>
+      <li>video game console emulation</li>
     </ul>
     <p>…and other things that I'm forgetting right now.</p>
     <p>
-      I have two server machines at home — a Dell OptiPlex 780 and a Dell
-      Latitude E5520. One of them is a laptop and
+      I have three server machines at home — a Dell OptiPlex 780, a Dell
+      Latitude E5520, and a custom-built PC. One of them is a laptop and
       <s>I'm surprised it hasn't burnt up yet </s>
       <span class="redphasis">it has burnt up.</span>
     </p>
+    <h3>Custom PC ("hwaboon")</h3>
+    <ul>
+      <li><strong>CPU:</strong> AMD Ryzen 7700X (8c/16t)</li>
+      <li><strong>GPU:</strong> Integrated</li>
+      <li><strong>RAM:</strong> 2× 16 GB DDR5</li>
+      <li><strong>Storage:</strong> Crucial P3 1 TB SSD</li>
+      <li><strong>OS:</strong> Arch Linux</li>
+    </ul>
     <h3>OptiPlex 780 ("asvyn")</h3>
     <ul>
       <li><strong>CPU:</strong> Intel Core 2 Duo E8400 (2c/2t)</li>
       <li><strong>GPU:</strong> AMD ATI Radeon HD 3450</li>
-      <li><strong>RAM:</strong> 2× 1 GB DDR + 1× 2 GB DDR2</li>
+      <li><strong>RAM:</strong> 2× 2 GB DDR3</li>
       <li><strong>Storage:</strong> Western Digital 150 GB hard drive</li>
       <li><strong>OS:</strong> Arch Linux</li>
     </ul>
