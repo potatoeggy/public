@@ -1,6 +1,6 @@
 ---
 title: "Emma the Narwhal"
-date: 2024-12-01
+date: 2024-12-02
 tags:
 - nanowrimo
 - "monoceros (novel)"
