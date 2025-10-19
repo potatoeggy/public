@@ -5,6 +5,7 @@ _draft: false
 tags:
 - tech
 - albatross
+- featured
 ---
 
 This article is [also published in *The FOSS Albatross.*](https://medium.com/the-foss-albatross/googles-guide-to-taking-over-the-web-26847a389ac5)
@@ -15,7 +16,7 @@ Do you have a dream? A dream where you call the shots for billions of other peop
 
 ## 1. Bribe your competitors.
 
-This first step is the most important. Without getting your name out there, you don't have the influence needed for web domination. Take out a small loan if you have to. We've bought out Mozilla for $450 million and Apple for $15 billion so that we're the default search engine in Firefox and Safari. Why would our users ever bother to change the default — to something like *Bing*, no less — when ours is good enough?
+This first step is the most important. Without getting your name out there, you don't have the influence needed for web domination. Take out a small loan if you have to. We've bought out Mozilla for &#36;450 million and Apple for &#36;15 billion so that we're the default search engine in Firefox and Safari. Why would our users ever bother to change the default — to something like *Bing*, no less — when ours is good enough?
 
 You gotta get your customers to associate you with the web, and you know you've got that when your company name is added to the English dictionary. What's the first thing you do whenever you want to look something up? You Google it. And the simplest, easiest, lowest-effort way to do this is by bribing your competitors.
 
