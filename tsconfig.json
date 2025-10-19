@@ -18,6 +18,6 @@
     "noImplicitAny": true,
     "strictNullChecks": true,
     "strictFunctionTypes": true,
-    "alwaysStrict": true
+    "alwaysStrict": true,
   }
 }

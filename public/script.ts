@@ -2,7 +2,7 @@
 // of all the nuxt bs while we wait for static generation
 // to actually become a thing in nuxt 3
 
-import type { GithubPushEvent } from "../shared/github";
+import type { GithubPushEvent } from "../app/shared/github";
 
 const html = document.getElementsByTagName("html")[0];
 html.className = localStorage.theme ?? "light";
@@ -36,7 +36,7 @@ const results = (await (await fetch(FEED_URL)).json()) as GithubPushEvent[];
 const latestEvent = results.find(
   (e) => e.type === "PushEvent"
 ) as GithubPushEvent;
-const latestCommit = latestEvent.payload.commits[0];
+const latestCommitSha = latestEvent.payload.head;
 
 const commitImg = document.getElementById(
   "github-commit-img"
@@ -46,11 +46,11 @@ const commitAnchor = document.getElementById(
 ) as HTMLAnchorElement;
 
 if (commitImg) {
-  commitImg.src = `https://opengraph.githubassets.com/hash/${latestEvent.repo.name}/commit/${latestCommit.sha}`;
+  commitImg.src = `https://opengraph.githubassets.com/hash/${latestEvent.repo.name}/commit/${latestCommitSha}`;
 }
 
 if (commitAnchor) {
-  commitAnchor.href = `https://github.com/${latestEvent.repo.name}/commit/${latestCommit.sha}`;
+  commitAnchor.href = `https://github.com/${latestEvent.repo.name}/commit/${latestCommitSha}`;
 }
 
 // to make this an esm module for top-level await

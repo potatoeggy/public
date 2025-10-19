@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import ColourPicker from "./ColourPicker.vue";
-import { navItems } from "@/data/navItems";
+import { navItems } from "~/data/navItems";
 </script>
 
 <template>

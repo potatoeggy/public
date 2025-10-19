@@ -1,20 +1,30 @@
 <script setup lang="ts">
 import type { GithubPushEvent } from "@/shared/github";
-import type { Ref } from "vue";
 
 const FEED_URL = "https://api.github.com/users/potatoeggy/events";
-const imgUrl = ref("");
-const href = ref("");
 
-onMounted(async () => {
-  const results = (await useFetch(FEED_URL)).data as Ref<GithubPushEvent[]>;
-  const latestEvent = results.value.find(
-    (event) => event.type === "PushEvent"
-  ) as GithubPushEvent;
-  const latestCommit = latestEvent.payload.commits[0];
-  imgUrl.value = `https://opengraph.githubassets.com/hash/${latestEvent.repo.name}/commit/${latestCommit.sha}`;
-  href.value = `https://github.com/${latestEvent.repo.name}/commit/${latestCommit.sha}`;
+const { data: results } = await useFetch<GithubPushEvent[]>(FEED_URL, {
+  onResponse(res) {
+    res.response.json;
+  },
 });
+
+const latestEvent = results.value?.find(
+  (event: GithubPushEvent) => event.type === "PushEvent"
+);
+
+const latestCommitSha = latestEvent.payload.head;
+
+const imgUrl = computed(() =>
+  results.value
+    ? `https://opengraph.githubassets.com/hash/${latestEvent.repo.name}/commit/${latestCommitSha}`
+    : ""
+);
+const href = computed(() =>
+  results.value
+    ? `https://github.com/${latestEvent.repo.name}/commit/${latestCommitSha}`
+    : ""
+);
 </script>
 
 <template>

@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { getPrettyDate, getUtcDate } from "~~/shared/metadata";
-import type { AnyParsedContent } from "~~/shared/types";
+import { getPrettyDate, getUtcDate } from "@/shared/metadata";
+import type { AnyParsedContent } from "@/shared/types";
 
 const { doc } = defineProps<{ doc: AnyParsedContent }>();
 

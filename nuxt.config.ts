@@ -1,8 +1,9 @@
 import { defineNuxtConfig } from "nuxt/config";
 import svgLoader from "vite-svg-loader";
+
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
-  compatibilityDate: "2024-10-16",
+  compatibilityDate: "2025-10-19",
   app: {
     head: {
       htmlAttrs: {
@@ -23,7 +24,6 @@ export default defineNuxtConfig({
         {
           defer: true,
           src: "/script.js",
-          hid: "stupidEmergencyScript",
           type: "module",
         },
       ],
@@ -45,7 +45,7 @@ export default defineNuxtConfig({
     shim: false,
   },
   site: {
-    url: process.env.BASE_URL || "https://eggworld.me",
+    url: process.env.BASE_URL || "https://eggipelago.com",
   },
   sitemap: {
     strictNuxtContentPaths: true,

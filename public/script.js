@@ -23,13 +23,13 @@ if (darkToggle) {
 const FEED_URL = "https://api.github.com/users/potatoeggy/events";
 const results = (await (await fetch(FEED_URL)).json());
 const latestEvent = results.find((e) => e.type === "PushEvent");
-const latestCommit = latestEvent.payload.commits[0];
+const latestCommit = latestEvent.payload.head;
 const commitImg = document.getElementById("github-commit-img");
 const commitAnchor = document.getElementById("github-commit-a");
 if (commitImg) {
-    commitImg.src = `https://opengraph.githubassets.com/hash/${latestEvent.repo.name}/commit/${latestCommit.sha}`;
+    commitImg.src = `https://opengraph.githubassets.com/hash/${latestEvent.repo.name}/commit/${latestCommitSha}`;
 }
 if (commitAnchor) {
-    commitAnchor.href = `https://github.com/${latestEvent.repo.name}/commit/${latestCommit.sha}`;
+    commitAnchor.href = `https://github.com/${latestEvent.repo.name}/commit/${latestCommitSha}`;
 }
 export {};

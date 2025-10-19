@@ -34,7 +34,7 @@ useHead({ title: "Oeufs?" });
             GitHub</a
           >
           and
-          <a class="underline" href="https://git.eggworld.me/eggy/public">
+          <a class="underline" href="https://git.eggipelago.com/eggy/public">
             Gitea
           </a>
         </p>

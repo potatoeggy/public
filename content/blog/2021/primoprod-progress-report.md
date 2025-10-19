@@ -7,7 +7,7 @@ tags:
   - featured
 ---
 
-Welcome to the very first [Primoprod](https://primoprod.eggworld.me) progress report! In a similar vein to quite a few open source emulation projects (such as those I follow myself using [emufeed](https://github.com/potatoeggy/emufeed/blob/master/sources.py)), I'll be releasing these tidbits in lieu of daily Unstagnation shorts sometimes.
+Welcome to the very first [Primoprod](https://primoprod.vercel.app) progress report! In a similar vein to quite a few open source emulation projects (such as those I follow myself using [emufeed](https://github.com/potatoeggy/emufeed/blob/master/sources.py)), I'll be releasing these tidbits in lieu of daily Unstagnation shorts sometimes.
 
 In this hopefully small series of development notes, I'll be laying out my experiences learning web development as an absolute amateur.
 

@@ -13,40 +13,44 @@
     </p>
     <!-- i could make this a list but god i'm so tired with nuxt -->
     <div class="flex justify-around flex-wrap gap-8 items-center">
-      <ServiceCard name="Gitea" href="https://git.eggworld.me" img="gitea.svg">
+      <ServiceCard
+        name="Gitea"
+        href="https://git.eggipelago.com"
+        img="gitea.svg"
+      >
         Self-hosted GitHub
       </ServiceCard>
       <ServiceCard
         name="Eifueo"
-        href="https://eifueo.eggworld.me"
+        href="https://eifueo.eggipelago.com"
         img="eifueo.svg"
       >
         Note collection
       </ServiceCard>
       <ServiceCard
         name="Primoprod"
-        href="https://primoprod.eggworld.me"
+        href="https://primoprod.vercel.app"
         img="primogem.webp"
       >
         Wish simulator
       </ServiceCard>
       <ServiceCard
         name="Calibre"
-        href="https://calibre.eggworld.me"
+        href="https://calibre.eggipelago.com"
         img="calibre-web.webp"
       >
         Kobo Cloud
       </ServiceCard>
       <ServiceCard
         name="Jellyfin"
-        href="https://jellyfin.eggworld.me"
+        href="https://jellyfin.eggipelago.com"
         img="jellyfin.svg"
       >
         FOSS media server
       </ServiceCard>
       <ServiceCard
         name="Minecraft"
-        href="minecraft.eggworld.me"
+        href="minecraft.eggipelago.com"
         img="minecraft.svg"
         unclickable
         broken
