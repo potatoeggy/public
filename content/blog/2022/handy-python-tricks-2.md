@@ -1,7 +1,7 @@
 ---
 title: "13 Tricks to Write Nicer Python"
 date: "2022-08-21"
-_draft: true
+_draft: false
 tags:
 - tech
 - albatross

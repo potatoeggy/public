@@ -1,7 +1,7 @@
 ---
 title: "Stay Anonymous Online With These 4 Browser Extensions"
 date: "2022-08-06"
-_draft: true
+_draft: false
 tags:
 - tech
 - albatross

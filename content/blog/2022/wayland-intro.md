@@ -1,7 +1,7 @@
 ---
 title: "What's Wayland? Linux's \"New\" Display Server"
 date: 2022-12-11
-_draft: true
+_draft: false
 tags:
 - tech
 - albatross

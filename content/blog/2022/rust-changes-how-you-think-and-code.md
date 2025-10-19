@@ -1,7 +1,7 @@
 ---
 title: "Rust Changes How You Think And Code"
 date: 2022-11-27
-_draft: true
+_draft: false
 tags:
 - tech
 - rust

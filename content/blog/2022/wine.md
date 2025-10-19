@@ -1,7 +1,7 @@
 ---
 title: "Running Windows Apps on Mac and Linux"
 date: "2022-10-16"
-_draft: true
+_draft: false
 tags:
 - tech
 - albatross

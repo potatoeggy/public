@@ -1,7 +1,7 @@
 ---
 title: "Choosing a License — Politics in FOSS"
 date: "2022-09-02"
-_draft: true
+_draft: false
 tags:
 - tech
 - albatross
