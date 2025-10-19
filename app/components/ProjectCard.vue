@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import type { Project } from "@/data/projects";
-import { unref as _unref } from "vue";
+
 const { project } = defineProps<{
   project: Project;
   reverse?: boolean;
